@@ -1,26 +1,6 @@
 {
 	"spider":"./pg.jar",
 	"sites":[
-		{
-			"key": "豆瓣",
-			"name": "全接口AI过滤广告",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"indexs":1,
-			"ext": "./lib/douban.json"
-		},
-		{
-			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext":"./lib/tokenm.json"
-		},
-		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
 	{
             "key": "drpy_js_黑木耳资源",
             "name": "木耳|影视",
