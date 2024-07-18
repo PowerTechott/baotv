@@ -27,7 +27,15 @@
 			"changeable": 1,
 			"ext": "./lib/jianpian.json$$$1",
 			"timeout":60
-		},  {
+		}, 
+	{
+      "key": "网飞影视",
+      "name": "Fei|影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/wf.js"
+    },
+{
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
       "type": 3,
