@@ -36,6 +36,17 @@
       "ext": "./lib/wf.js"
     },
 		{
+      "key": "dan酷影视",
+      "name": "酷影┃秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./lib/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.tvkuys.xyz/api.php/app/"
+    },
+		{
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
       "type": 3,
