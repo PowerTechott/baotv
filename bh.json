@@ -1359,6 +1359,15 @@
 		}],
 		"lives":[
 			{
+				"name": "PowerTech",
+				"type": 0,
+				"url": "https://github.com/PowerTechott/baotv/blob/main/PowerTech%20BaoheTv.m3u",
+				"playerType": 1,
+				"ua": "okhttp/3.15",
+				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+				"logo": "https://epg.112114.xyz/logo/{name}.png"
+			},
+			{
 				"name": "宝盒",
 				"type": 0,
 				"url": "https://gitcode.net/ygbh66/test/-/raw/master/hi3.txt",
