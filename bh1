@@ -1358,14 +1358,6 @@
 			"ext": "https://fm.t4tv.hz.cz/json/market.json"
 		}],
 		"lives":[
-                        {
-                        #KODIPROP:inputstreamaddon=inputstream.adaptive
-                        #KODIPROP:inputstream.adaptive.manifest_type=dash
-                        #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-                        #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"8/hCxUzJbLvQvLlqTLioEw", "kid":"oJiJbSsRxfOQapk8O6XGEA" } ], "type":"temporary" }
-                        #EXTINF:-1 group-title="Buy At Shopee PowerTech Digital" group-logo="https://i.ibb.co/ZWn14c3/shopee-circle-logo-design-shopping-bag-13.png" tvg-id="HBO" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/tKsJDpt/IMG-6210.png", **BUY AT PowerTech Digital**
-                        https://linearjitp-playback.astro.com.my/dash-wv/linear/2304/default_ott.mpd
-                         },
 			{
 				"name": "宝盒",
 				"type": 0,
