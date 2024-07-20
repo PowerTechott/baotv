@@ -28,14 +28,14 @@
 			"ext": "./lib/jianpian.json$$$1",
 			"timeout":60
 		}, 
-		{
+	{
       "key": "网飞影视",
-      "name": "Fei|首页",
+      "name": "Fei┃影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/wf.js"
     },
-		{
+{
       "key": "dan酷影视",
       "name": "酷影┃秒播",
       "type": 3,
@@ -46,7 +46,7 @@
       "filterable": 1,
       "ext": "https://www.tvkuys.xyz/api.php/app/"
     },
-		{
+{
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
       "type": 3,
@@ -57,6 +57,37 @@
       "quickSearch": 1,
       "filterable": 1
     },
+{ "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" },     {
+      "key": "农民❤️无广",
+      "name": "农民|影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+    "jar": "./lib/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "简介": "宝盒提醒您,请勿相信影片中的广告，以免上当受骗！+<span class=\"detail-content\" style=*>&&</span>",
+        "导演": "宝盒TV",
+        "主演": "主演：&&</p>",
+        "影片状态": "状态：&&</p>",
+        "搜索url": "/search.php;post;searchword={wd}",
+        "线路数组": "<h3&&/h3>",
+        "线路标题": "宝盒专享",
+        "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-0-year-{year}-letter--area-{area}-lang-.html;;ak",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      }
+    },
+{
+			"key": "飞速资源",
+			"name": "飞速资源",
+			"type": 1,
+			"api": "http://127.0.0.1:10079/p/0/proxy/http://fszy1.com/api.php/provide/vod/?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+			"playerType":1,
+			"searchable": 1,
+			"changeable": 1
+		},
 	{
             "key": "drpy_js_北川",
             "name": "北川|影视",
@@ -518,26 +549,6 @@
         "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
         "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
        }
-    },{ "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" },     {
-      "key": "农民❤️无广",
-      "name": "农民|影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-    "jar": "./lib/XBPQ.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "宝盒提醒您,请勿相信影片中的广告，以免上当受骗！+<span class=\"detail-content\" style=*>&&</span>",
-        "导演": "宝盒TV",
-        "主演": "主演：&&</p>",
-        "影片状态": "状态：&&</p>",
-        "搜索url": "/search.php;post;searchword={wd}",
-        "线路数组": "<h3&&/h3>",
-        "线路标题": "宝盒专享",
-        "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-0-year-{year}-letter--area-{area}-lang-.html;;ak",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-      }
     },
       { 
       "key": "csp_xBPQ_天龙", 
@@ -873,7 +884,6 @@
         "三次跳转播放链接": "\"url\"*\"&&\""
       }
     },
-
 		{
 			"key": "索尼资源",
 			"name": "索尼┃资源",
@@ -1185,16 +1195,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "飞速资源",
-			"name": "飞速资源",
-			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/http://fszy1.com/api.php/provide/vod/?",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-			"playerType":1,
-			"searchable": 1,
-			"changeable": 1
-		},
-		{
 			"key": "暴風",
 			"name": "暴風",
 			"type": 1,
@@ -1358,6 +1358,14 @@
 			"ext": "https://fm.t4tv.hz.cz/json/market.json"
 		}],
 		"lives":[
+                        {
+                        #KODIPROP:inputstreamaddon=inputstream.adaptive
+                        #KODIPROP:inputstream.adaptive.manifest_type=dash
+                        #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+                        #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"8/hCxUzJbLvQvLlqTLioEw", "kid":"oJiJbSsRxfOQapk8O6XGEA" } ], "type":"temporary" }
+                        #EXTINF:-1 group-title="Buy At Shopee PowerTech Digital" group-logo="https://i.ibb.co/ZWn14c3/shopee-circle-logo-design-shopping-bag-13.png" tvg-id="HBO" tvg-name="HBO HD" tvg-logo="https://i.ibb.co/tKsJDpt/IMG-6210.png", **BUY AT PowerTech Digital**
+                        https://linearjitp-playback.astro.com.my/dash-wv/linear/2304/default_ott.mpd
+                         },
 			{
 				"name": "宝盒",
 				"type": 0,
@@ -1694,6 +1702,6 @@
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 		"wallpaper": "http://ygbh.live/bz.php",
-	        "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/logo.gif",
+	        "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
 		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img"
 }
