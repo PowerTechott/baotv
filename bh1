@@ -1358,6 +1358,15 @@
 			"ext": "https://fm.t4tv.hz.cz/json/market.json"
 		}],
 		"lives":[
+{
+				"name": "频道PowerTech",
+				"type": 0,
+				"url": "https://raw.githubusercontent.com/PowerTechott/baotv/main/movie.m3u",
+				"playerType": 1,
+				"ua": "okhttp/3.15",
+				"epg": "https://ssur.cc/epg6868",
+				"logo": "https://epg.112114.xyz/logo/{name}.png"
+			},
 			{
 				"name": "宝盒",
 				"type": 0,
