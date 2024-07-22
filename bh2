@@ -35,8 +35,8 @@
     },
 		{ "key": "大师兄",  "name": "大师兄影视", 
                   "type": 3,
+                  "spider":"./lib/ttkx.jar",
                   "api": "csp_XBPQ", 
-                  "jar "./lib/ttkx.jar",
                   "ext": {"简介":"剧情介绍：&&</p >","分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
 {
       "key": "dan酷影视",
@@ -127,7 +127,15 @@
 			"searchable": 1,
 			"changeable": 1
 		},
-		{"key":"原创","name":"原创┃无广","type":3,"api":"csp_YCyz","timeout":15,"searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
+		{"key":"原创","name":"原创┃无广",
+"type":3,
+"spider":"./lib/ttkx.jar",
+"api":"csp_YCyz",
+"timeout":15,
+"searchable":1,
+"quickSearch":1,
+"playerType":1,
+"changeable":1},
 	{
             "key": "drpy_js_北川",
             "name": "北川|影视",
