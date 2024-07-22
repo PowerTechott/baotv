@@ -1,5 +1,5 @@
 {
-        "spider": "./lib/ttkx.jar",
+        "spider":"./lib/ttkx.jar",
 	"spider":"./pg.jar",
 	"sites":[
 	{
