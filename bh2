@@ -1,5 +1,6 @@
 {
-	"spider":"./pg.jar","spider": "./lib/ttkx.jar",
+	"spider":"./pg.jar",
+        "spider": "./lib/ttkx.jar",
 	"sites":[
 	{
             "key": "drpy_js_黑木耳资源",
