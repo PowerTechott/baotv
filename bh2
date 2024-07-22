@@ -1,7 +1,5 @@
 {
 	"spider":"./pg.jar",
-	"spider": "./lib/ttkx.jar",
-	
 	"sites":[
 	{
             "key": "drpy_js_黑木耳资源",
@@ -19,8 +17,7 @@
 			"changeable": 1,
 			"indexs":1,
 			"ext": "./lib/douban.json"
-		},
-		{
+		},{
 			"key": "賤賤",
 			"name": "荐片|优质",
 			"type": 3,
@@ -29,8 +26,7 @@
 			"changeable": 1,
 			"ext": "./lib/jianpian.json$$$1",
 			"timeout":60
-		}, 
-	{
+		}, {
       "key": "网飞影视",
       "name": "Fei┃影视",
       "type": 3,
