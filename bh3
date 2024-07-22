@@ -1,0 +1,32 @@
+{
+"spider": "./lib/ttkx.jar",
+	
+	"sites":[
+{ "key": "大师兄",  "name": "🎦大师兄影视", "type": 3,"api": "csp_XBPQ", "ext": {"简介":"By PowerTech-+剧情介绍：&&</p >","分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
+	{
+            "key": "drpy_js_黑木耳资源",
+            "name": "木耳|影视",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./lib/mr.js"
+        },
+	{
+      "key": "网飞影视",
+      "name": "Fei┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/wf.js"
+    },
+		{  
+      "key": "dan酷影视",
+      "name": "酷影┃秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./lib/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.tvkuys.xyz/api.php/app/"
+    },
+]
+}
