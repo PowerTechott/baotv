@@ -87,7 +87,7 @@
 {
 			"key": "索尼",
 			"name": "索尼 ",
-			"type": 1,
+			"type": 3,
 			"api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"searchable": 1,
@@ -97,7 +97,7 @@
 		{
 			"key": "量子",
 			"name": "量子",
-			"type": 1,
+			"type": 3,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType":1,
@@ -107,7 +107,7 @@
 		{
 			"key": "非凡",
 			"name": "非凡",
-			"type": 1,
+			"type": 3,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType":1,
