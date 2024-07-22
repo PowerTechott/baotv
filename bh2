@@ -3,7 +3,7 @@
 	"sites":[
 	               {
                        "key": "drpy_js_黑木耳资源",
-                       "name": "木耳|影视",
+                       "name": "木耳┃影视",
                        "type": 3,
                        "api": "./lib/drpy2.min.js",
                         "ext": "./lib/mr.js"
@@ -20,7 +20,7 @@
 		        },
                         {
 			"key": "賤賤",
-			"name": "荐片|优质",
+			"name": "荐片┃优质",
 			"type": 3,
 			"api": "csp_Jianpian",
 			"searchable": 1,
@@ -48,7 +48,7 @@
     },
     {
       "key": "348影视网",
-      "name": "高清影视",
+      "name": "高清┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -96,7 +96,7 @@
     { 
       "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" },     {
       "key": "农民❤️无广",
-      "name": "农民|影视",
+      "name": "农民┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -178,7 +178,7 @@
 		               },
                          {
 			"key": "非凡",
-			"name": "非凡",
+			"name": "非凡┃资源",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -218,7 +218,7 @@
 		                 },
                         {
 			"key": "飞速资源",
-			"name": "飞速资源",
+			"name": "飞速┃资源",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://fszy1.com/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -247,7 +247,7 @@
 {"key":"在线之家","name":"在线┃之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
 		        {
 			"key": "快看",
-			"name": "快看",
+			"name": "快看┃资源",
 			"type": 3,
 			"api": "csp_Kuaikan",
 			"searchable": 1,
@@ -257,7 +257,7 @@
 		        },
 	    	        {
 			"key": "暴風",
-			"name": "暴風",
+			"name": "暴風┃资源",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -266,7 +266,7 @@
 		        },
 		        {
 			"key": "索尼",
-			"name": "索尼 ",
+			"name": "索尼┃资源 ",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -275,7 +275,7 @@
 		        },
 		        {
 			"key": "量子",
-			"name": "量子",
+			"name": "量子┃资源",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.lziapi.com/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -285,7 +285,7 @@
 		        },
                         {
 			"key": "星星",
-			"name": "星星",
+			"name": "星星┃资源",
 			"type": 3,
 			"api": "csp_Star",
 			"searchable": 1,
@@ -294,7 +294,7 @@
 		},
 		        {
 			"key": "巴士",
-			"name": "巴士",
+			"name": "巴士┃资源",
 			"type": 3,
 			"api": "csp_Dm84",
 			"searchable": 1,
@@ -312,7 +312,7 @@
       },  
       {
       "key": "wumao",
-      "name": "五毛|影视",
+      "name": "五毛┃影视",
       "type": 1,
       "api": "https://wap.wumao.xyz/api.php/tvbox",
       "searchable": 0,
@@ -321,7 +321,7 @@
       }, 
       {
       "key": "七夕❤️无广",
-      "name": "七夕|影视",
+      "name": "七夕┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -341,7 +341,7 @@
         } }, 
       {
       "key": "歪影🏮秒播",
-      "name": "歪影|秒播",
+      "name": "歪影┃秒播",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -359,7 +359,7 @@
         } }, 
        {
       "key": "米爱💋蓝光",
-      "name": "米爱|蓝光",
+      "name": "米爱┃蓝光",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -393,7 +393,7 @@
         } },
       {
       "key": "海兔💋蓝光",
-      "name": "海兔|蓝光",
+      "name": "海兔┃蓝光",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -409,7 +409,7 @@
         } },
       {
       "key": "爱片💋蓝光",
-      "name": "爱片|蓝光",
+      "name": "爱片┃蓝光",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -425,7 +425,7 @@
         } }, 
             {
             "key": "胖虎影视",
-            "name": "胖虎|影视",
+            "name": "胖虎┃影视",
             "type": 3,
             "api": "csp_XBPQ",
 	   "jar": "./lib/XBPQ.jar",
@@ -448,7 +448,7 @@
                 } }, 
        {
       "key": "子子影视",
-      "name": "子子|影视",
+      "name": "子子┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -492,7 +492,7 @@
          }},
     {
    "key":"XBPQ_缘觉",
-   "name": "缘觉|影视",
+   "name": "缘觉┃影视",
    "jar": "./lib/XBPQ.jar",
    "type": 3,
    "api": "csp_XBPQ",
@@ -511,7 +511,7 @@
     }},
       { 
       "key": "csp_xBPQ_天龙", 
-      "name": "天龙|影视", 
+      "name": "天龙┃影视", 
       "type": 3,
       "api": "csp_XBPQ", 
       "searchable": 1, 
@@ -521,11 +521,11 @@
       "jar": "./lib/XBPQ.jar"      
       },       
                         {
-                        "key": "白嫖者","name": "白飘|影视","type": 3,"api": "csp_XBPQ","jar": "./lib/XBPQ.jar","ext": {"分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#动漫$4#综艺$3","副标题":"class=\"pic-text text-right\"&&</span>","简介":"+剧情介绍：&&</p >"
+                        "key": "白嫖者","name": "白飘┃影视","type": 3,"api": "csp_XBPQ","jar": "./lib/XBPQ.jar","ext": {"分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#动漫$4#综艺$3","副标题":"class=\"pic-text text-right\"&&</span>","简介":"+剧情介绍：&&</p >"
                         }},
                         {
 			"key":"XBPQ_电影先生",
-			"name": "电影先生|XBPQ",
+			"name": "电影先生┃影视",
 			"jar": "./lib/XBPQ.jar",
 			"type": 3,
 			"api": "csp_XBPQ",
@@ -545,7 +545,7 @@
 			        } },  
              {
             "key": "三米ys",
-            "name": "三米｜秒播",
+            "name": "三米┃秒播",
             "type": 3,
             "api": "csp_XBPQ",
 	    "jar": "./lib/XBPQ.jar",
@@ -555,7 +555,7 @@
             } },
        {
       "key": "jqq",
-      "name": "剧圈圈｜影视",
+      "name": "剧圈圈┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -565,7 +565,7 @@
       } },
             {
             "key": "xcys",
-            "name": "星辰｜影视",
+            "name": "星辰┃影视",
             "type": 3,
             "api": "csp_XBPQ",
 	    "jar": "./lib/XBPQ.jar",
@@ -575,7 +575,7 @@
             } }, 
             {
             "key": "可达影视",
-            "name": "可达|影视",
+            "name": "可达┃影视",
             "type": 3,
             "playerType": 2,
             "playUrl": "https://kedays.org/play/?url=",
@@ -636,7 +636,7 @@
                       "搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}", "嗅探词": ".m3u8" } },
        {
       "key": "csp_Nmys",
-      "name": "宝盒|短剧",
+      "name": "宝盒┃短剧",
       "type": 3,
       "api": "csp_XBPQ", 
       "jar":"./lib/XBPQ.jar",
@@ -647,7 +647,7 @@
        }, 
        {
       "key": "剧吧🇨🇳短剧",
-      "name": "剧吧|短剧",
+      "name": "剧吧┃短剧",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -661,7 +661,7 @@
           } },
 		         {
 			"key": "FirstAid",
-			"name": "🚑 急救知识 ",
+			"name": "🚑 ┃急救知识 ",
 			"type": 3,
 			"api": "csp_FirstAid",
 			"searchable": 0,
@@ -673,7 +673,7 @@
 			}},
 		         {
 			"key":"bili",
-			"name":"B站 | Bili[jar]",
+			"name":"B站 ┃ Bili",
 			"type":3,
 			"api": "csp_Bili",
 			"searchable": 1,
@@ -683,7 +683,7 @@
 			} },
 		        {
 			"key": "NanGua",
-			"name": "南瓜|弹幕",
+			"name": "南瓜┃弹幕",
 			"type": 3,
 			"api": "csp_NanGua",
 			"searchable": 1,
@@ -692,7 +692,7 @@
 		        },
 		        {
 			"key": "JustLive",
-			"name": "JustLive",
+			"name": "Just┃Live",
 			"type": 3,
 			"api": "csp_JustLive",
 			"searchable": 1,
@@ -700,7 +700,7 @@
 		         },
 		        {
 			"key": "Iktv",
-			"name": "KTV",
+			"name": "KTV┃",
 			"type": 3,
 			"api": "csp_Iktv",
 			"searchable": 1,
@@ -710,7 +710,7 @@
 		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
 		         {
 			"key": "應用商店",
-			"name": "防失联；PowerTech Shopee",
+			"name": "防失联┃PowerTech Shopee",
 			"type": 3,
 			"api": "csp_Market",
 			"searchable": 0,
