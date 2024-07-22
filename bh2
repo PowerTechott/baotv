@@ -33,6 +33,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/wf.js"
     },
+"spider": "./lib/ttkx.jar",
 		{ "key": "大师兄",  "name": "大师兄影视", "type": 3,"api": "csp_XBPQ", "ext": {"简介":"剧情介绍：&&</p >","分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
 {
       "key": "dan酷影视",
