@@ -519,55 +519,7 @@
       "filterable": 0, 
       "ext": "./lib/天龙高清.json", 
       "jar": "./lib/XBPQ.jar"      
-      },
-      { 
-      "key": "csp_xBPQ_毒蛇", 
-      "name": "毒蛇|影视", 
-      "type": 3,
-      "api": "csp_XBPQ", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 0, 
-      "ext": "./lib/毒蛇影视.json", 
-      "jar": "./lib/XBPQ.jar"      
-      },
-     { 
-     "key": "Ikanbot", "name": "爱看机器人", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.aikanbot.com$$$proxy"
-     },
-                               {
-                                "key":"XBPQ_黑狐影院","name":"黑狐影院|XBPQ","type":3,"api":"csp_XBPQ", "jar":"./lib/XBPQ.jar",
-			        "ext": {
-				"站名": "黑狐影院",
-				"主页url": "http://fagmn.com",
-				"数组": "class=\"stui-vodlist__box\"&&</a",
-				"图片": "data-original=\"&&\"",
-				"标题": "title=\"&&\"",
-				"链接": "href=\"&&\"",
-				"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
-				"过滤词": "/hls/#php",
-				"副标题": "<span class=\"pic-text text-right\">&&</span>",
-				"搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
-				"搜索模式": "1",
-				"搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
-				"搜索图片": "data-original=\"&&\"",
-				"搜索标题": "title=\"&&\"",
-				"搜索链接": "href=\"&&\"",
-				"搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-				"搜索后缀": "/view/",
-				"线路数组": "href=\"#down&&/a>[替换:奇异视频>>黑狐一线#优酷视频>>黑狐二线#搜狐视频>>黑狐三线#咪咕视频>>黑狐四线]",
-				"线路标题": ">&&<",
-				"播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
-				"状态": "地区：&&</p>",
-				"导演": "导演：&&</p>",
-				"主演": "主演：&&</p>",
-				"简介": "简介：&&</div>",
-				"播放列表": "<a&&/a>",
-				"播放标题": ">&&<",
-				"播放链接": "href=\"&&\"",
-				"免嗅": "0",
-				"分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-				"分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
-			        } },
+      },       
                         {
                         "key": "白嫖者","name": "白飘|影视","type": 3,"api": "csp_XBPQ","jar": "./lib/XBPQ.jar","ext": {"分类url": "https://www.qyzf88.com/qyvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#动漫$4#综艺$3","副标题":"class=\"pic-text text-right\"&&</span>","简介":"+剧情介绍：&&</p >"
                         }},
@@ -670,14 +622,6 @@
 			"playerType": 1,
 			"ext": "http://op.ysdqjs.cn$$$null$$$1"
 		        },
-		        {
-			"key": "追剧",
-			"name": "追剧┃App",
-			"type": 3,
-			"api": "csp_TTian",
-			"playerType": 1,
-			"ext": "http://app.kzjtv.com$$$null$$$1"
-		        },
 		        { 
                        "key": "ppvod", 
                        "name": "泡泡┃切片", 
@@ -690,21 +634,9 @@
                       "播放列表": "表&&表", "播放标题": "题&&题", "播放链接": "链&&链", "播放请求头": "Referer$https://www.sxbfxk.com/", 
                       "链接": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&ids=+vod_id\":&&,",
                       "搜索url": "https://api.zeqaht.com/api.php/provide/vod?ac=detail&wd={wd}", "嗅探词": ".m3u8" } },
-         {
-         "key":"短剧tv","name":"宝盒|短剧1",
-         "type":3,"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
-        "ext":{
-        "搜索链接":"http://www.duanjutv.cc/vodsearch/{wd}----------{pg}---.html",
-        "线路标题":"<h3*>&&</h3>",
-        "线路数组":"\"more text-muted pull-right\">&&</ul>",
-        "播放数组":"\"more text-muted pull-right\">&&</ul>",
-        "播放链接":"http+://www.duanjutv.cc+href='&&'",
-        "分类":"抖音短剧$20#快手短剧$21#视频号短剧$22#热播短剧$23",
-        "分类链接":"http://www.duanjutv.cc/vodtype/{cateId}-{catePg}.html;;m"
-         } },
        {
       "key": "csp_Nmys",
-      "name": "宝盒|短剧2",
+      "name": "宝盒|短剧",
       "type": 3,
       "api": "csp_XBPQ", 
       "jar":"./lib/XBPQ.jar",
