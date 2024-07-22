@@ -1,7 +1,5 @@
 {
 	"spider":"./pg.jar",
-	"spider": "./lib/ttkx.jar",
-	
 	"sites":[
 	{
             "key": "drpy_js_黑木耳资源",
@@ -37,7 +35,7 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/wf.js"
     },
-		{ "key": "大师兄",  "name": "大师兄影视", "type": 3,"api": "csp_XBPQ", "ext": {"简介":"剧情介绍：&&</p >","分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
+		{ "key": "大师兄",  "name": "大师兄影视", "type": 3,"api": "csp_XBPQ", "ext": {"简介":"PowerTech-+剧情介绍：&&</p >","分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
 {
       "key": "dan酷影视",
       "name": "酷影┃秒播",
@@ -80,6 +78,43 @@
         "分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-0-year-{year}-letter--area-{area}-lang-.html;;ak",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
       }
+    },
+{
+      "key": "348影视网",
+      "name": "高清|影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "作者":"侠客影视",
+        "站名":"348影视",    
+        "主页url":"https://348z.com/",    
+        "简介":"+详情：&&</div>",    
+        "导演":"导演：&&</li>",    
+        "主演":"主演：&&</li>",    
+        "影片状态":"状态：&&</li>",    
+        "影片类型":"data vodTag\">&&</li>",    
+        "数组":"list-width volistwidthb\">&&</li>",    
+        "标题":"title=\"&&\"",
+        "副标题":"list-remarks hidden\">&&</span>",    
+        "图片":"data-original=\"&&\"",    
+        "链接":"href=\"&&\"",    
+        "搜索url":"/vodsearch.html?wd={wd}",    
+        "搜索模式":"1",    
+        "搜索数组":"img lazy eclazy br\"&&</a>",    
+        "搜索标题":"title=\"&&\"",    
+        "搜索副标题":"list-remarks hidden\">&&</span>",    
+        "搜索图片":"data-original=\"&&\"",    
+        "搜索链接":"href=\"&&\"",    
+        "线路数组":"data-from=&&</a>[不包含:超清资源#MY][排序:极速2]",    
+        "线路标题":"高清专享-+>&&</em>[替换:<em>>>🌸共]+集🌸",    
+        "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
+       }
     },
 {
 			"key": "飞速资源",
@@ -517,43 +552,7 @@
     "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
     "分类url": "https://www.pptv06.com/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
-}}, {
-      "key": "348影视网",
-      "name": "348|影视网",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "作者":"侠客影视",
-        "站名":"348影视",    
-        "主页url":"https://348z.com/",    
-        "简介":"+详情：&&</div>",    
-        "导演":"导演：&&</li>",    
-        "主演":"主演：&&</li>",    
-        "影片状态":"状态：&&</li>",    
-        "影片类型":"data vodTag\">&&</li>",    
-        "数组":"list-width volistwidthb\">&&</li>",    
-        "标题":"title=\"&&\"",
-        "副标题":"list-remarks hidden\">&&</span>",    
-        "图片":"data-original=\"&&\"",    
-        "链接":"href=\"&&\"",    
-        "搜索url":"/vodsearch.html?wd={wd}",    
-        "搜索模式":"1",    
-        "搜索数组":"img lazy eclazy br\"&&</a>",    
-        "搜索标题":"title=\"&&\"",    
-        "搜索副标题":"list-remarks hidden\">&&</span>",    
-        "搜索图片":"data-original=\"&&\"",    
-        "搜索链接":"href=\"&&\"",    
-        "线路数组":"data-from=&&</a>[不包含:超清资源#MY][排序:极速2]",    
-        "线路标题":"宝盒专享-+>&&</em>[替换:<em>>>🌸共]+集🌸",    
-        "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
-        "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
-       }
-    },
+}}, 
       { 
       "key": "csp_xBPQ_天龙", 
       "name": "天龙|影视", 
