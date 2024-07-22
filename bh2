@@ -1,7 +1,5 @@
 {
-        
 	"spider":"./pg.jar",
-"spider":"./lib/ttkx.jar",
 	"sites":[
 	{
             "key": "drpy_js_黑木耳资源",
@@ -49,7 +47,7 @@
     },
 {
       "key": "348影视网",
-      "name": "高清|影视",
+      "name": "高清影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -82,8 +80,7 @@
         "线路标题":"高清专享-+>&&</em>[替换:<em>>>🌸共]+集🌸",    
         "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
         "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
-       }
-    },
+       } },
 {
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
