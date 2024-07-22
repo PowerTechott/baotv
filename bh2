@@ -27,7 +27,6 @@
 			"ext": "./lib/jianpian.json$$$1",
 			"timeout":60
 		},
-{"key":"Xinshijue","name":"华人|新视觉","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$./lib/wogg.json"},
 {
       "key": "网飞影视",
       "name": "Fei┃影视",
