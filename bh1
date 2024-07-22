@@ -47,6 +47,43 @@
       "ext": "https://www.tvkuys.xyz/api.php/app/"
     },
 {
+      "key": "348影视网",
+      "name": "高清|秒播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/XBPQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "作者":"侠客影视",
+        "站名":"高清影视",    
+        "主页url":"https://348z.com/",    
+        "简介":"+详情：&&</div>",    
+        "导演":"导演：&&</li>",    
+        "主演":"主演：&&</li>",    
+        "影片状态":"状态：&&</li>",    
+        "影片类型":"data vodTag\">&&</li>",    
+        "数组":"list-width volistwidthb\">&&</li>",    
+        "标题":"title=\"&&\"",
+        "副标题":"list-remarks hidden\">&&</span>",    
+        "图片":"data-original=\"&&\"",    
+        "链接":"href=\"&&\"",    
+        "搜索url":"/vodsearch.html?wd={wd}",    
+        "搜索模式":"1",    
+        "搜索数组":"img lazy eclazy br\"&&</a>",    
+        "搜索标题":"title=\"&&\"",    
+        "搜索副标题":"list-remarks hidden\">&&</span>",    
+        "搜索图片":"data-original=\"&&\"",    
+        "搜索链接":"href=\"&&\"",    
+        "线路数组":"data-from=&&</a>[不包含:超清资源#MY][排序:极速2]",    
+        "线路标题":"高清专享-+>&&</em>[替换:<em>>>🌸共]+集🌸",    
+        "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
+       }
+    },
+{
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
       "type": 3,
@@ -94,7 +131,8 @@
             "type": 3,
             "api": "./lib/drpy2.min.js",
             "ext": "./lib/北川影视.js"
-        }, {"key":"js兄弟影视","name":"兄弟|影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/xdys.js"}, {
+        }, 
+{
             "key": "卫总影院",
             "name": "卫总|影院",
             "type": 3,
@@ -513,43 +551,7 @@
     "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
     "分类url": "https://www.pptv06.com/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
-}}, {
-      "key": "348影视网",
-      "name": "348|影视网",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./lib/XBPQ.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "作者":"侠客影视",
-        "站名":"348影视",    
-        "主页url":"https://348z.com/",    
-        "简介":"+详情：&&</div>",    
-        "导演":"导演：&&</li>",    
-        "主演":"主演：&&</li>",    
-        "影片状态":"状态：&&</li>",    
-        "影片类型":"data vodTag\">&&</li>",    
-        "数组":"list-width volistwidthb\">&&</li>",    
-        "标题":"title=\"&&\"",
-        "副标题":"list-remarks hidden\">&&</span>",    
-        "图片":"data-original=\"&&\"",    
-        "链接":"href=\"&&\"",    
-        "搜索url":"/vodsearch.html?wd={wd}",    
-        "搜索模式":"1",    
-        "搜索数组":"img lazy eclazy br\"&&</a>",    
-        "搜索标题":"title=\"&&\"",    
-        "搜索副标题":"list-remarks hidden\">&&</span>",    
-        "搜索图片":"data-original=\"&&\"",    
-        "搜索链接":"href=\"&&\"",    
-        "线路数组":"data-from=&&</a>[不包含:超清资源#MY][排序:极速2]",    
-        "线路标题":"宝盒专享-+>&&</em>[替换:<em>>>🌸共]+集🌸",    
-        "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
-        "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
-       }
-    },
+}}, 
       { 
       "key": "csp_xBPQ_天龙", 
       "name": "天龙|影视", 
@@ -697,14 +699,6 @@
                 "分类值": "dianying&lianxuju&zongyi&dongman&shaoer&duanju"
             }
         },{"key":"Yinfans","name":"音范丝|磁力","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.yinfans.me/$$$proxy$$$1"},
-		{
-			"key": "河马",
-			"name": "河马┃App",
-			"type": 3,
-			"api": "csp_Hmys",
-			"playerType": 1,
-			"ext": "https://m.jmzp.net.cn$$$null$$$1"
-		},
 		{
 			"key": "天天",
 			"name": "天天┃App",
@@ -1112,17 +1106,6 @@
 			"changeable": 0,
 			"filterable": 1
 		},
-		{ "key":"csp_YingShi","name":"影视|海外","type":3,"api":"csp_YingShi","ext":"proxy"},
-		{ 
-			"key": "泥巴", 
-			"name": "泥巴 | 海外", 
-			"type": 3, 
-			"api": "csp_NiNi", 
-			"searchable": 1, 
-			"filterable": 1, 
-			"changeable": 0, 
-			"ext":"0$$$proxy" 
-		},
 		{
 			"key": "星星",
 			"name": "星星 | 海外",
@@ -1131,15 +1114,6 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext":"proxy"
-		},
-		{
-			"key": "獨播",
-			"name": "獨播 | 海外",
-			"type": 3,
-			"api": "csp_XPathMacFilter",
-			"searchable": 1,
-			"changeable": 0,
-			"ext": "./lib/duboku.json$$$proxy"
 		},
 		{
 			"key": "haiwaikan",
