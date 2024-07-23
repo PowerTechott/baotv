@@ -28,5 +28,10 @@
       "filterable": 1,
       "ext": "https://www.tvkuys.xyz/api.php/app/"
     },
+"live":[https://raw.githubusercontent.com/PowerTechott/baotv/main/bh1]
 ]
+"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
+		"wallpaper": "http://ygbh.live/bz.php",
+	        "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
+		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img"
 }
