@@ -78,6 +78,7 @@
         "分类url":"https://www.ziziys.com/list/{cateId}-{catePg}.html;;ak",    
         "分类":"电影$1#国产剧$13#动漫$3#美剧$14#日韩剧$15"
          }},
+		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
     ],
 		       "lives":[
 			{
