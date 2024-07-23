@@ -1,6 +1,4 @@
 #EXTM3U
-#EXT-X-APP APTV
-#EXT-X-APTV-TYPE local
 
 #EXTINF:-1 group-title="臺灣 Taiwan",AXN
 http://fm1077.serv00.net/Smart.php?id=axn_twn
