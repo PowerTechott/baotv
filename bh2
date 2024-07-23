@@ -715,16 +715,7 @@
 			"searchable": 1,
 			"changeable": 0
 		        },
-	         	{
-      "key": "csp_LocalFile",
-      "name": "💻本地视频",
-      "type": 3,
-      "api": "csp_LocalFile",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "type_flag": 0
-    },
+{"key":"Local","name":"💻本地视频","type":3,"api":"csp_Local"},
 		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"},
 		         {
 			"key": "應用商店",
