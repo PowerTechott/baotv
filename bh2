@@ -91,6 +91,25 @@
         "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
         "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
        } },
+                        {"key":"布谷tv",
+			"name":"布谷|4K磁力",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"jar": "./lib/XBPQ.jar",
+			"ext":{
+				"搜索链接":"https://www.bugutv.org/?cat=&s={wd}",
+				"简介":"◎简*介</p>&&</p>",
+				"线路数组":"entry-content u-text-format u-clearfix&&\"content-template",
+				"线路标题":"宝盒4K",
+				"播放数组": "entry-content u-text-format u-clearfix&&content-template[不包含:网盘]",
+				"播放列表":"<p>&&</p>[包含:magnet]",
+				"分类":"4KUHD电影$4kuhd#4K电影$4kmovie#4K剧集$4ktv",
+				"分类链接":"https://www.bugutv.org/{cateId}/page/{catePg}"
+			}
+		},
        {
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
