@@ -47,15 +47,6 @@
       "ext": "https://www.tvkuys.xyz/api.php/app/"
     },
     {
-      "key": "mayi",
-      "name": "蚂蚁┃资源",
-      "type": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
-      "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url="
-    },
-    {
       "key": "348影视网",
       "name": "高清┃影视",
       "type": 3,
@@ -455,6 +446,15 @@
                 "分类": "电影&电视剧&动漫&综艺&短剧&解说&其他&",
                 "分类值": "1&2&4&3&7&8&9&"
                 } }, 
+                        {
+			"key": "NanGua",
+			"name": "南影┃弹幕",
+			"type": 3,
+			"api": "csp_NanGua",
+			"searchable": 1,
+			"changeable": 1,
+			"ext": "null$$$1"
+		        },
        {
       "key": "子子影视",
       "name": "子子┃影视",
@@ -690,15 +690,6 @@
 			"changeable": 0,
 			"ext":{"type":"演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云","cookie":""
 			} },
-		        {
-			"key": "NanGua",
-			"name": "南瓜┃弹幕",
-			"type": 3,
-			"api": "csp_NanGua",
-			"searchable": 1,
-			"changeable": 1,
-			"ext": "null$$$1"
-		        },
 		        {
 			"key": "JustLive",
 			"name": "Just┃Live",
