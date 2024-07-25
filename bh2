@@ -110,6 +110,7 @@
 				"分类链接":"https://www.bugutv.org/{cateId}/page/{catePg}"
 			}
 		},
+{"key":"星芽短剧","name":"上头┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0},
        {
       "key": "csp_LiteApple",
       "name": "苹果┃影视",
