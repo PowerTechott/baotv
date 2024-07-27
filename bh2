@@ -27,9 +27,14 @@
                         "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
                         "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
                        }},
-                       {"key":"光棍影视","name":"光影┃秒播","type":3,"api":"csp_XBPQ",
+                       {
+                       "key":"光棍影视","name":"光影┃秒播","type":3,"api":"csp_XBPQ",
                        "searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/guangun.json"},
-                        {
+                      {
+                      "key":"原创","name":"原创┃无广","type":3,"api":"csp_YCyz","timeout":15,"searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
+		       {
+                       "key": "hipy_js_采集之王[合]","name": "采集之王[合]","type": 3,"api": "./lib/drpy_libs/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 210,"ext": "./lib/采集之王.js?type=url&params=./lib/采集静态.json"},
+                         {
 			"key": "賤賤",
 			"name": "荐片┃优质",
 			"type": 3,
