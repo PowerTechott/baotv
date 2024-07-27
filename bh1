@@ -31,7 +31,7 @@
  {
       "key": "mayi",
       "name": "蚂蚁┃资源",
-      "type": 3,
+      "type": 1,
       "searchable": 1,
       "changeable": 1,
       "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
