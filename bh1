@@ -28,6 +28,15 @@
 			"ext": "./lib/jianpian.json$$$1",
 			"timeout":60
 		        },
+ {
+      "key": "mayi",
+      "name": "蚂蚁┃资源",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
+      "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url="
+    },
                         {
                         "key": "网飞影视",
                         "name": "Fei┃影视",
@@ -45,15 +54,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.tvkuys.xyz/api.php/app/"
-    },
-    {
-      "key": "mayi",
-      "name": "蚂蚁┃资源",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
-      "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url="
     },
     {
       "key": "348影视网",
