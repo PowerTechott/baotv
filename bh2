@@ -18,6 +18,7 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		        },
+{"key": "戏 曲" ,"name": "潮剧|戏曲","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/Blixq.json"},
                         { 
                         "key": "大师兄",  
                         "name": "大师兄┃影视", 
