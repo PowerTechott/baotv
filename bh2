@@ -22,7 +22,7 @@
       "key": "华为资源",
       "name": "华吧┃影视",
       "type": 1,
-      "api": "https://cjhwba.com/api.php/provide/vod/",
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
