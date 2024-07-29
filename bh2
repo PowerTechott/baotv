@@ -19,7 +19,7 @@
 			"ext": "./lib/douban.json"
 		        },
 {
-      "key": "华为资源",
+      "key": "桃花资源",
       "name": "18x┃影视",
       "type": 1,
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
