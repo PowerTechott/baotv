@@ -160,6 +160,61 @@
         "二次跳转播放链接": "https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
         "三次跳转播放链接": "\"url\"*\"&&\""
         }  },
+{
+      "key": "百度资源",
+      "name": "百度┃影视",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "大陆剧",
+
+        "港澳剧",
+
+        "欧美剧",
+
+        "国产动漫",
+        "日韩动漫",
+        "韩剧",
+        "台湾剧",
+        "日剧",
+        "泰剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "欧美动漫",
+        "动画电影",
+        "犯罪片",
+        "悬疑片",
+        "战争片",
+        "动作片",
+        "喜剧片"
+        "纪录片",
+        "邵氏电影",
+        "预告",
+        "明星资讯",]
+        },
+                       {"key":"布谷tv",
+			"name":"布谷|4K磁力",
+			"type":3,
+			"api":"csp_XBPQ",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":1,
+			"jar": "./lib/XBPQ.jar",
+			"ext":{
+				"搜索链接":"https://www.bugutv.org/?cat=&s={wd}",
+				"简介":"◎简*介</p>&&</p>",
+				"线路数组":"entry-content u-text-format u-clearfix&&\"content-template",
+				"线路标题":"宝盒4K",
+				"播放数组": "entry-content u-text-format u-clearfix&&content-template[不包含:网盘]",
+				"播放列表":"<p>&&</p>[包含:magnet]",
+				"分类":"4KUHD电影$4kuhd#4K电影$4kmovie#4K剧集$4ktv",
+				"分类链接":"https://www.bugutv.org/{cateId}/page/{catePg}"
+			}
+		        },
                         {
 			"key": "索尼资源",
 			"name": "索尼┃资源",
