@@ -45,11 +45,12 @@
         "悬疑片",
         "战争片",
         "动作片",
-        "喜剧片"
+        "喜剧片",
         "纪录片",
         "邵氏电影",
         "预告",
-        "明星资讯"]
+        "明星资讯"
+         ]
         },
 {"key": "戏 曲" ,"name": "潮剧|戏曲","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/Blixq.json"},
                         { 
