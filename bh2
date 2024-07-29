@@ -19,9 +19,9 @@
 			"ext": "./lib/douban.json"
 		        },
 {
-      "key": "桃花资源",
-      "name": "18x┃影视",
-      "type": 1,
+      "key": "速派资源",
+      "name": "速派┃影视",
+      "type": 3,
       "api": "https://api.tiankongapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
@@ -33,7 +33,7 @@
 {
       "key": "华为资源",
       "name": "华吧┃影视",
-      "type": 1,
+      "type": 3,
       "api": "https://cjhwba.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
@@ -63,7 +63,7 @@
 {
       "key": "百度资源",
       "name": "百度┃影视",
-      "type": 1,
+      "type": 3"
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
@@ -857,29 +857,9 @@
 				"url": "https://raw.githubusercontent.com/PowerTechott/baotv/main/movie.m3u",
 				"playerType": 1,
 				"ua": "okhttp/3.15",
-				"epg": "https://ssur.cc/epg6868",
-				"logo": "https://epg.112114.xyz/logo/{name}.png"
-			},
-                        {
-				"name": "全球直播",
-				"type": 0,
-				"url": "https://fm1077.serv00.net/SmartTV.m3u",
-				"playerType": 1,
-				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
-				"group":"redirect",
-				"channels":[
-					{
-						"name":"redirect",
-						"urls":[
-							"proxy://do=live&type=live&proxy=&url="
-						]
-					}
-				]
-			}
+				"logo": "https://epg.112114.xyz/logo/{name}.png"
+		}
 		],
 		"doh": [
 			{
