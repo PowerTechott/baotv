@@ -1,10 +1,6 @@
 {
   "urls": [
-           {
-      "url": "https://raw.githubusercontent.com/PowerTechott/baotv/main/movie.m3u",
-      "name": "PowerTech VIP专线"
-    },
-{
+          {
 				"name": "live.ipv6.m3u"
 				"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 				"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
