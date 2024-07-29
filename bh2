@@ -18,6 +18,20 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		        },
+{
+      "key": "百度资源",
+      "name": "采集┃百度",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "大陆剧",
+        "战争片",
+        "动作片",
+        "喜剧片"
+      ]
+    },
 {"key": "戏 曲" ,"name": "潮剧|戏曲","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/Blixq.json"},
                         { 
                         "key": "大师兄",  
