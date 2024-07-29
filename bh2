@@ -20,9 +20,19 @@
 		        },
 {
       "key": "华为资源",
-      "name": "华吧┃影视",
+      "name": "18x┃影视",
       "type": 1,
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "电影",
+        "连续剧"]},
+{
+      "key": "华为资源",
+      "name": "华吧┃影视",
+      "type": 1,
+      "api": "https://cjhwba.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
