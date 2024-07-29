@@ -21,7 +21,7 @@
 {
       "key": "速派资源",
       "name": "速派┃影视",
-      "type": 3,
+      "type": 1,
       "api": "https://api.tiankongapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
@@ -33,7 +33,7 @@
 {
       "key": "华为资源",
       "name": "华吧┃影视",
-      "type": 3,
+      "type": 1,
       "api": "https://cjhwba.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
@@ -63,7 +63,7 @@
 {
       "key": "百度资源",
       "name": "百度┃影视",
-      "type": 3,
+      "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
