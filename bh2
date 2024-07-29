@@ -63,7 +63,7 @@
 {
       "key": "百度资源",
       "name": "百度┃影视",
-      "type": 3"
+      "type": 3,
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
