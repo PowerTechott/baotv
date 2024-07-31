@@ -34,7 +34,7 @@
       "key": "木耳资源",
       "name": "测试┃影视",
       "type": 1,
-      "api": "https://xml.heimuer.xyz/api.php/provide/vod/at/xml/?ac=list",
+      "api": "https://xml.heimuer.xyz/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
