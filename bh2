@@ -19,16 +19,6 @@
 			"ext": "./lib/douban.json"
 		        },
 {
-      "key": "txsp",
-      "name": "腾讯┃视频",
-      "type": 3,
-      "api": "./lib/apiv935drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/腾讯视频.js"
-    },
-{
       "key": "kkzy",
       "name": "看看┃秒播",
       "type": 1,
