@@ -18,6 +18,13 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		        },
+{"key": "采集集合",
+            "name": "采集|集合",
+            "type": 1,
+            "api": "http://zhangqun66.serv00.net/cjjh.php",
+            "searchable": 1,
+            "changeable": 1
+        },
 {
       "key": "kkzy",
       "name": "看看┃秒播",
