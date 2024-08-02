@@ -19,6 +19,17 @@
 			"ext": "./lib/douban.json"
 		        },
 {
+      "key":"csp_555",
+      "name":"5️⃣5┃影视〔SP〕",
+      "type":3,
+      "api":"csp_xBPQ",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"./lib/55dy.json",
+      "jar": "./lib/55影视.jar"
+    },
+{
       "key": "kkzy",
       "name": "看看┃秒播",
       "type": 1,
