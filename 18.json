@@ -1,10 +1,7 @@
-//1015--Vanessa-18+
 {
-"wallpaper":"./WallPaper/3.jpg",
-"spider":"./ext/XBPQ/18.jar",
+"wallpaper":"./7.jpg",
+"spider":"./fuli.jar",
 "sites":[
-{"key":"豆瓣榜单",		"name":"1015",		"type":3,	"api":"./lib/drpy2.min.js",	"ext":"./ext/豆瓣榜单.js"},
-
 {"key":"18AV-OLD",  	"name":"18AV-OLD",	"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/18AV-OLD.json"},
 {"key":"X先生",			"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/X先生.json"},
 {"key":"gaoaa",			"name":"gaoaa",		"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/gaoaa.json"},
