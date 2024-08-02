@@ -1,6 +1,6 @@
 {
 "wallpaper":"./7.jpg",
-"spider":"./fuli.jar",
+"spider":"./lib/fuli.jar",
 "sites":[
 {"key":"18AV-OLD",  	"name":"18AV-OLD",	"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/18AV-OLD.json"},
 {"key":"X先生",			"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./ext/XBPQ/X先生.json"},
