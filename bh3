@@ -1077,8 +1077,7 @@
         ],
         "header": {
           "User-Agent": "okhttp/4.1.0"
-        }
-      }
+       }    }
     },
     {
       "name": "蚂蚁2",
@@ -1106,7 +1105,11 @@
 			{"name":"26db","type":0,"url":"http://vip.26db.cn/g/?url="},
 			{"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="},
 			{"name":"FreeOK","type":0,"url":"https://play.86516.tk/OKPlayer/?url="},
-			{"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="}
+			{"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="},
+{"name":"解析11","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
+{"name":"解析13","type":0,"url":"https://jx.777jiexi.com/player/?url="},
+{"name":"解析14","type":0,"url":"https://jx.xmflv.com/?url="},
+{"name":"解析15","type":0,"url":"https://www.pangujiexi.com/pangu/?url="}
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 		"wallpaper": "http://ygbh.live/bz.php",
