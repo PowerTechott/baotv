@@ -1,6 +1,6 @@
 {
 "wallpaper":"./7.jpg",
-"spider":"./lib/fuli.jar",
+"spider":"https://raw.githubusercontent.com/PowerTechott/baotv/main/lib/fuli.jar",
 "sites":[
 {"key":"X先生",			"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/X先生.json"},
 {"key":"Y学生,			"name":"gaoaa",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/gaoaa.json"},
