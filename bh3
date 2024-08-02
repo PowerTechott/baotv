@@ -21,12 +21,12 @@
 		        },
 {
       "key":"csp_555",
-      "name":"5️⃣5┃影视〔SP〕",
+      "name":"5️⃣5┃影视",
       "type":3,
       "api":"csp_xBPQ",
       "searchable":1,
       "quickSearch":1,
-      "filterable":0,
+      "filterable":1,
       "ext":"./lib/55dy.json",
       "jar": "./lib/555影视.jar"
     },
