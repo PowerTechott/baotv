@@ -1,5 +1,5 @@
         {
-	"spider":"./pg1.jar",
+	"spider":"./pg1.jar","./pk1.jar",
 	"sites":[
 	               {
                        "key": "drpy_js_黑木耳资源",
