@@ -1123,7 +1123,7 @@
 {"name":"解析15","type":0,"url":"https://www.pangujiexi.com/pangu/?url="}
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
-		"wallpaper": "https://raw.githubusercontent.com/PowerTechott/baotv/main/Pic1.jpg",
+		"wallpaper": "https://raw.githubusercontent.com/PowerTechott/baotv/main/Pic1.png",
 	        "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
 		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "ads":[
