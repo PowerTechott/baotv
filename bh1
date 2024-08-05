@@ -52,7 +52,7 @@
     },
     {
                        "key": "drpy_js_黑木耳资源",
-                       "name": "木耳┃影视",
+                       "name": "木耳┃有广",
                        "type": 3,
                        "api": "./lib/drpy2.min.js",
                         "ext": "./lib/mr.js"
