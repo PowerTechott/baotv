@@ -18,6 +18,8 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		        },
+{"key":"低端影视","name":"低端┃影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"啾啾影视","name":"啾啾┃影视","type":3,"api":"csp_Wexjiohub","searchable":1,"changeable":1},
 {
       "key":"csp_555",
       "name":"5️⃣5┃影视",
