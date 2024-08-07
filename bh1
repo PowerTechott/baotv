@@ -284,7 +284,16 @@
       "filterable": 1
     },
     { 
-      "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" },     {
+      "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" },   
+{
+      "key": "低端",
+      "name": "低端┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "./js/通用api数据.js",
+      "ext": "./js/低端配置.js"
+    },
+{
       "key": "农民❤️无广",
       "name": "农民┃影视",
       "type": 3,
