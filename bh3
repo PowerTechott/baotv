@@ -19,6 +19,14 @@
 			"ext": "./lib/douban.json"
 		        },
 {
+      "key": "低端",
+      "name": "低端┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "./js/通用api数据.js",
+      "ext": "./js/低端配置.js"
+    },
+{
             "key": "IK",
             "name": "IK",
             "type": 1,
