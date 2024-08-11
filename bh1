@@ -406,7 +406,6 @@
 {"key":"明日影视","name":"明日┃影视","type":3,"api":"csp_WexMingriys","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
 {"key":"腐剧视频","name":"腐剧┃影视","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
 {"key":"天天影视","name":"天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/o.jar"},
-{"key":"热播影视","name":"热播┃影视","type":3,"api":"csp_AppRB","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/o.jar"},
 {"key":"兄弟影视","name":"兄弟┃影视","type":3,"api":"csp_Wexxiongdiys","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
 {"key":"农民影视","name":"农民┃影视","type":3,"api":"csp_WexNmys","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
 {"key":"利播影视","name":"利播┃影视","type":3,"api":"csp_Wexlibhd","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
@@ -914,7 +913,7 @@
 			"api": "csp_Market",
 			"searchable": 0,
 			"changeable": 0,
-			"ext": "https://fm.t4tv.hz.cz/json/market.json"
+			"ext": "https://shopee.com.my/powertech_digital"
 		        }],
 		       "lives":[
 			{
