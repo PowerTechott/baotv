@@ -156,6 +156,19 @@
         "纪录片"
         ]
         },
+{ "key": "911影院", "name": "美剧|影院", "type":3,"api":"csp_XBPQ", "ext": {"简介":"关注【PowerTech】防失联:+style=\"text-indent:2em;\">&&</span>","数组":"u-movie\">&&</article>","标题":"title=\"&&\"","副标题":"zhuangtai\">&&</span>","线路数组":"<h4 class=\"ctitle\">&&</h4>","分类url":"https://911meiju.com/show/{cateId}/page/{catePg}.html","分类":"电视剧$dsj#电影$dy#美剧$mj#喜剧片$xjp#剧情片$jqp#动作片$dzp#悬疑片$xyp#科幻片$khp"}},
+	{"key":"低端影视","name":"中英日韩剧","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},              
+{
+            "key": "xcys",
+            "name": "星辰｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+	  "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "分类url": "http://m.disc800.com/species/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$3#综艺$4#纪录片$5"
+            }
+        },
        {
       "key":"csp_555",
       "name":"5️⃣5┃影视",
