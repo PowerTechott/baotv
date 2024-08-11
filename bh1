@@ -79,13 +79,6 @@
                       {"key":"米爱影视","name":"米影┃2K","type":3,"api":"csp_XBPQ",
                       "searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/miaiys.json"},
 {"key": "高清资源网","name": "高清┃秒播","type": 1,"api": "https://api.1080zyku.com/inc/apijson.php","searchable": 1,"quickSearch": 1,"filterable": 1,"playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=","categories":["短剧","邵氏电影","爽文短剧","动作片","国产剧","香港剧","国产动漫","日韩动漫","欧美动漫","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","欧美剧","日本剧","泰国剧","韩国剧","台湾剧","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-    {"key": "采集集合",
-            "name": "采集┃秒播",
-            "type": 1,
-            "api": "http://zhangqun66.serv00.net/cjjh.php",
-            "searchable": 1,
-            "changeable": 1
-        },
 {
       "key": "百度资源",
       "name": "百度┃秒播",
@@ -269,7 +262,7 @@
       "key": "低端",
       "name": "低端┃影视",
       "type": 3,
-      "playerType": "2",
+      "playerType": "1",
       "api": "./js/通用api数据.js",
       "ext": "./js/低端配置.js"
     },
