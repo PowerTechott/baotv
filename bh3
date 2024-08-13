@@ -41,7 +41,7 @@
 		                 },
 {
 			"key": "非凡",
-			"name": "非凡┃资源",
+			"name": "非1凡┃资源",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
@@ -472,7 +472,7 @@
 		               },
                          {
 			"key": "非凡",
-			"name": "非凡┃资源",
+			"name": "非2凡┃资源",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
