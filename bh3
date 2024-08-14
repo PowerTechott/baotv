@@ -117,7 +117,8 @@
                        "name": "木耳┃影视",
                        "type": 3,
                        "api": "./lib/drpy2.min.js",
-                        "ext": "./lib/mr.js"
+                        "ext": "./lib/mr.js",
+                       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url="
                         },
 	                {
 			"key": "豆瓣",
