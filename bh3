@@ -47,7 +47,7 @@
 				"记录片"
                                  ]
 		                 },
-{"key":"非凡","name":"非凡┃采集","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+{"key":"非凡","name":"非凡┃秒播","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
 "searchable":1,"changeable":1,
 "categories":[
 				"国产剧",
