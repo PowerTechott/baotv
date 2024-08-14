@@ -1,7 +1,8 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-{"key":"非凡","name":"非凡┃采集","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,
+{"key":"非凡","name":"非凡┃采集","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+"searchable":1,"changeable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 "categories":[
 				"国产剧",
 			        "香港剧",
