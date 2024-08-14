@@ -1,9 +1,13 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-                        {"key":"非凡","name":"非1凡┃秒播,"type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
-"searchable":1,"changeable":1,
-"categories":[
+                        {"key":"非凡",
+                         "name":"非1凡┃秒播,
+                         "type":0,
+                         "api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+                         "searchable":1,
+                         "changeable":1,
+                         "categories":[
 				"国产剧",
 			        "香港剧",
 				"韩国剧",
