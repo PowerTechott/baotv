@@ -1,16 +1,9 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-                        {
-			"key": "非凡",
-			"name": "非凡┃资源",
-			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/http://cj.ffzyapi.com/api.php/provide/vod/?",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-			"playerType":1,
-			"searchable": 1,
-			"changeable": 1,
-			"categories": [
+                        {"key":"非凡","name":"非1凡┃秒播,"type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+"searchable":1,"changeable":1,
+"categories":[
 				"国产剧",
 			        "香港剧",
 				"韩国剧",
