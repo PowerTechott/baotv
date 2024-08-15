@@ -1273,5 +1273,5 @@
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 		"wallpaper": "http://ygbh.live/bz.php",
 	        "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
-		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img",
+		"disabled_wallpaper":"http://www.kf666888.cn/api/tvbox/img"
 }
