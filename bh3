@@ -1,7 +1,6 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-{"key":"可可影视","name":"可可┃影视","type":3,"api":"csp_Keke","searchable":1,"quickSearch":1,"filterable":1},
 {
 			"key": "muer",
 			"name": "木耳┃资源",
