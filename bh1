@@ -1,6 +1,13 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+                        {
+                        "key": "网飞影视",
+                        "name": "Fei┃影视",
+                        "type": 3,
+                        "api": "./lib/drpy2.min.js",
+                        "ext": "./lib/wf.js"
+                        },
                         { 
                         "key": "大师兄",  
                         "name": "大师兄┃影视", 
