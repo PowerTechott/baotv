@@ -1,13 +1,6 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-                        {
-                        "key": "网飞影视",
-                        "name": "Fei┃影视",
-                        "type": 3,
-                        "api": "./lib/drpy2.min.js",
-                        "ext": "./lib/wf.js"
-                        },
                         { 
                         "key": "大师兄",  
                         "name": "大师兄┃影视", 
@@ -282,6 +275,13 @@
     { 
       "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" 
    },
+{
+                        "key": "网飞影视",
+                        "name": "Fei┃有广",
+                        "type": 3,
+                        "api": "./lib/drpy2.min.js",
+                        "ext": "./lib/wf.js"
+                        },
 {
                        "key": "drpy_js_黑木耳资源",
                        "name": "木耳┃有广告",
