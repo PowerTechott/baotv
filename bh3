@@ -5,7 +5,7 @@
 			"key": "卧龙",
 			"name": "卧龙┃资源",
 			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list",
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://collect.wolongzy.cc/api.php/provide/vod/?",
 			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 			"playerType": 1,
 			"searchable": 1,
