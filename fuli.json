@@ -21,6 +21,13 @@
 			"searchable": 1,
 			"changeable": 1},
 {
+			"key": "色色虎",
+			"name": "色色虎┃资源",
+			"type": 0,
+			"api": "https://apisesehuzy.com/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"changeable": 1},
+{
 			"key": "老色逼",
 			"name": "老色逼┃资源",
 			"type": 0,
