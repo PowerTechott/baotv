@@ -5,7 +5,7 @@
 			"key": "卧龙",
 			"name": "kun┃资源",
 			"type": 0,
-			"api": "https://www.jkunzyapi.com/api.php/provide/vod/",
+			"api": "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
 			"searchable": 1,
 			"changeable": 1,
 			"categories": [
