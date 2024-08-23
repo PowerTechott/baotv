@@ -3,9 +3,9 @@
 	"sites":[
 {
 			"key": "卧龙",
-			"name": "卧龙┃资源",
+			"name": "kun┃资源",
 			"type": 0,
-			"api": "https://collect.wolongzy.cc/api.php/provide/vod/at/xml/?ac=list",
+			"api": "https://www.jkunzyapi.com/api.php/provide/vod/",
 			"searchable": 1,
 			"changeable": 1,
 			"categories": [
