@@ -1,5 +1,6 @@
 {
 "wallpaper":"./Pic1.jpg",
+"logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
 "spider":"https://raw.githubusercontent.com/PowerTechott/baotv/main/lib/fuli.jar",
 "sites":[
 {"key":"色花堂",		"name":"色花堂",	 "type":3,	"api":"csp_XBPQ",	"ext":"./lib/色花堂.json"},
