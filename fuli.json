@@ -5,7 +5,14 @@
 {"key":"色花堂",		"name":"色花堂",	 "type":3,	"api":"csp_XBPQ",	"ext":"./lib/色花堂.json"},
 {"key":"Z老师",		"name":"Z老师",	 "type":3,	"api":"csp_XBPQ",	"ext":"./lib/大炮色.json"},
 {"key":"X先生",		"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/X先生.json"},
-{"key":"Y学生",		"name":"Y学生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/gaoaa.json"}
+{"key":"Y学生",		"name":"Y学生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/gaoaa.json"},
+{
+			"key": "kunj",
+			"name": "kun┃资源",
+			"type": 0,
+			"api": "https://jkunzyapi.com/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"changeable": 1}
 ],
 
 "ijk":[
