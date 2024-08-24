@@ -3,7 +3,7 @@
 	"sites":[
 {"key": "jj资源网",
 "name": "视频TV┃秒播",
-"type": 0,
+"type": 1,
 "api": "https://cj.jijisi.com/api.php/provide/vod/at/xml/",
 "searchable": 1,
 "quickSearch": 1,
