@@ -2,9 +2,9 @@
 	"spider":"./pg1.jar",
 	"sites":[
 {"key": "jj资源网",
-"name": "视频TV┃秒播",
+"name": "视频TV1┃秒播",
 "type": 0,
-"api": "https://www.777111.xyz/api.php/provide/vod/at/xml/",
+"api": "http://agemys.me/acg/api.php/provide/vod/at/xml/",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
