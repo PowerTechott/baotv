@@ -356,7 +356,7 @@
     },
     {
       "key": "348影视网",
-      "name": "348┃影视",
+      "name": "88┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./lib/XBPQ.jar",
@@ -396,7 +396,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_LiteApple",
-      "jar": "./lib/ap.jar",	
+      "jar": "./lib/xm.jar",	
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
