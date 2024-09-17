@@ -3,6 +3,13 @@
 "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
 "spider":"https://raw.githubusercontent.com/PowerTechott/baotv/main/lib/fuli.jar",
 "sites":[
+	{
+			"key": "色色虎",
+			"name": "色色虎┃资源",
+			"type": 0,
+			"api": "https://apisesehuzy.com/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"changeable": 1},
 {"key":"色花堂",		"name":"色花堂",	 "type":3,	"api":"csp_XBPQ",	"ext":"./lib/色花堂.json"},
 {"key":"X先生",		"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/X先生.json"},
 {"key":"Y学生",		"name":"Y学生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/gaoaa.json"},
@@ -18,13 +25,6 @@
 			"name": "桃花┃资源",
 			"type": 0,
 			"api": "https://thzy1.me/api.php/provide/vod/at/xml",
-			"searchable": 1,
-			"changeable": 1},
-{
-			"key": "色色虎",
-			"name": "色色虎┃资源",
-			"type": 0,
-			"api": "https://apisesehuzy.com/api.php/provide/vod/at/xml",
 			"searchable": 1,
 			"changeable": 1},
 {
