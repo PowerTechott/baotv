@@ -4,6 +4,13 @@
 "spider":"https://raw.githubusercontent.com/PowerTechott/baotv/main/lib/fuli.jar",
 "sites":[
 	{
+			"key": "老色逼",
+			"name": "老色逼┃资源",
+			"type": 0,
+			"api": "https://apilsbzy.com/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"changeable": 1},
+	{
 			"key": "色色虎",
 			"name": "色色虎┃资源",
 			"type": 0,
@@ -27,14 +34,7 @@
 			"api": "https://thzy1.me/api.php/provide/vod/at/xml",
 			"searchable": 1,
 			"changeable": 1},
-{
-			"key": "老色逼",
-			"name": "老色逼┃资源",
-			"type": 0,
-			"api": "https://apilsbzy.com/api.php/provide/vod/at/xml",
-			"searchable": 1,
-			"changeable": 1},
-	{"key": "ok资网",
+{"key": "ok资网",
 "name": "OK色┃资源",
 "type": 0,
 "api": "https://api.okzy.org/api.php/provide/vod/from/okm3u8/at/xml",
