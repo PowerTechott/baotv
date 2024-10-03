@@ -3,10 +3,10 @@
         "spider":"./lib/ttkx.jar",
 	"sites":[
 {"key":"原创","name":"原创┃秒播","type":3,"api":"csp_YCyz","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
-{"key": "123资源网",
-"name": "视频TV23┃秒播",
+{"key": "天空资源网",
+"name": "视频TV9┃秒播",
 "type": 0,
-"api": "https://m3u8.tiankongapi.com/api.php/provide/vod/",
+"api": "https://api.tiankongapi.com/api.php/provide/vod/?ac=list",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
