@@ -12,7 +12,7 @@
             "filterable": 1,
             "ext": {
                 "分类url": "https://www.nivod.vip/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-                "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
+                "分类": "电视剧首页$电视剧库#电影首页$电影库#综艺首页$综艺库#动漫首页$动漫库#最近热门$近期热门"
             }
         },
  {
