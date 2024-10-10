@@ -11,8 +11,8 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "分类url": "https://www.nivod.vip/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-                "分类": "电影$20#电视剧$21#综艺$22#动漫$23#最近热门$24"
+                "分类url": "https://www.nivod.vip/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#最近热门$5"
             }
         },
  {
