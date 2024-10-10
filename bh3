@@ -2,15 +2,9 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
-{
-            "key": "泥视频影视",
-            "name": "泥视频1",
-            "type": 1,
-            "api": "https://www.nivod.vip/rss/index.xml",
-            },
 {"key": "高资质源网",
 "name": "泥┃秒播","type": 0,
-"api": "https://www.nivod.vip/rss/index.xml",
+"api": "https://www.nivod.vip/rss/google.xml",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
