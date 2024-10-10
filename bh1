@@ -434,7 +434,7 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_LiteApple",
-      "jar": "./lib/xm.jar",	
+      "jar": "./lib/ap.jar",	
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
