@@ -2,9 +2,9 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
-{"key": "高资源网",
-"name": "天空┃秒播","type": 1,
-"api": "https://api.tiankongapi.com/api.php/provide/vod/?ac=list",
+{"key": "高资质源网",
+"name": "泥视频┃秒播","type": 0,
+"api": "https://www.nivod.vip/rss/index.xml",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
