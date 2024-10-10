@@ -50,9 +50,9 @@
         },
             {
             "key": "csp_瓜子",
-            "name": "瓜子|影视",
+            "name": "大米|影视",
             "api": "csp_Gz360",
-            "jar": "https://gitee.com/juanxiao/bh/raw/master/gz.jar",
+            "jar": "./lib/gz.jar",
             "type": 3,
             "searchable": 1,
             "playerType": 2,
