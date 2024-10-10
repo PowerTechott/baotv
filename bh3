@@ -3,17 +3,6 @@
         "spider":"./lib/ttkx.jar",
 	"sites":[
 {
-      "key": "hipy_js_好趣网",
-      "name": "电视|直播",
-      "type": 3,
-      "api": "https://gitee.com/xmbjmjk/omg/raw/master/lib/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 87,
-      "ext": "https://gitee.com/juanxiao/bh/raw/master/hqw.js"
-    },
-{
             "key": "雨见视频",
             "name": "雨见┃蓝光",
             "type": 3,
