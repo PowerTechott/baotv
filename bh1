@@ -151,6 +151,45 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		        }, 
+            {
+            "key": "雨见视频",
+            "name": "雨见┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "影片类型": "类型：&&</li>",
+                "简介": "PowerTech提醒您:请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
+                "分类url": "http://yjsp.mxys8.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
+            }
+            }, 
+            {
+            "key": "没事影院",
+            "name": "没事┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.yu992.com/lys/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
+            }
+        },
+            {
+            "key": "csp_瓜子",
+            "name": "瓜子|影视",
+            "api": "csp_Gz360",
+            "jar": "https://gitee.com/juanxiao/bh/raw/master/gz.jar",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0
+            },
                         {
 			"key": "卧龙",
 			"name": "小龙┃秒播",
