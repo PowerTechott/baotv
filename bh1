@@ -151,6 +151,17 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		        }, 
+{
+      "key": "csp_LiteApple",
+      "name": "苹果┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_LiteApple",
+      "jar": "./lib/ap.jar",	
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
             {
             "key": "飞飞",
             "name": "飞飞┃蓝光",
@@ -361,7 +372,6 @@
 				"记录片"
                                  ]
 		                 },
-{ "key": "911影院", "name": "美剧|影院", "type":3,"api":"csp_XBPQ", "ext": {"简介":"关注【PowerTech】防失联:+style=\"text-indent:2em;\">&&</span>","数组":"u-movie\">&&</article>","标题":"title=\"&&\"","副标题":"zhuangtai\">&&</span>","线路数组":"<h4 class=\"ctitle\">&&</h4>","分类url":"https://911meiju.com/show/{cateId}/page/{catePg}.html","分类":"电视剧$dsj#电影$dy#美剧$mj#喜剧片$xjp#剧情片$jqp#动作片$dzp#悬疑片$xyp#科幻片$khp"}},
 	{"key":"低端影视","name":"中英日韩剧","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},              
 {
             "key": "xcys",
@@ -432,17 +442,6 @@
         "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
         "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
        } },
-       {
-      "key": "csp_LiteApple",
-      "name": "苹果┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_LiteApple",
-      "jar": "./lib/ap.jar",	
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
     { 
       "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" 
    },
