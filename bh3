@@ -2,21 +2,26 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
-{
-            "key": "雨见视频",
-            "name": "雨见┃蓝光",
+ {
+            "key": "飞飞",
+            "name": "飞飞┃蓝光",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "影片类型": "类型：&&</li>",
-                "简介": "🌈宝盒提醒您:请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
-                "分类url": "http://yjsp.mxys8.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
+                "影片年代": "<div class=\"module-info-tag\">&&</div>",
+                "影片地区": "PowerTech专享",
+                "影片状态": "备注：&&</div>",
+                "影片类型": "module-info-tag\">&&立即播放",
+                "线路数组": "data-dropdown-value=&&</div>",
+                "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+                "分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25"
             }
-        }, {
+        },
+            {
             "key": "没事影院",
             "name": "没事┃蓝光",
             "type": 3,
@@ -29,6 +34,17 @@
                 "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
             }
         },
+            {
+            "key": "csp_瓜子",
+            "name": "瓜子|影视",
+            "api": "csp_Gz360",
+            "jar": "https://gitee.com/juanxiao/bh/raw/master/gz.jar",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0
+            },
 {"key":"原创","name":"原创┃秒播","type":3,"api":"csp_YCyz","timeout":15,"ua": "okhttp/3.15","searchable":1,"quickSearch":1,"playerType":1,"changeable":1},
 {"key": "天空资源网",
 "name": "视频TV9┃秒播",
