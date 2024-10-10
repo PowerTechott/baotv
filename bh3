@@ -630,12 +630,12 @@
        } },
        {
       "key": "csp_LiteApple",
-      "name": "苹果┃影视",
+      "name": "苹果1┃影视",
       "type": 3,
       "playerType": "2",
       "api": "csp_LiteApple",
-      "jar": "./lib/ap.jar",	
-      "searchable": 1,
+	  "jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/lib/ap.jar",	
+    "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
