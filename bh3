@@ -2,6 +2,19 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
+{
+            "key": "泥院",
+            "name": "泥视频┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.nivod.vip/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "剧集$juji#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju"
+            }
+        },
  {
             "key": "飞飞",
             "name": "飞飞┃蓝光",
