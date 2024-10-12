@@ -198,13 +198,27 @@
             "key": "csp_瓜子",
             "name": "瓜子|影视",
             "api": "csp_Gz360",
-            "jar": "https://gitee.com/juanxiao/bh/raw/master/gz.jar",
+            "jar": "./lib/gz.jar",
             "type": 3,
             "searchable": 1,
             "playerType": 2,
             "timeout": 30,
             "changeable": 0
             },
+            {
+            "key": "泥院",
+            "name": "泥视频┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.nivod.vip/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#最近热门$5"
+            }
+        },
                         {
 			"key": "卧龙",
 			"name": "小龙┃秒播",
