@@ -2,6 +2,14 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
+                        {
+                       "key": "dia短剧资源",
+                       "name": "短剧┃影视",
+                       "type": 3,
+                       "api": "./lib/drpy2.min.js",
+                        "ext": "./lib/vvrt.js",
+                       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url="
+                        },
 {"key": "热门短剧资源网",
 "name": "热门短剧1",
 "type": 0,
