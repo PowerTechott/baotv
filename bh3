@@ -32,7 +32,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "分类url": "https://www.dianle.tv/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类url": "https://tv4.lk21official.my/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
                 "分类": "都市$1#赘婿$2#战神$3#古代言情$4#现代言情$5"
             }
         },
