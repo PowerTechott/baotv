@@ -24,16 +24,16 @@
                   ]
 		  },
 {
-            "key": "短剧院",
-            "name": "短剧┃视频",
+            "key": "好剧院",
+            "name": "好剧┃视频",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "分类url": "https://tv4.lk21official.my/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-                "分类": "都市$1#赘婿$2#战神$3#古代言情$4#现代言情$5"
+                "分类url": "https://hlove.tv/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4#电视直播$5#儿童$6"
             }
         },
 {
