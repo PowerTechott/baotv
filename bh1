@@ -77,7 +77,16 @@
         "分类": "电视剧&电影&综艺&动漫",
         "分类值": "2&1&3&4"
       }
-},
+      },
+      { 
+                        "key": "大师兄",  
+                        "name": "大师兄┃影视", 
+                        "type": 3,
+                        "api": "csp_XBPQ", 
+                        "ext": {"简介":"PowerTech-+剧情介绍：&&</p >",
+                        "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+                        "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
+                       }},
 {"key": "ok资源网",
 "name": "OK视频┃秒播",
 "type": 0,
@@ -167,15 +176,6 @@
 				"记录片"
                                  ]
 		                 },
-                         { 
-                        "key": "大师兄",  
-                        "name": "大师兄┃影视", 
-                        "type": 3,
-                        "api": "csp_XBPQ", 
-                        "ext": {"简介":"PowerTech-+剧情介绍：&&</p >",
-                        "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-                        "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
-                       }},
                         {
 			"key": "豆瓣",
 			"name": "PowerTech接口AI过滤广告",
