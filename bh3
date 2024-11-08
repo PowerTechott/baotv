@@ -2,19 +2,17 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
-{
-            "key": "网飞影视",
-            "name": "网飞猫┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "数组": "module-item\">&&</div>",
-                "剧情": "[替换:伦理>>NETFLIX]",
-                "图片": "https://vres.vukfnqr.com+data-original=\"&&\"",
-                "分类url": "https://www.ncat2.com/show/{cateId}-{class}-{area}--{year}-2-{catePg}.html",
-                "分类": "短剧$6#电影$1#电视剧$2#综艺$4#动漫$3"
-            }
-        },
+    {
+                        "key": "网瓜子影视",
+                        "name": "瓜子┃影视",
+                        "type": 3,
+                        "api": "./lib/drpy2.min.js",
+                        "searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+                        "ext": "./lib/瓜子视频.js"
+                        },
 {
       "key": "花姐影院",
       "name": "可欣影院",
