@@ -19,15 +19,15 @@
         }, 
 {
 			"key": "hipy_js_瓜子视频",
-			"name": "瓜子┃视频",
+			"name": "瓜子1视频",
 			"type": 3,
-			"api": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_libs/drpy2.min.js",
+			"api": "./lib/drpy3.min.js",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 0,
-			"ext": "https://codeberg.org/ygbh/bhapi/raw/branch/master/drpy_js/%e7%93%9c%e5%ad%90%e8%a7%86%e9%a2%91.js"
-		},
+			"ext": "./lib/瓜子视频.js"
+		},	
     {
                         "key": "网瓜子影视",
                         "name": "瓜子┃影视",
