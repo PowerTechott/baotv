@@ -2,6 +2,14 @@
 	"spider":"./pg1.jar",
         "spider":"./lib/ttkx.jar",
 	"sites":[
+{"key":"可1可1",
+"name":"可|影视",
+"type":3,
+"api":"csp_XBPQ",
+"searchable":1,
+"quickSearch":1,
+"filterable":1,
+"ext":"./lib/keke1.json"},
 {
             "key": "雨见视频",
             "name": "雨见┃蓝光",
