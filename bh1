@@ -503,9 +503,14 @@
         "分类url":"https://348z.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html;;ak",
         "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
        } },
-    { 
-      "key": "kk", "name": "可可┃影视", "type": 3, "searchable": 1, "changeable": 1, "jar": "./lib/XBPQ.jar", "api": "csp_XBPQ", "ext": "./lib/kk.json" 
-   },
+ {"key":"可1可1",
+"name":"可可|影视",
+"type":3,
+"api":"csp_XBPQ",
+"searchable":1,
+"quickSearch":1,
+"filterable":1,
+"ext":"./lib/keke1.json"},
 {
                         "key": "网飞影视",
                         "name": "Fei┃有广",
