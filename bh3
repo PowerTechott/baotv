@@ -15,6 +15,14 @@
             "ext": "./js/腾讯4k.js"
         },
 {
+      "key": "河马",
+      "name": "👀河马┃App",
+      "type": 3,
+      "api": "csp_Hmys",
+      "playerType": 1,
+      "ext": "https://m.jmzp.net.cn"
+    },
+{
             "key": "好剧院",
             "name": "立播┃视频",
             "type": 3,
