@@ -14,6 +14,19 @@
             "changeable": 0,
             "ext": "./js/腾讯4k.js"
         },
+{
+            "key": "好剧院",
+            "name": "立播┃视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://www.libvio.link//vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$3#综艺$4#电视直播$5#儿童$6"
+            }
+        },
 {"key":"可1可1",
 "name":"可|影视",
 "type":3,
