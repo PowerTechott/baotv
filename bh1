@@ -69,6 +69,17 @@
             "ext": "./js/腾讯4k.js"
 },
 {
+			"key": "瓜子网视频",
+			"name": "瓜子|视频",
+			"type": 3,
+			"api": "./lib/drpy3.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./lib/瓜子视频.js"
+		},	
+{
       "key": "花姐影院",
       "name": "可欣影院",
       "type": 3,
@@ -243,7 +254,7 @@
         },
             {
             "key": "csp_瓜子",
-            "name": "瓜子|影视",
+            "name": "小米|影视",
             "api": "csp_Gz360",
             "jar": "./lib/gz.jar",
             "type": 3,
