@@ -15,6 +15,16 @@
             "ext": "./js/腾讯4k.js"
         },
 {
+            "key": "✨理理短剧✨",
+            "name": "✨短剧✨甄选✨",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/理理短剧.json"
+        },
+{
       "key": "河马",
       "name": "河马┃App",
       "type": 3,
