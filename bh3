@@ -1,6 +1,6 @@
                 {
 	"spider":"./pg1.jar",
-        "spider":"./lib/ttkx.jar",
+        "spider":"./Wuai.jar",
 	"sites":[
 {
             "key": "腾讯",
@@ -16,9 +16,9 @@
         },
 {
       "key": "河马",
-      "name": "👀河马1┃App",
+      "name": "河马┃App",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "csp_Hmys",
       "playerType": 1,
       "ext": "https://m.jmzp.net.cn"
     },
