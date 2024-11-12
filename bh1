@@ -60,14 +60,14 @@
             "key": "腾讯4K",
             "name": "腾讯4K",
             "type": 3,
-            "api": "https://gitee.com/qihaoyyds/js/raw/master/drpy2.min.js",
+             "api": "./js/drpy2.tt4k.js",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0,
-            "ext": "https://gitee.com/qihaoyyds/js/raw/master/腾讯影视.js"
-        },
+            "ext": "./js/腾讯4k.js"
+},
 {
       "key": "花姐影院",
       "name": "可欣影院",
