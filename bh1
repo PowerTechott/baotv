@@ -452,8 +452,7 @@
 				"记录片"
                                  ]
 		                 },
-	{"key":"低端影视","name":"中英日韩剧","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},              
-{
+	{
             "key": "xcys",
             "name": "星辰｜影视",
             "type": 3,
