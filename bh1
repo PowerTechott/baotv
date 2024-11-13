@@ -110,6 +110,14 @@
                         "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
                         "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
                        }},
+{
+      "key": "低端",
+      "name": "低端┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "./js/通用api数据.js",
+      "ext": "./js/低端配置.js"
+    },
 {"key": "ok资源网",
 "name": "OK视频┃秒播",
 "type": 0,
