@@ -118,6 +118,16 @@
       "api": "./js/通用api数据.js",
       "ext": "./js/低端配置.js"
     },
+{
+  "key": "T4-heimuer",
+  "name": "木耳资源",
+  "type": 4,
+  "api": "https://tang.hz.cz/power/hme?token=647c28ca",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "changeable": 0
+},
 {"key": "ok资源网",
 "name": "OK视频┃秒播",
 "type": 0,
