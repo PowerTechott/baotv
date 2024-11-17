@@ -97,6 +97,17 @@
     "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}
 },
 {
+    "key": "99影视",
+    "name": "🍁久久影视",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "ext": {
+    "简介": "col-pd text-collapse content\">&&</div>",
+    "副标题": "✨+pic-text text-right\"&&</span>",
+    "分类url": "http://www.kangping99.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+    "分类": "短剧$25#电影$1#连续剧$2#动漫$4#综艺$3"}
+},
+{
             "key": "腾讯4K",
             "name": "腾讯|视频",
             "type": 3,
