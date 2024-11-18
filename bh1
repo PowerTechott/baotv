@@ -1,6 +1,15 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+   { 
+                        "key": "大师兄",  
+                        "name": "高清┃影视", 
+                        "type": 3,
+                        "api": "csp_XBPQ", 
+                        "ext": {"简介":"PowerTech-+剧情介绍：&&</p >",
+                        "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+                        "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
+                       }},
 {"key": "高清资源网",
 "name": "视频┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/apijson.php",
@@ -172,15 +181,6 @@
         "分类值": "2&1&3&4"
       }
       },
-      { 
-                        "key": "大师兄",  
-                        "name": "大师兄┃影视", 
-                        "type": 3,
-                        "api": "csp_XBPQ", 
-                        "ext": {"简介":"PowerTech-+剧情介绍：&&</p >",
-                        "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-                        "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
-                       }},
 {
       "key": "低端",
       "name": "低端┃影视",
