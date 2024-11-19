@@ -1,6 +1,18 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+   {
+      "key": "文才",
+      "name": "《文采🔹秒播》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {"danmu": true}, 
+      "timeout": 10
+    },
  {
       "key": "4K在线看",
       "name": "《秒播🔹4K源》",
