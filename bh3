@@ -2,6 +2,17 @@
 	"spider":"./pg1.jar",
 	"sites":[
  {
+      "key": "4K在线看",
+      "name": "《秒播🔹4K源》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/4kav.json"
+    },
+ {
       "key": "金牌影视",
       "name": "《天微2🔹影视》",
       "type": 3,
