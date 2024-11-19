@@ -45,6 +45,18 @@
       "order_num": 0,
       "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/可可影视[优].js"
     },
+    {
+      "key": "低端_js",
+      "name": "《低端🔸在线》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/低端.js"
+    },
 {
     "key":"csp_XBPQ_fxzcj1y",
     "name":"推荐🍁柴姬影视11",
