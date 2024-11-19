@@ -43,6 +43,16 @@
 				"记录片"
                                  ]
 		                 },
+  {
+            "key": "饺子影视",
+            "name": "饺子｜秒播",
+            "type": 3,
+            "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tteo.jar",
+            "api": "csp_Jiaozi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
    {
       "key": "文才影视",
       "name": "《超清🔹秒播》",
