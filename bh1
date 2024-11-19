@@ -52,6 +52,17 @@
                         "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
                         "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
                        }},
+ {
+      "key": "4K在线看",
+      "name": "《秒播🔹4K资源》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/4kav.json"
+    },
 {"key": "热门短剧资源网",
 "name": "热门短剧",
 "type": 0,
