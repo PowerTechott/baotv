@@ -3,11 +3,11 @@
 	"sites":[
  {
       "key": "金牌影视",
-      "name": "《天微1🔹影视》",
+      "name": "《天微2🔹影视》",
       "type": 3,
       "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
       "api": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/%E9%87%91%E7%89%8C%E5%BD%B1%E8%A7%86.js"
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/金牌影视.js"
     },
  {
       "key": "hipy_js_腾云驾雾[官]",
