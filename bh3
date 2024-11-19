@@ -5,7 +5,7 @@
       "key": "hipy_js_腾云驾雾[官]",
       "name": "《免扫🔹藤4K》",
       "type": 3,
-      "api": "./lib/drpy2.js",
+      "api": "./lib/drpy_libs/drpy2.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
