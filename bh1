@@ -100,6 +100,18 @@
     "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#言情$yanqing#玄幻$xuanhuan",
     "播放数组": "<div class=\"sort-item\"&&</div>"}
 },
+   {
+      "key": "摸瓜子",
+      "name": "《摸瓜🔹秒播》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
+      "api": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/瓜子.js"
+    },
 {
     "key": "fxz真不卡",
     "name": "🍁不卡雲視",
