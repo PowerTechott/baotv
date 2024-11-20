@@ -106,6 +106,13 @@
       "changeable": 0,
       "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/guoguo.js"
     },
+  {
+      "key": "闪雷影视",
+      "name": "速播🔹闪雷",
+     "type": 3,
+      "api": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/闪雷影视.js"
+    },
 {"key": "热门短剧资源网",
 "name": "热门短剧",
 "type": 0,
