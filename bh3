@@ -1,6 +1,14 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+  {
+      "key": "闪雷影视",
+      "name": "雷电🔹秒播",
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/闪雷影视.js"
+    },
    {
       "key": "文才",
       "name": "《文采🔹秒播》",
