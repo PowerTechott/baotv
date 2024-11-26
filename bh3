@@ -4,7 +4,7 @@
 {"key": "红牛资网",
 "name": "红┃秒播",
 "type": 0,
-"api": "https://api.zuidapi.com/api.php/provide/vod/",
+"api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xml/",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
