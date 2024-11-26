@@ -2,7 +2,7 @@
 	"spider":"./pg1.jar",
 	"sites":[
 {"key": "红红资源网",
-"name": "红红1┃秒播",
+"name": "红红┃秒播",
 "type": 0,
 "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
 "searchable": 1,
@@ -335,7 +335,7 @@
 {"key": "红牛资源网",
 "name": "红牛1┃秒播",
 "type": 0,
-"api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+"api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnyun/at/xml/",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
