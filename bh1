@@ -1,6 +1,18 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+   {
+      "key": "文才影视",
+      "name": "《超清🔹秒播》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {"danmu": true}, 
+      "timeout": 10
+    },
 {"key": "高清资源网",
 "name": "视频┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/apijson.php",
@@ -53,18 +65,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-   {
-      "key": "文才影视",
-      "name": "《超清🔹秒播》",
-      "type": 3,
-      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {"danmu": true}, 
-      "timeout": 10
-    },
  {
       "key": "金牌影视",
       "name": "天金🔹影视",
