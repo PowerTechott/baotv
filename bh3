@@ -2,6 +2,14 @@
 	"spider":"./pg1.jar",
 	"sites":[
 {
+                       "key": "drpy_js_高清资源",
+                       "name": "优质高清┃影视",
+                       "type": 3,
+                       "api": "./lib/drpy2.min.js",
+                        "ext": "./lib/zyk.js",
+                       "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url="
+                        },
+{
     "key":"csp_XBPQ_zyk",
     "name":"🍁1080影视",
     "type":3,
