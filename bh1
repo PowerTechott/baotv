@@ -1,24 +1,6 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-{
-    "key":"csp_XBPQ_fxzcjy",
-    "name":"🍁柴姬影视",
-    "type":3,
-    "api":"csp_XBPQ",
-    "ext":"./lib/crjx.js"},
-   {
-      "key": "文才影视",
-      "name": "《超清🔹秒播》",
-      "type": 3,
-      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {"danmu": true}, 
-      "timeout": 10
-    },
 {"key": "高清资源网",
 "name": "视频┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/apijson.php",
@@ -61,6 +43,24 @@
 				"记录片"
                                  ]
 		                 },
+{
+    "key":"csp_XBPQ_fxzcjy",
+    "name":"🍁柴姬影视",
+    "type":3,
+    "api":"csp_XBPQ",
+    "ext":"./lib/crjx.js"},
+   {
+      "key": "文才影视",
+      "name": "《超清🔹秒播》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {"danmu": true}, 
+      "timeout": 10
+    },
   {
             "key": "饺子影视",
             "name": "饺子｜秒播",
