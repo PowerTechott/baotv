@@ -28,7 +28,6 @@
 			"changeable": 1},
 {"key":"色花堂",		"name":"色花堂",	 "type":3,	"api":"csp_XBPQ",	"ext":"./lib/色花堂.json"},
 {"key":"X先生",		"name":"X先生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/X先生.json"},
-{"key":"Y学生",		"name":"Y学生",		"type":3,	"api":"csp_XBPQ",	"ext":"./lib/gaoaa.json"},
 {
 			"key": "kunj",
 			"name": "kun┃资源",
