@@ -3,6 +3,15 @@
 "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
 "spider":"https://raw.githubusercontent.com/PowerTechott/baotv/main/lib/fuli.jar",
 "sites":[
+		{"key": "高清福利资源网",
+"name": "福利┃秒播","type": 1,
+"api": "https://api.1080zyku.com/inc/apijson.php",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
+"categories":["福利"]
+	},
 	{
 			"key": "老色逼",
 			"name": "老色逼┃资源",
