@@ -82,7 +82,7 @@
     },
                         { 
                         "key": "大师兄",  
-                        "name": "高清┃影视", 
+                        "name": "大师兄┃影视", 
                         "type": 3,
                         "api": "csp_XBPQ", 
                         "ext": {"简介":"PowerTech-+剧情介绍：&&</p >",
