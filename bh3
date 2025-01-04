@@ -2,8 +2,8 @@
 	"spider":"./pg1.jar",
 	"sites":[
 {
-            "key": "雨见视频",
-            "name": "雨见┃蓝光",
+            "key": "ibot视频",
+            "name": "ibot┃蓝光",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
