@@ -1,6 +1,21 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+{
+            "key": "雨见视频",
+            "name": "雨见┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "影片类型": "类型：&&</li>",
+                "简介": "🌈宝盒提醒您:请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
+                "分类url": "https://v.ikanbot.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
+            }
+},
 {"key": "高清2资源网",
 "name": "视频高清2┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/ldg_api_all.php",
