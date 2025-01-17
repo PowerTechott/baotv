@@ -46,17 +46,17 @@
                 "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
             }
 },
-{"key": "鸭鸭资源网",
-"name": "鸭鸭┃秒播","type": 1,
-"api": "https://cj2.yayazy.net/api.php/provide/vod/from/yym3u8",
+{"key": "U酷资源网",
+"name": "U酷┃秒播","type": 1,
+"api": "https://api.ukuapi88.com/api.php/provide/vod",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
 "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 "categories":[
                                 "国产剧",
-			        "港剧",
-                                "国产动漫",
+			        "港澳剧",
+                                "动漫",
 				"韩剧",
 				"欧美剧",
 				"日剧",
