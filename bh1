@@ -1,12 +1,6 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-{
-    "key":"XBPQ_fxzcjy",
-    "name":"PowerTech影视",
-    "type":3,
-    "api":"csp_XBPQ",
-    "ext":"./lib/crjx.js"},
 {"key": "高清资源网",
 "name": "视频┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/apijson.php",
@@ -50,6 +44,12 @@
 				"记录片"
                                  ]
 		                 },
+{
+    "key":"XBPQ_fxzcjy",
+    "name":"PowerTech影视/有分类选项",
+    "type":3,
+    "api":"csp_XBPQ",
+    "ext":"./lib/crjx.js"},
 {"key": "鸭鸭资源网",
 "name": "鸭鸭┃秒播","type": 1,
 "api": "https://cj2.yayazy.net/api.php/provide/vod/from/yym3u8",
