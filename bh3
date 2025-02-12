@@ -48,11 +48,11 @@
 },
 {"key": "天涯资源网",
 "name": "天猫┃秒播","type": 1,
-"api": "https://tyyszyapi.com/api.php/provide/vod/?ac=list",
+"api": "https://cj.rycjapi.com/api.php/provide/vod/",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
-"playurl": "https://tyyszywjx.com/?url=",
+"playurl": "https://www.ryplayer.com/?url=",
 "categories":[
                                 "国产剧",
 			        "港台剧",
