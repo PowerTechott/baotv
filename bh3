@@ -1,51 +1,6 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
-{
-        "key": "海兔",
-        "name": "海兔",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-           "请求头": "手机",
-            "主页url": "https://www.haituu.tv/",
-             "数组": "class=\"module-item\">&&</div>",
-
-            "图片": "src=\"&&\"",
-            "标题": "title=\"&&\"",
-
-            "链接": "",
-           "简介" :"class=\"video-info-item video-info-content vod_content\">&&</span>",
-
-            
-            "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
-            "线路标题": "<span>&&</small>[替换:</span><small>>>(共]+集)",
-             
-  "搜索url": "https://www.haituu.tv/vodsearch/{wd}-------------.html",
-  
-            "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
-            "分类url": "https://www.haituu.tv/vodshow/{cateId}--------{catePg}---.html",
-              "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/"
-        }
-    },
-{
-            "key": "ibot视频",
-            "name": "ibot┃蓝光",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "影片类型": "类型：&&</li>",
-                "简介": "🌈宝盒提醒您:请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
-                "分类url": "https://v.ikanbot.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
-            }
-},
 {"key": "天涯资源网",
 "name": "天猫┃秒播","type": 1,
 "api": "https://cj.rycjapi.com/api.php/provide/vod/",
@@ -55,8 +10,8 @@
 "playurl": "https://www.ryplayer.com/?url=",
 "categories":[
                                 "国产剧",
-			        "港台剧",
-                                "国产动漫",
+			        "香港剧",
+                                "动漫片",
 				"日韩剧",
 				"欧美剧",
 				"其他剧",				
@@ -148,6 +103,51 @@
 				"记录片"
                                  ]
 		                 },
+{
+        "key": "海兔",
+        "name": "海兔",
+        "type": 3,
+        "api": "csp_XBPQ",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+           "请求头": "手机",
+            "主页url": "https://www.haituu.tv/",
+             "数组": "class=\"module-item\">&&</div>",
+
+            "图片": "src=\"&&\"",
+            "标题": "title=\"&&\"",
+
+            "链接": "",
+           "简介" :"class=\"video-info-item video-info-content vod_content\">&&</span>",
+
+            
+            "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
+            "线路标题": "<span>&&</small>[替换:</span><small>>>(共]+集)",
+             
+  "搜索url": "https://www.haituu.tv/vodsearch/{wd}-------------.html",
+  
+            "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+            "分类url": "https://www.haituu.tv/vodshow/{cateId}--------{catePg}---.html",
+              "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/"
+        }
+    },
+{
+            "key": "ibot视频",
+            "name": "ibot┃蓝光",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "影片类型": "类型：&&</li>",
+                "简介": "🌈宝盒提醒您:请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
+                "分类url": "https://v.ikanbot.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#纪录片$27"
+            }
+},
 {"key": "红牛资网",
 "name": "红┃秒播",
 "type": 0,
