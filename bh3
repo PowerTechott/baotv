@@ -3,13 +3,13 @@
 	"sites":[
 {
             "key": "金牌1影视",
-            "name": "金牌｜影视",
+            "name": "金牌1｜影视",
             "type": 3,
             "api": "csp_WebJP",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar":"https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/spider.jar",
+            "jar":"https://github.com/PowerTechott/baotv/blob/main/lib/guot55.jar",
             "ext": "KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="
         },
 {"key": "天涯资源网",
