@@ -23,7 +23,7 @@
             "ext": {
                 "分类url": "https://www.trjvod.com/index.php/vod/show/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
                 "分类": "电影$1#电视剧$2#动漫$3#综艺$4#电视直播$5#儿童$6"
-            }
+            }},
 {
         "key": "海兔",
         "name": "TRJ|秒播",
