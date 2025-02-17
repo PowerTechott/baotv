@@ -165,6 +165,15 @@
         "欧美综艺"
       ]
     },
+   {
+			"key": "暴風资源",
+			"name": "大風┃秒播",
+			"type": 1,
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+			"searchable": 1,
+			"changeable": 1
+		        },
 {"key":"好好看",
 "name":"好好看|影视",
 "type":3,
