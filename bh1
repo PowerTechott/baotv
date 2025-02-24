@@ -328,7 +328,7 @@
 "api": "https://api.1080zyku.com/inc/apijson.php",
 "searchable": 1,
 "type": 1,
-"quickSearch": 1,
+"quickSearch": 2,
 "filterable": 1,
 "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 "categories":[
