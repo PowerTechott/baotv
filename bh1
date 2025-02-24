@@ -325,10 +325,10 @@
     },
 {"key": "高清影视资源网",
 "name": "视频影视┃秒播","type": 1,
-"api": "https://api.1080zyku.com/inc/apijson.php",
+"api": "https://api.yzzy-api.com/inc/apijson.php?ac=detail",
 "searchable": 1,
 "type": 1,
-"quickSearch": 2,
+"quickSearch": 1,
 "filterable": 1,
 "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 "categories":[
