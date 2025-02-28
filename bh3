@@ -123,12 +123,11 @@
       "timeout": 10
     },
 {"key": "高清1资源网",
-"name": "视频高清┃秒播","type": 1,
+"name": "视频高清1┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/apijson.php",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
-"playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 "categories":[
 "短剧大全",
 "福利",
