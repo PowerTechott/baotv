@@ -73,7 +73,7 @@
                                 "4K电影"]
 		        },
 {"key":"大米星球",
-"name":"PowerTech|影视",
+"name":"极速|蓝光",
 "jar":"https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/bhsk.jar",
 "type":3,"api":"csp_AppDaMi",
 "searchable":1,
