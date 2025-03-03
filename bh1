@@ -72,6 +72,13 @@
                         "categories":[
                                 "4K电影"]
 		        },
+{"key":"大米星球",
+"name":"PowerTech|影视",
+"jar":"https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/bhsk.jar",
+"type":3,"api":"csp_AppDaMi",
+"searchable":1,
+"quickSearch":1,"
+filterable":1},
 {"key": "木耳资源网",
 "name": "木耳┃微广","type": 1,
 "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list",
