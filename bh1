@@ -45,6 +45,14 @@
                                  ]
 		                 },
 {
+          "key": "预告",
+          "name": "2025新片｜预告片",
+          "type": 3,
+          "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
+          "api": "csp_YGP",
+          "searchable": 0
+      },
+{
             "key": "金牌影视",
             "name": "金星｜秒播",
             "type": 3,
