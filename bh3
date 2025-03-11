@@ -2053,9 +2053,7 @@
 {"name":"采集站广告","hosts":["vip.ffzy","hd.ffzy","vip.lz","hd.lz",".cdnlz","suonizy","bfzy"],"regex":["#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]},
                         {
 				"name": "磁力广告",
-				"hosts": [
-					"magnet"
-				],
+				"hosts": ["magnet"],
 				"regex": [
 					"更多",
 					"社 區",
@@ -2079,8 +2077,7 @@
                                         "币安",
                                         "微信",
                                         "无货源跨境电商平台"
-				]
-			},
+				]},
 {"host":"*","rule":["mp3"]},
 {"host":"*","rule":["m4a"]},
 {"host":"*","rule":["/m3u8.php?path=",".m3u8"]},
