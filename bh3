@@ -5,6 +5,7 @@
           "key": "预告",
           "name": "新片｜预告片",
           "type": 3,
+          "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
           "api": "csp_YGP",
           "searchable": 0
       },
