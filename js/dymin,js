@@ -1,0 +1,946 @@
+import cheerio from "assets://js/lib/cheerio.min.js";
+import "assets://js/lib/crypto-js.js";
+import "./jsencrypt.js";
+import "./node-rsa.js";
+import "./pako.min.js";
+import 模板 from "./模板.js";
+import {
+    gbkTool
+} from "./gbk.js";
+import "./json5.js";
+import "./jinja.js";
+const _jinja2 = cheerio.jinja2;
+cheerio.jinja2 = function(template, obj) {
+    try {
+        return jinja.render(template, obj)
+    } catch (e) {
+        console.log("新的jinja2库渲染失败,换回原始cheerio:" + e.message);
+        return _jinja2(template, obj)
+    }
+};
+let vercode = typeof pdfl === "function" ? "drpy2.1" : "drpy2";
+const VERSION = vercode + " 3.9.51beta6 20241126";
+const UpdateInfo = [{
+    date: "20241126",
+    title: "drpy更新，优化去广告算法",
+    version: "3.9.51beta6 20241126",
+    msg: `
+ 1. 更新龙头大佬提供的去广告算法  
+       `
+}, {
+    date: "20241104",
+    title: "drpy更新，增加新特性",
+    version: "3.9.51beta5 20241104",
+    msg: `
+ 1. rule增加 搜索验证标识 属性,可以不定义，默认为 '系统安全验证|请输入验证码' 
+ 2. rule增加 searchNoPage 属性，可以不定义，如果定义 1 将关闭该源的搜索翻页功能，超过1页直接返回空     
+       `
+}];
+
+function getUpdateInfo() {
+    return UpdateInfo.map(_o => {
+        _o.msg = _o.msg.trim().split("\n").map(_it => _it.trim()).join("\n");
+        return _o
+    })
+}
+
+function init_test() {
+    console.log("init_test_start");
+    console.log("当前版本号:" + VERSION);
+    console.log("本地代理地址:" + getProxyUrl());
+    console.log(RKEY);
+    console.log(JSON.stringify(rule));
+    console.log("init_test_end")
+}
+
+function ocr_demo_test() {
+    let img_base64 = `iVBORw0KGgoAAAANSUhEUgAAAIAAAAAoBAMAAADEX+97AAAAG1BMVEXz+/4thQTa7N6QwIFFkyNeokKozqDB3b93sWHFR+MEAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABN0lEQVRIie2TQU+DQBCFt9vScvQpxR4xrcSjJCZ67JDGXsX+AdR4B3vpsSYm/m2HXaRLmuySepR3Gdidb/btDAjRq5dT96eCMlfBuzi1QLZUoZy2yz5sOvI+9iomaPEZ6nWnEtxqIyiM1RcAy44GNDhBXUjot/VVNweV1ah68FqWRyjKIOqAcyYF6rGcmpYnHzGt3fycNoMw0d3/THFu7hFSJ/8OXO6iTM8/KSg09obAzIHLO250LgQ0txOZSfgrV4Exdw98uGycJ0ErAeExZGhOmFHV9zHO6qVSj0MpLq7xZON56o++MjlsEgfVhbQWWME+xQX7J4V6zfi9A1Ly9rP1BvEXp+BbVJ/M77n+wfOIDVp51pZ4iBxvmj9AGrtvry6emwfKnVkW+ZRKd5ZNMvob36vXP9YPDmQki8QiCFAAAAAASUVORK5CYII=`;
+    OcrApi.api = OCR_API;
+    let code = OcrApi.classification(img_base64);
+    log("测试验证码图片的ocr识别结果为:" + code)
+}
+
+function rsa_demo_test() {
+    let t1 = (new Date).getTime();
+    let pkcs1_public = `
+-----BEGIN RSA PUBLIC KEY-----
+MEgCQQCrI0pQ/ERRpJ3Ou190XJedFq846nDYP52rOtXyDxlFK5D3p6JJu2RwsKwy
+lsQ9xY0xYPpRZUZKMEeR7e9gmRNLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+`.trim();
+    let pkcs1_public_pem = `
+MEgCQQCrI0pQ/ERRpJ3Ou190XJedFq846nDYP52rOtXyDxlFK5D3p6JJu2RwsKwy
+lsQ9xY0xYPpRZUZKMEeR7e9gmRNLAgMBAAE=
+`.trim();
+    let pkcs8_public = `
+-----BEGIN PUBLIC KEY-----
+MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKsjSlD8RFGknc67X3Rcl50WrzjqcNg/
+nas61fIPGUUrkPenokm7ZHCwrDKWxD3FjTFg+lFlRkowR5Ht72CZE0sCAwEAAQ==
+-----END PUBLIC KEY-----`.trim();
+    let pkcs8_public_pem = `
+MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKsjSlD8RFGknc67X3Rcl50WrzjqcNg/
+nas61fIPGUUrkPenokm7ZHCwrDKWxD3FjTFg+lFlRkowR5Ht72CZE0sCAwEAAQ==
+`.trim();
+    let pkcs1_private = `
+-----BEGIN RSA PRIVATE KEY-----
+MIIBOAIBAAJBAKsjSlD8RFGknc67X3Rcl50WrzjqcNg/nas61fIPGUUrkPenokm7
+ZHCwrDKWxD3FjTFg+lFlRkowR5Ht72CZE0sCAwEAAQI/b6OV1z65UokQaMvSeRXt
+0Yv6wiYtduQI9qpq5nzy/ytaqsbBfClNTi/HifKPKxlRouWFkc518EQI8LBxoarJ
+AiEA4DaONMplV8PQNa3TKn2F+SDEvLOCjdL0kHKdN90Ti28CIQDDZnTBaHgZwZbA
+hS7Bbf5yvwjWMhO6Y7l04/Qm7R+35QIgPuQuqXIoUSD080mp1N5WyRW++atksIF+
+5lGv9e6GP/MCICnj8y/rl6Pd7tXDN6zcSeqLrfdNsREKhB3dKOCXgW9JAiAFYtFS
+EJNBXVRTK42SNsZ2hJ/9xLwOwnH2epT8Q43s3Q==
+-----END RSA PRIVATE KEY-----
+`.trim();
+    let pkcs8_private = `
+-----BEGIN PRIVATE KEY-----
+MIIBUgIBADANBgkqhkiG9w0BAQEFAASCATwwggE4AgEAAkEAqyNKUPxEUaSdzrtf
+dFyXnRavOOpw2D+dqzrV8g8ZRSuQ96eiSbtkcLCsMpbEPcWNMWD6UWVGSjBHke3v
+YJkTSwIDAQABAj9vo5XXPrlSiRBoy9J5Fe3Ri/rCJi125Aj2qmrmfPL/K1qqxsF8
+KU1OL8eJ8o8rGVGi5YWRznXwRAjwsHGhqskCIQDgNo40ymVXw9A1rdMqfYX5IMS8
+s4KN0vSQcp033ROLbwIhAMNmdMFoeBnBlsCFLsFt/nK/CNYyE7pjuXTj9CbtH7fl
+AiA+5C6pcihRIPTzSanU3lbJFb75q2SwgX7mUa/17oY/8wIgKePzL+uXo93u1cM3
+rNxJ6out902xEQqEHd0o4JeBb0kCIAVi0VIQk0FdVFMrjZI2xnaEn/3EvA7CcfZ6
+lPxDjezd
+-----END PRIVATE KEY-----
+`.trim();
+    let data = `
+NodeRsa
+这是node-rsa 现在修改集成在drpy里使用`.trim();
+    let encryptedWithPublic = NODERSA.encryptRSAWithPublicKey(data, pkcs1_public, {
+        outputEncoding: "base64",
+        options: {
+            environment: "browser",
+            encryptionScheme: "pkcs1_oaep"
+        }
+    });
+    console.log("公钥加密");
+    console.log(encryptedWithPublic);
+    let decryptedWithPrivate = NODERSA.decryptRSAWithPrivateKey(encryptedWithPublic, pkcs1_private, {
+        options: {
+            environment: "browser",
+            encryptionScheme: "pkcs1_oaep"
+        }
+    });
+    console.log("私钥解密");
+    console.log(decryptedWithPrivate);
+    let pkcs1_sha256_sign = NODERSA.sign("1", pkcs1_private, {
+        outputEncoding: "base64",
+        options: {
+            environment: "browser",
+            encryptionScheme: "pkcs1",
+            signingScheme: "pkcs1-sha256"
+        }
+    });
+    console.log("pkcs1_sha256_sign");
+    console.log(pkcs1_sha256_sign);
+    let pkcs1_sha256_sign_verify = NODERSA.verify("1", "Oulx2QrgeipKYBtqEDqFb2s/+ndk2cGQxO4CkhU7iBM1vyNmmvqubpsmeoUuN3waGrYZLknSEdwBkfv0tUMpFQ==", pkcs1_private, {
+        options: {
+            environment: "browser",
+            encryptionScheme: "pkcs1",
+            signingScheme: "pkcs1-sha256"
+        }
+    });
+    console.log("pkcs1_sha256_sign_verify");
+    console.log(pkcs1_sha256_sign_verify);
+    let pkcs1_oaep_sha256 = NODERSA.encryptRSAWithPublicKey(data, `-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEA5KOq1gRNyllLNWKQy8sGpZE3Q1ULLSmzZw+eaAhj9lvqn7IsT1du
+SYn08FfoOA2qMwtz+1O2l1mgzNoSVCyVpVabnTG+C9XKeZXAnJHd8aYA7l7Sxhdm
+kte+iymYZ0ZBPzijo8938iugtVvqi9UgDmnY3u/NlQDqiL5BGqSxSTd/Sgmy3zD8
+PYzEa3wD9vehQ5fZZ45vKIq8GNVh2Z8+IGO85FF1OsN7+b2yGJa/FmDDNn0+HP+m
+PfI+kYBqEVpo0Ztbc3UdxgFwGC8O1n8AQyriwHnSOtIiuBH62J/7qyC/3LEAApRb
+Dd9YszqzmODjQUddZKHmvc638VW+azc0EwIDAQAB
+-----END RSA PUBLIC KEY-----
+`, {
+        outputEncoding: "base64",
+        options: {
+            environment: "browser",
+            encryptionScheme: {
+                scheme: "pkcs1_oaep",
+                hash: "sha256"
+            }
+        }
+    });
+    console.log("pkcs1_oaep_sha256");
+    console.log(pkcs1_oaep_sha256);
+    decryptedWithPrivate = NODERSA.decryptRSAWithPrivateKey("kSZesAAyYh2hdsQnYMdGqb6gKAzTauBKouvBzWcc4+F8RvGd0nwO6mVkUMVilPgUuNxjEauHayHiY8gI3Py45UI3+km0rSGyHrS6dHiHgCkMejXHieglYzAB0IxX3Jkm4z/66bdB/D+GFy0oct5fGCMI1UHPjEAYOsazJDa8lBFNbjiWFeb/qiZtIx3vGM7KYPAZzyRf/zPbbQ8zy9xOmRuOl5nnIxgo0Okp3KO/RIPO4GZOSBA8f2lx1UtNwwrXAMpcNavtoqHVcjJ/9lcotXYQFrn5b299pSIRf2gVm8ZJ31SK6Z8cc14nKtvgnmsgClDzIXJ1o1RcDK+knVAySg==", `-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA5KOq1gRNyllLNWKQy8sGpZE3Q1ULLSmzZw+eaAhj9lvqn7Is
+T1duSYn08FfoOA2qMwtz+1O2l1mgzNoSVCyVpVabnTG+C9XKeZXAnJHd8aYA7l7S
+xhdmkte+iymYZ0ZBPzijo8938iugtVvqi9UgDmnY3u/NlQDqiL5BGqSxSTd/Sgmy
+3zD8PYzEa3wD9vehQ5fZZ45vKIq8GNVh2Z8+IGO85FF1OsN7+b2yGJa/FmDDNn0+
+HP+mPfI+kYBqEVpo0Ztbc3UdxgFwGC8O1n8AQyriwHnSOtIiuBH62J/7qyC/3LEA
+ApRbDd9YszqzmODjQUddZKHmvc638VW+azc0EwIDAQABAoIBADZ/QGgUzInvsLp/
+zO2WbfYm39o/uhNAvk9RbLt1TIZbMFhyOpeKynHi3Swwd9xsfWX/U9zS/lGi/m31
+iKrhmaW4OA1G3vqpMcK7TBbFufYwUEaA+ZJX344euH8pIfdzyneMQ4z3Far2dS7l
+QsmjuilVV2kEFadveXewiYoVOWCu00w6bN8wy2SIHlQn+kIL6HQhWz12iKKflIKu
+eGRdzLHsKmBt6WbY1Wuhx7HU0fAKdlBDPxCHNlI+kybUYE9o5C2vJiaVM5wqJBgZ
+8Dz8kt1QbLJ910JoLXkLVQ8uC8NJKQwFtqQjTGPnEq0+wbgz6Ij599rKZkwW/xq9
+l6KoUiECgYEA6Ah42tVdkNW047f03xVYXFH96RgorHRS36mR8Y+ONUq1fwKidovC
+WjwVujt4OPf3l1W6iyn/F6cu/bsmvPrSc3HTN0B1V31QK4OjgetxQ2PSbTldH02J
+NPzkt+v+cPxXpx/P5mgt7Weefw5txU547KubGrHUV5rBKFtIx9pj16MCgYEA/EF0
+o19+D24DZAPwlDS5VbEd7FStnwY4oQ5PqbuNOSbSJLMWU0AqzXcRokp8UTyCZ0X3
+ATkS1REq97kShCuR+npTR6a6DlY7sdpPI1SMLNajgB2tkx0EOzX+PfNIbHUd4jpJ
+I0ZMAHv/OOtkzQHDaeTWBTrzsWm6/nTiykfduNECgYEA46AMD4HpPECqKAs66e5i
+tI6q7JSKskObWVdcmQEfnSAhVOwcvPb2Ptda6UuV8S0xcwDi88rLOUUFUFzc79+P
+vTkY38cYVi/VChsluDpk7ptqv0PbGu5Rf+3n4pZdEjI7OvR2W64wAAn67uIUxc7p
+yiO/ET0K9rYWb6S9jXGtKMkCgYEA2kPAqoO7zZoBMQ7/oR0lp/HC1HRIbiqx4RlC
+8Lgpb+QZPEwA6zPAVVvLVENi4d+bbcRp/xLlKpraNNJcJSSWAMbLPFoU7sbKjA87
+HnTPfRSTEA2d3Ibk3F7Rh8TzS3Ti0JZiJjVzGZAwu41iAMifzwaD8K6boUy80eNN
+QH2CaaECgYBUsLYvC/MiYg3w+LGOONuQongoVUXjGqnw2bjVa9RK7lwRdXPUqJ51
+MpVO98IkoLvGSI/0sGNP3GKNhC+eMGjJAVwFyEuOn+JsmMv9Y9uStIVi5tIHIhKw
+m7mp8il0kaftHdSxTbspG3tZ2fjIiFIZkLEOmRpd7ogWumgOajzUdA==
+-----END RSA PRIVATE KEY-----`, {
+        options: {
+            environment: "browser",
+            encryptionScheme: "pkcs1_oaep"
+        }
+    });
+    console.log("decryptedWithPrivate");
+    console.log(decryptedWithPrivate);
+    (() => {
+        let key = new NODERSA.NodeRSA({
+            b: 1024
+        });
+        key.setOptions({
+            encryptionScheme: "pkcs1"
+        });
+        let text = `你好drpy node-ras`;
+        let encrypted = key.encrypt(text, "base64");
+        console.log("encrypted: ", encrypted);
+        const decrypted = key.decrypt(encrypted, "utf8");
+        console.log("decrypted: ", decrypted)
+    })();
+    let t2 = (new Date).getTime();
+    console.log("rsa_demo_test 测试耗时:" + (t2 - t1) + "毫秒")
+}
+
+function pre() {
+    if (typeof rule.预处理 === "string" && rule.预处理 && rule.预处理.trim()) {
+        let code = rule.预处理.trim();
+        console.log("执行预处理代码:" + code);
+        if (code.startsWith("js:")) {
+            code = code.replace("js:", "")
+        }
+        try {
+            eval(code)
+        } catch (e) {
+            console.log(`预处理执行失败:${e.message}`)
+        }
+    }
+}
+let rule = {};
+const MOBILE_UA = "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36";
+const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36";
+const UA = "Mozilla/5.0";
+const UC_UA = "Mozilla/5.0 (Linux; U; Android 9; zh-CN; MI 9 Build/PKQ1.181121.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.5.5.1035 Mobile Safari/537.36";
+const IOS_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1";
+const RULE_CK = "cookie";
+const CATE_EXCLUDE = "首页|留言|APP|下载|资讯|新闻|动态";
+const TAB_EXCLUDE = "猜你|喜欢|下载|剧情|榜|评论";
+const OCR_RETRY = 3;
+const OCR_API = "https://api.nn.ci/ocr/b64/text";
+if (typeof MY_URL === "undefined") {
+    var MY_URL
+}
+var HOST;
+var RKEY;
+var fetch;
+var print;
+var log;
+var rule_fetch_params;
+var fetch_params;
+var oheaders;
+var _pdfh;
+var _pdfa;
+var _pd;
+const DOM_CHECK_ATTR = /(url|src|href|-original|-src|-play|-url|style)$/;
+const SPECIAL_URL = /^(ftp|magnet|thunder|ws):/;
+const NOADD_INDEX = /:eq|:lt|:gt|:first|:last|^body$|^#/;
+const URLJOIN_ATTR = /(url|src|href|-original|-src|-play|-url|style)$|^(data-|url-|src-)/;
+const SELECT_REGEX = /:eq|:lt|:gt|#/g;
+const SELECT_REGEX_A = /:eq|:lt|:gt/g;
+const $js = {
+    toString(func) {
+        let strfun = func.toString();
+        return strfun.replace(/^\(\)(\s+)?=>(\s+)?\{/, "js:").replace(/\}$/, "")
+    }
+};
+
+function window_b64() {
+    let b64map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    let base64DecodeChars = new Array(-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, -1, -1, -1, 63, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -1, -1, -1, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1);
+
+    function btoa(str) {
+        var out, i, len;
+        var c1, c2, c3;
+        len = str.length;
+        i = 0;
+        out = "";
+        while (i < len) {
+            c1 = str.charCodeAt(i++) & 255;
+            if (i == len) {
+                out += b64map.charAt(c1 >> 2);
+                out += b64map.charAt((c1 & 3) << 4);
+                out += "==";
+                break
+            }
+            c2 = str.charCodeAt(i++);
+            if (i == len) {
+                out += b64map.charAt(c1 >> 2);
+                out += b64map.charAt((c1 & 3) << 4 | (c2 & 240) >> 4);
+                out += b64map.charAt((c2 & 15) << 2);
+                out += "=";
+                break
+            }
+            c3 = str.charCodeAt(i++);
+            out += b64map.charAt(c1 >> 2);
+            out += b64map.charAt((c1 & 3) << 4 | (c2 & 240) >> 4);
+            out += b64map.charAt((c2 & 15) << 2 | (c3 & 192) >> 6);
+            out += b64map.charAt(c3 & 63)
+        }
+        return out
+    }
+
+    function atob(str) {
+        var c1, c2, c3, c4;
+        var i, len, out;
+        len = str.length;
+        i = 0;
+        out = "";
+        while (i < len) {
+            do {
+                c1 = base64DecodeChars[str.charCodeAt(i++) & 255]
+            } while (i < len && c1 == -1);
+            if (c1 == -1) break;
+            do {
+                c2 = base64DecodeChars[str.charCodeAt(i++) & 255]
+            } while (i < len && c2 == -1);
+            if (c2 == -1) break;
+            out += String.fromCharCode(c1 << 2 | (c2 & 48) >> 4);
+            do {
+                c3 = str.charCodeAt(i++) & 255;
+                if (c3 == 61) return out;
+                c3 = base64DecodeChars[c3]
+            } while (i < len && c3 == -1);
+            if (c3 == -1) break;
+            out += String.fromCharCode((c2 & 15) << 4 | (c3 & 60) >> 2);
+            do {
+                c4 = str.charCodeAt(i++) & 255;
+                if (c4 == 61) return out;
+                c4 = base64DecodeChars[c4]
+            } while (i < len && c4 == -1);
+            if (c4 == -1) break;
+            out += String.fromCharCode((c3 & 3) << 6 | c4)
+        }
+        return out
+    }
+    return {
+        atob: atob,
+        btoa: btoa
+    }
+}
+if (typeof atob !== "function" || typeof btoa !== "function") {
+    var {
+        atob,
+        btoa
+    } = window_b64()
+}
+if (typeof Object.assign !== "function") {
+    Object.assign = function() {
+        let target = arguments[0];
+        for (let i = 1; i < arguments.length; i++) {
+            let source = arguments[i];
+            for (let key in source) {
+                if (Object.prototype.hasOwnProperty.call(source, key)) {
+                    target[key] = source[key]
+                }
+            }
+        }
+        return target
+    }
+}
+if (!String.prototype.includes) {
+    String.prototype.includes = function(search, start) {
+        if (typeof start !== "number") {
+            start = 0
+        }
+        if (start + search.length > this.length) {
+            return false
+        } else {
+            return this.indexOf(search, start) !== -1
+        }
+    }
+}
+if (!Array.prototype.includes) {
+    Object.defineProperty(Array.prototype, "includes", {
+        value: function(searchElement, fromIndex) {
+            if (this == null) {
+                throw new TypeError('"this" is null or not defined')
+            }
+            var o = Object(this);
+            var len = o.length >>> 0;
+            if (len === 0) {
+                return false
+            }
+            var n = fromIndex | 0;
+            var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+            while (k < len) {
+                if (o[k] === searchElement) {
+                    return true
+                }
+                k++
+            }
+            return false
+        },
+        enumerable: false
+    })
+}
+if (typeof String.prototype.startsWith !== "function") {
+    String.prototype.startsWith = function(prefix) {
+        return this.slice(0, prefix.length) === prefix
+    }
+}
+if (typeof String.prototype.endsWith !== "function") {
+    String.prototype.endsWith = function(suffix) {
+        return this.indexOf(suffix, this.length - suffix.length) !== -1
+    }
+}
+Object.defineProperty(Object.prototype, "myValues", {
+    value: function(obj) {
+        if (obj == null) {
+            throw new TypeError("Cannot convert undefined or null to object")
+        }
+        var res = [];
+        for (var k in obj) {
+            if (obj.hasOwnProperty(k)) {
+                res.push(obj[k])
+            }
+        }
+        return res
+    },
+    enumerable: false
+});
+if (typeof Object.prototype.values !== "function") {
+    Object.defineProperty(Object.prototype, "values", {
+        value: function(obj) {
+            if (obj == null) {
+                throw new TypeError("Cannot convert undefined or null to object")
+            }
+            var res = [];
+            for (var k in obj) {
+                if (obj.hasOwnProperty(k)) {
+                    res.push(obj[k])
+                }
+            }
+            return res
+        },
+        enumerable: false
+    })
+}
+if (typeof Array.prototype.join !== "function") {
+    Object.defineProperty(Array.prototype, "join", {
+        value: function(emoji) {
+            emoji = emoji || "";
+            let self = this;
+            let str = "";
+            let i = 0;
+            if (!Array.isArray(self)) {
+                throw String(self) + "is not Array"
+            }
+            if (self.length === 0) {
+                return ""
+            }
+            if (self.length === 1) {
+                return String(self[0])
+            }
+            i = 1;
+            str = this[0];
+            for (; i < self.length; i++) {
+                str += String(emoji) + String(self[i])
+            }
+            return str
+        },
+        enumerable: false
+    })
+}
+if (typeof Array.prototype.toReversed !== "function") {
+    Object.defineProperty(Array.prototype, "toReversed", {
+        value: function() {
+            const clonedList = this.slice();
+            const reversedList = clonedList.reverse();
+            return reversedList
+        },
+        enumerable: false
+    })
+}
+Object.defineProperty(Array.prototype, "append", {
+    value: Array.prototype.push,
+    enumerable: false
+});
+Object.defineProperty(String.prototype, "strip", {
+    value: String.prototype.trim,
+    enumerable: false
+});
+Object.defineProperty(String.prototype, "rstrip", {
+    value: function(chars) {
+        let regex = new RegExp(chars + "$");
+        return this.replace(regex, "")
+    },
+    enumerable: false
+});
+
+function 是否正版(vipUrl) {
+    let flag = new RegExp("qq.com|iqiyi.com|youku.com|mgtv.com|bilibili.com|sohu.com|ixigua.com|pptv.com|miguvideo.com|le.com|1905.com|fun.tv");
+    return flag.test(vipUrl)
+}
+
+function urlDeal(vipUrl) {
+    if (!vipUrl) {
+        return ""
+    }
+    if (!是否正版(vipUrl)) {
+        return vipUrl
+    }
+    if (!/miguvideo/.test(vipUrl)) {
+        vipUrl = vipUrl.split("#")[0].split("?")[0]
+    }
+    return vipUrl
+}
+
+function setResult(d) {
+    if (!Array.isArray(d)) {
+        return []
+    }
+    VODS = [];
+    d.forEach(function(it) {
+        let obj = {
+            vod_id: it.url || "",
+            vod_name: it.title || "",
+            vod_remarks: it.desc || "",
+            vod_content: it.content || "",
+            vod_pic: it.pic_url || it.img || ""
+        };
+        let keys = Object.keys(it);
+        if (keys.includes("tname")) {
+            obj.type_name = it.tname || ""
+        }
+        if (keys.includes("tid")) {
+            obj.type_id = it.tid || ""
+        }
+        if (keys.includes("year")) {
+            obj.vod_year = it.year || ""
+        }
+        if (keys.includes("actor")) {
+            obj.vod_actor = it.actor || ""
+        }
+        if (keys.includes("director")) {
+            obj.vod_director = it.director || ""
+        }
+        if (keys.includes("area")) {
+            obj.vod_area = it.area || ""
+        }
+        VODS.push(obj)
+    });
+    return VODS
+}
+
+function setResult2(res) {
+    VODS = res.list || [];
+    return VODS
+}
+
+function setHomeResult(res) {
+    if (!res || typeof res !== "object") {
+        return []
+    }
+    return setResult(res.list)
+}
+
+function rc(js) {
+    if (js === "maomi_aes.js") {
+        var a = CryptoJS.enc.Utf8.parse("625222f9149e961d");
+        var t = CryptoJS.enc.Utf8.parse("5efdtf6060e2o330");
+        return {
+            De: function(word) {
+                word = CryptoJS.enc.Hex.parse(word);
+                return CryptoJS.AES.decrypt(CryptoJS.enc.Base64.stringify(word), a, {
+                    iv: t,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                }).toString(CryptoJS.enc.Utf8)
+            },
+            En: function(word) {
+                var Encrypted = CryptoJS.AES.encrypt(word, a, {
+                    iv: t,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                return Encrypted.ciphertext.toString()
+            }
+        }
+    }
+    return {}
+}
+
+function maoss(jxurl, ref, key) {
+    fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
+    eval(getCryptoJS());
+    try {
+        var getVideoInfo = function(text) {
+            return CryptoJS.AES.decrypt(text, key, {
+                iv: iv,
+                padding: CryptoJS.pad.Pkcs7
+            }).toString(CryptoJS.enc.Utf8)
+        };
+        var token_key = key == undefined ? "dvyYRQlnPRCMdQSe" : key;
+        if (ref) {
+            var html = request(jxurl, {
+                headers: {
+                    Referer: ref
+                }
+            })
+        } else {
+            var html = request(jxurl)
+        }
+        if (html.indexOf("&btwaf=") != -1) {
+            html = request(jxurl + "&btwaf" + html.match(/&btwaf(.*?)"/)[1], {
+                headers: {
+                    Referer: ref
+                }
+            })
+        }
+        var token_iv = html.split('_token = "')[1].split('"')[0];
+        var key = CryptoJS.enc.Utf8.parse(token_key);
+        var iv = CryptoJS.enc.Utf8.parse(token_iv);
+        eval(html.match(/var config = {[\s\S]*?}/)[0] + "");
+        if (!config.url.startsWith("http")) {
+            config.url = CryptoJS.AES.decrypt(config.url, key, {
+                iv: iv,
+                padding: CryptoJS.pad.Pkcs7
+            }).toString(CryptoJS.enc.Utf8)
+        }
+        return config.url
+    } catch (e) {
+        return ""
+    }
+}
+
+function urlencode(str) {
+    str = (str + "").toString();
+    return encodeURIComponent(str).replace(/!/g, "%21").replace(/'/g, "%27").replace(/\(/g, "%28").replace(/\)/g, "%29").replace(/\*/g, "%2A").replace(/%20/g, "+")
+}
+
+function encodeUrl(str) {
+    if (typeof encodeURI == "function") {
+        return encodeURI(str)
+    } else {
+        str = (str + "").toString();
+        return encodeURIComponent(str).replace(/%2F/g, "/").replace(/%3F/g, "?").replace(/%3A/g, ":").replace(/%40/g, "@").replace(/%3D/g, "=").replace(/%3A/g, ":").replace(/%2C/g, ",").replace(/%2B/g, "+").replace(/%24/g, "$")
+    }
+}
+
+function base64Encode(text) {
+    return CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(text))
+}
+
+function base64Decode(text) {
+    return CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Base64.parse(text))
+}
+
+function md5(text) {
+    return CryptoJS.MD5(text).toString()
+}
+
+function uint8ArrayToBase64(uint8Array) {
+    let binaryString = String.fromCharCode.apply(null, Array.from(uint8Array));
+    return btoa(binaryString)
+}
+
+function Utf8ArrayToStr(array) {
+    var out, i, len, c;
+    var char2, char3;
+    out = "";
+    len = array.length;
+    i = 0;
+    while (i < len) {
+        c = array[i++];
+        switch (c >> 4) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+                out += String.fromCharCode(c);
+                break;
+            case 12:
+            case 13:
+                char2 = array[i++];
+                out += String.fromCharCode((c & 31) << 6 | char2 & 63);
+                break;
+            case 14:
+                char2 = array[i++];
+                char3 = array[i++];
+                out += String.fromCharCode((c & 15) << 12 | (char2 & 63) << 6 | (char3 & 63) << 0);
+                break
+        }
+    }
+    return out
+}
+
+function gzip(str) {
+    let arr = pako.gzip(str, {});
+    return uint8ArrayToBase64(arr)
+}
+
+function ungzip(b64Data) {
+    let strData = atob(b64Data);
+    const charData = strData.split("").map(function(x) {
+        return x.charCodeAt(0)
+    });
+    const binData = new Uint8Array(charData);
+    const data = pako.inflate(binData);
+    return Utf8ArrayToStr(data)
+}
+
+function encodeStr(input, encoding) {
+    encoding = encoding || "gbk";
+    if (encoding.startsWith("gb")) {
+        const strTool = gbkTool();
+        input = strTool.encode(input)
+    }
+    return input
+}
+
+function decodeStr(input, encoding) {
+    encoding = encoding || "gbk";
+    if (encoding.startsWith("gb")) {
+        const strTool = gbkTool();
+        input = strTool.decode(input)
+    }
+    return input
+}
+
+function getCryptoJS() {
+    return 'console.log("CryptoJS已装载");'
+}
+const RSA = {
+    decode: function(data, key, option) {
+        option = option || {};
+        if (typeof JSEncrypt === "function") {
+            let chunkSize = option.chunkSize || 117;
+            let privateKey = this.getPrivateKey(key);
+            const decryptor = new JSEncrypt;
+            decryptor.setPrivateKey(privateKey);
+            let uncrypted = "";
+            uncrypted = decryptor.decryptUnicodeLong(data);
+            return uncrypted
+        } else {
+            return false
+        }
+    },
+    encode: function(data, key, option) {
+        option = option || {};
+        if (typeof JSEncrypt === "function") {
+            let chunkSize = option.chunkSize || 117;
+            let publicKey = this.getPublicKey(key);
+            const encryptor = new JSEncrypt;
+            encryptor.setPublicKey(publicKey);
+            let encrypted = "";
+            encrypted = encryptor.encryptUnicodeLong(data);
+            return encrypted
+        } else {
+            return false
+        }
+    },
+    fixKey(key, prefix, endfix) {
+        if (!key.includes(prefix)) {
+            key = prefix + key
+        }
+        if (!key.includes(endfix)) {
+            key += endfix
+        }
+        return key
+    },
+    getPrivateKey(key) {
+        let prefix = "-----BEGIN RSA PRIVATE KEY-----";
+        let endfix = "-----END RSA PRIVATE KEY-----";
+        return this.fixKey(key, prefix, endfix)
+    },
+    getPublicKey(key) {
+        let prefix = "-----BEGIN PUBLIC KEY-----";
+        let endfix = "-----END PUBLIC KEY-----";
+        return this.fixKey(key, prefix, endfix)
+    }
+};
+
+function getProxyUrl() {
+    if (typeof getProxy === "function") {
+        return getProxy(true)
+    } else {
+        return "http://127.0.0.1:9978/proxy?do=js"
+    }
+}
+
+function fixAdM3u8(m3u8_text, m3u8_url, ad_remove) {
+    if (!m3u8_text && !m3u8_url || !m3u8_text && m3u8_url && !m3u8_url.startsWith("http")) {
+        return ""
+    }
+    if (!m3u8_text) {
+        log("m3u8_url:" + m3u8_url);
+        m3u8_text = request(m3u8_url)
+    }
+    log("len(m3u8_text):" + m3u8_text.length);
+    if (!ad_remove) {
+        return m3u8_text
+    }
+    if (ad_remove.startsWith("reg:")) {
+        ad_remove = ad_remove.slice(4)
+    } else if (ad_remove.startsWith("js:")) {
+        ad_remove = ad_remove.slice(3)
+    }
+    let m3u8_start = m3u8_text.slice(0, m3u8_text.indexOf("#EXTINF")).trim();
+    let m3u8_body = m3u8_text.slice(m3u8_text.indexOf("#EXTINF"), m3u8_text.indexOf("#EXT-X-ENDLIST")).trim();
+    let m3u8_end = m3u8_text.slice(m3u8_text.indexOf("#EXT-X-ENDLIST")).trim();
+    let murls = [];
+    let m3_body_list = m3u8_body.split("\n");
+    let m3_len = m3_body_list.length;
+    let i = 0;
+    while (i < m3_len) {
+        let mi = m3_body_list[i];
+        let mi_1 = m3_body_list[i + 1];
+        if (mi.startsWith("#EXTINF")) {
+            murls.push([mi, mi_1].join("&"));
+            i += 2
+        } else if (mi.startsWith("#EXT-X-DISCONTINUITY")) {
+            let mi_2 = m3_body_list[i + 2];
+            murls.push([mi, mi_1, mi_2].join("&"));
+            i += 3
+        } else {
+            break
+        }
+    }
+    let new_m3u8_body = [];
+    for (let murl of murls) {
+        if (ad_remove && new RegExp(ad_remove).test(murl)) {} else {
+            let murl_list = murl.split("&");
+            if (!murl_list[murl_list.length - 1].startsWith("http") && m3u8_url.startsWith("http")) {
+                murl_list[murl_list.length - 1] = urljoin(m3u8_url, murl_list[murl_list.length - 1])
+            }
+            murl_list.forEach(it => {
+                new_m3u8_body.push(it)
+            })
+        }
+    }
+    new_m3u8_body = new_m3u8_body.join("\n").trim();
+    m3u8_text = [m3u8_start, new_m3u8_body, m3u8_end].join("\n").trim();
+    return m3u8_text
+}
+
+function fixAdM3u8Ai(m3u8_url, headers) {
+    let ts = (new Date).getTime();
+    let option = headers ? {
+        headers: headers
+    } : {};
+
+    function b(s1, s2) {
+        let i = 0;
+        while (i < s1.length) {
+            if (s1[i] !== s2[i]) {
+                break
+            }
+            i++
+        }
+        return i
+    }
+
+    function reverseString(str) {
+        return str.split("").reverse().join("")
+    }
+    let m3u8 = request(m3u8_url, option);
+    m3u8 = m3u8.trim().split("\n").map(it => it.startsWith("#") ? it : urljoin(m3u8_url, it)).join("\n");
+    m3u8 = m3u8.replace(/\n\n/gi, "\n");
+    let last_url = m3u8.split("\n").slice(-1)[0];
+    if (last_url.length < 5) {
+        last_url = m3u8.split("\n").slice(-2)[0]
+    }
+    if (last_url.includes(".m3u8") && last_url !== m3u8_url) {
+        m3u8_url = urljoin2(m3u8_url, last_url);
+        log("嵌套的m3u8_url:" + m3u8_url);
+        m3u8 = request(m3u8_url, option)
+    }
+    let s = m3u8.trim().split("\n").filter(it => it.trim()).join("\n");
+    let ss = s.split("\n");
+    if (m3u8_url.indexOf("ffzy") > 0) {
+        let j = 0,
+            k1 = 0,
+            m = 0,
+            n = 0,
+            t = 0;
+        let s2 = "";
+        for (let i = 0; i < ss.length; i++) {
+            let s = ss[i];
+            let s1 = "";
+            if (s.startsWith("#EXTINF")) {
+                s1 = s.slice(8);
+                n++;
+                if (n == 1) k1 = i;
+                if (s2.indexOf(s1) == -1) {
+                    s2 = s2 + s1;
+                    m++
+                }
+                t = t + parseFloat(s1);
+                i++;
+                s = ss[i]
+            }
+            if (s.startsWith("#EXT-X-DISCONTINUITY")) {
+                if (n == 5) {
+                    log("n:" + n);
+                    log("m:" + m);
+                    for (let j = k1; j < k1 + n * 2; j++) {
+                        log(ss[j])
+                    }
+                    log("广告位置：" + k1);
+                    log("数据条数:" + n);
+                    log("数据种类:" + m);
+                    log("广告时间：" + t.toFixed(5));
+                    ss.splice(k1, 2 * n + 1);
+                    i = i - 2 * n + 1
+                }
+                t = 0;
+                m = 0;
+                n = 0;
+                s2 = ""
+            }
+        }
+    }
+    let firststr = "";
+    let maxl = 0;
+    let kk = 0;
+    let kkk1 = 1;
+    let kkk2 = 0;
+    let secondstr = "";
+    for (let i = 0; i < ss.length; i++) {
+        let s = ss[i];
+        if (!s.startsWith("#")) {
+            if (kk == 0) firststr = s;
+            if (kk > 0) {
+                if (maxl > b(firststr, s) + 1) {
+                    if (secondstr.length < 5) secondstr = s;
+                    kkk2++
+                } else {
+                    maxl = b(firststr, s);
+                    kkk1++
+                }
+            }
+            kk++;
+            if (kk >= 30) break
+        }
+    }
+    if (kkk2 > kkk1) firststr = secondstr;
+    let firststrlen = firststr.length;
+    let ml = Math.round(ss.length / 2).toString().length;
+    let maxc = 0;
+    let lastst
