@@ -14,7 +14,7 @@
           "name": "腾讯｜视频",
           "type": 3,
           "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
-          "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
+          "api": "./lib/drpy3.min.js",
           "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/tt.js"
       },
       {
