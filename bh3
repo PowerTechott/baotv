@@ -11,7 +11,7 @@
       },
 {
           "key": "腾讯弹幕",
-          "name": "腾讯｜弹幕",
+          "name": "腾讯｜视频",
           "type": 3,
           "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
           "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
@@ -19,7 +19,7 @@
       },
       {
           "key": "优酷弹幕",
-          "name": "优酷｜弹幕",
+          "name": "优酷｜视频",
           "type": 3,
           "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
           "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
@@ -27,7 +27,7 @@
       },
       {
           "key": "芒果弹幕",
-          "name": "芒果｜弹幕",
+          "name": "芒果｜TV",
           "type": 3,
           "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
           "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
@@ -35,7 +35,7 @@
       },
       {
           "key": "爱奇艺弹幕",
-          "name": "爱奇艺｜弹幕",
+          "name": "爱奇艺｜视频",
           "type": 3,
           "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
           "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
