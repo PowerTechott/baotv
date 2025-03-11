@@ -10,16 +10,8 @@
           "searchable": 0
       },
 {
-          "key": "腾讯",
-          "name": "腾讯3",
-          "type": 3,
-          "jar": "https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/spider.txt",
-          "api": "https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/JS/drpy2.min.js",
-          "ext": "https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/JS/腾讯弹幕.js"
-      },
-{
           "key": "腾讯弹幕",
-          "name": "腾讯｜视频1",
+          "name": "腾讯｜视频",
           "type": 3,
           "api": "./lib/drpy2.min.js",
           "ext": "./js/tt.js"
@@ -28,25 +20,22 @@
           "key": "优酷弹幕",
           "name": "优酷｜视频",
           "type": 3,
-          "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
-          "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
-          "ext": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/yk.js"
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/yk.js"
       },
       {
           "key": "芒果弹幕",
           "name": "芒果｜TV",
           "type": 3,
-          "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
-          "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
-          "ext": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/mg.js"
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/mg.js"
       },
       {
           "key": "爱奇艺弹幕",
           "name": "爱奇艺｜视频",
           "type": 3,
-          "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
-          "api": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/dymin.js",
-          "ext": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/aqy.js"
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/aqy.js""
       },
 {
             "key": "金牌1影视",
