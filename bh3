@@ -19,10 +19,10 @@
       },
 {
           "key": "腾讯弹幕",
-          "name": "腾讯｜视频",
+          "name": "腾讯｜视频1",
           "type": 3,
           "api": "./lib/drpy2.min.js",
-          "ext": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/js/tt.js"
+          "ext": "./js/tt.js"
       },
       {
           "key": "优酷弹幕",
