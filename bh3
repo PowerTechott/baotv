@@ -13,7 +13,7 @@
           "key": "腾讯",
           "name": "腾讯2",
           "type": 3,
-          "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
+          "jar": "https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/spider.txt",
           "api": "https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/JS/drpy2.min.js",
           "ext": "https://cdn09022024.gitlink.org.cn/api/v1/repos/guot55/bhmax/raw/JS/腾讯弹幕.js"
       },
