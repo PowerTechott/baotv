@@ -12,7 +12,7 @@
             "order_num": 0,
             "changeable": 0,
             "ext": "./js/腾讯4k.js",
-            "url": "https://jx.2s0.cn/player/?url="
+            "playurl": "https://jx.2s0.cn/player/?url="
             },
       {
           "key": "腾讯弹幕",
