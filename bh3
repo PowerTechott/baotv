@@ -5,7 +5,7 @@
       "key": "公众号powertech",
       "name": "4K┃线路",
       "type": 3,
-      "jar": "./jar/f.jar",
+      "jar": "./jar/YD.jar",
       "api": "csp_YDjisu",
       "searchable": 1,
       "changeable": 1
