@@ -20,6 +20,17 @@
       "quickSearch": 1,
       "filterable": 1
 	},
+{
+      "key": "py_jieyingshi",
+      "name": "界影视┃蓝光",
+      "type": 3,
+      "jar": "./jar/f.jar",
+      "api": "./js/jieyingshi.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
             {
             "key": "腾讯",
             "name": "腾讯4k",
