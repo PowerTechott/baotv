@@ -115,7 +115,7 @@ class Spider(Spider):
             'vod_area': data1['area'],
             'vod_director': data1['main_actor'],
             'vod_content': data1['video_desc'],
-            'vod_play_from': '🌈宝盒专享',
+            'vod_play_from': 'PowerTech专线',
             'vod_play_url': '#'.join(urls),
         }
         result = {
