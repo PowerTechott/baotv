@@ -1,6 +1,34 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+      {
+          "key": "腾讯弹幕",
+          "name": "腾讯｜视频",
+          "type": 3,
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/tt.js"
+      },
+      {
+          "key": "优酷弹幕",
+          "name": "优酷｜视频",
+          "type": 3,
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/yk.js"
+      },
+      {
+          "key": "芒果弹幕",
+          "name": "芒果｜TV",
+          "type": 3,
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/mg.js"
+      },
+      {
+          "key": "爱奇艺弹幕",
+          "name": "爱奇艺｜视频",
+          "type": 3,
+          "api": "./lib/drpy2.min.js",
+          "ext": "./js/aqy.js"
+      },
 {"key": "高清资源网",
 "name": "视频┃秒播","type": 1,
 "api": "https://api.1080zyku.com/inc/apijson.php",
