@@ -18,7 +18,7 @@
           "key": "腾讯弹幕",
           "name": "腾讯｜视频",
           "type": 3,
-          "api": "./lib/drpy2.min.js",
+          "api": "./js/drpy2.tt4k.js",
           "ext": "./js/tt.js"
       },
       {
@@ -32,14 +32,14 @@
           "key": "芒果弹幕",
           "name": "芒果｜TV",
           "type": 3,
-          "api": "./lib/drpy2.min.js",
+          "api": "./js/drpy2.tt4k.js",
           "ext": "./js/mg.js"
       },
       {
           "key": "爱奇艺弹幕",
           "name": "爱奇艺｜视频",
           "type": 3,
-          "api": "./lib/drpy2.min.js",
+          "api": "./js/drpy2.tt4k.js",
           "ext": "./js/aqy.js"
       },
           {
