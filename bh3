@@ -1,41 +1,13 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
-{
+          {
           "key": "预告",
           "name": "新片｜预告片",
           "type": 3,
           "jar": "https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/spider.txt",
           "api": "csp_YGP",
           "searchable": 0
-      },
-{
-          "key": "腾讯弹幕",
-          "name": "腾讯｜视频",
-          "type": 3,
-          "api": "./lib/drpy2.min.js",
-          "ext": "./js/tt.js"
-      },
-      {
-          "key": "优酷弹幕",
-          "name": "优酷｜视频",
-          "type": 3,
-          "api": "./lib/drpy2.min.js",
-          "ext": "./js/yk.js"
-      },
-      {
-          "key": "芒果弹幕",
-          "name": "芒果｜TV",
-          "type": 3,
-          "api": "./lib/drpy2.min.js",
-          "ext": "./js/mg.js"
-      },
-      {
-          "key": "爱奇艺弹幕",
-          "name": "爱奇艺｜视频",
-          "type": 3,
-          "api": "./lib/drpy2.min.js",
-          "ext": "./js/aqy.js"
       },
 {
             "key": "金牌1影视",
@@ -1917,7 +1889,7 @@
 			}
 		],
 		"rules":[
-{
+                        {
 				"name": "proxy",
 				"hosts": [
 					"raw.githubusercontent.com",
@@ -2148,7 +2120,7 @@
 {"name":"proxy","hosts":
 ["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com",
 "c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]}
-		],
+],
    "parses": [
       {
           "name": "臻享",
