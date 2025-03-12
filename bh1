@@ -2050,7 +2050,57 @@ filterable":1},
 			{"name":"26db","type":0,"url":"http://vip.26db.cn/g/?url="},
 			{"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="},
 			{"name":"FreeOK","type":0,"url":"https://play.86516.tk/OKPlayer/?url="},
-			{"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="}
+			{"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="},
+     {
+          "name": "线路1",
+          "type": 0,
+          "url": "https://www.8090g.cn/?url="
+      },
+      {
+          "name": "线路2",
+          "type": 0,
+          "url": "https://jx.m3u8.tv/jiexi/?url="
+      },
+      {
+          "name": "线路3",
+          "type": 0,
+          "url": "https://www.ckplayer.vip/jiexi/?url="
+      },
+      {
+          "name": "线路4",
+          "type": 0,
+          "url": "https://yparse.ik9.cc/index.php?url="
+      },
+      {
+          "name": "线路5",
+          "type": 0,
+          "url": "https://bd.jx.cn/?url="
+      },
+      {
+          "name": "线路6",
+          "type": 0,
+          "url": "https://jx.yparse.com/index.php?url="
+      },
+      {
+          "name": "线路7",
+          "type": 0,
+          "url": "https://jx.hls.one/?url="
+      },
+      {
+          "name": "线路8",
+          "type": 0,
+          "url": "https://pl.a6club.com/player/analysis.php?v="
+      },
+      {
+          "name": "线路9",
+          "type": 0,
+          "url": "https://jx.2s0.cn/player/?url="
+      },
+      {
+          "name": "线路10",
+          "type": 0,
+          "url": "https://jx.nnxv.cn/tv.php?url="
+      }
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 		"wallpaper": "https://g1o2.short.gy/pic1",
