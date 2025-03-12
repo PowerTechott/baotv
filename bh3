@@ -1,6 +1,16 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+   {
+      "key": "真心影视",
+      "name": "网心┃影视",
+      "type": 3,
+      "jar": "./jar/hezhi.jar",
+      "api": "csp_WebGZ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
         {
             "key": "站长影视",
             "name": "站长｜影视",
