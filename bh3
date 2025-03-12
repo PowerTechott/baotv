@@ -1,6 +1,19 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+            {
+            "key": "腾讯",
+            "name": "腾讯4k",
+            "type": 3,
+            "api": "./js/drpy2.tt4k.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "./js/腾讯4k.js",
+            "url": "https://jx.2s0.cn/player/?url="
+            },
       {
           "key": "腾讯弹幕",
           "name": "腾讯｜视频",
@@ -464,19 +477,6 @@
 {"key":"立播弹幕","name":"✨立播┃弹幕","type":3,"api":"csp_Libvio","searchable":1,"filterable":1,"changeable":1,
 "ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt",
 "uc_cookie":"http://127.0.0.1:9978/file/TVBox/uc.txt","danmu":true}},
-{
-            "key": "腾讯",
-            "name": "腾讯4k",
-            "type": 3,
-            "api": "./js/drpy2.tt4k.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "./js/腾讯4k.js",
- "          "url": "https://jx.2s0.cn/player/?url="
-        },
 {
             "key": "✨理理短剧✨",
             "name": "✨短剧✨甄选✨",
