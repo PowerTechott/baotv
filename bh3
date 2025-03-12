@@ -10,6 +10,16 @@
       "searchable": 1,
       "changeable": 1
     },
+{
+      "key": "hipy_js_hitv",
+      "name": "hitv┃视频",
+      "type": 3,
+      "jar": "./jar/f.jar",
+      "api": "./js/pyhitv.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+	},
             {
             "key": "腾讯",
             "name": "腾讯4k",
