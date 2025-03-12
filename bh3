@@ -25,7 +25,7 @@
           "key": "优酷弹幕",
           "name": "优酷｜视频",
           "type": 3,
-          "api": "./lib/drpy2.min.js",
+          "api": "./js/drpy2.tt4k.js",
           "ext": "./js/yk.js"
       },
       {
