@@ -2202,6 +2202,11 @@
 "c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]}
 ],
    "parses": [
+   {
+          "name": "秒播解析",
+          "type": 0,
+          "url": "https://jx.2s0.cn/player/?url="
+      },
 {
       "name": "解析聚合",
       "type": 3,
@@ -2222,11 +2227,6 @@
       "type": 0,
       "url": "https://lzplayer.tv/?url="
     },
-   {
-          "name": "秒播解析",
-          "type": 0,
-          "url": "https://jx.2s0.cn/player/?url="
-      },
     {
       "name": "解析1",
       "type": "1",
