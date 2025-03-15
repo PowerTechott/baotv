@@ -1822,7 +1822,7 @@ filterable":1},
 		        }],
 		       "lives":[
 			{
-				"name": "直播频道PowerTech",
+				"name": "点击换频道PowerTech",
 				"type": 0,
 				"url": "https://raw.githubusercontent.com/PowerTechott/baotv/main/movie.m3u",
 				"playerType": 1,
@@ -1839,6 +1839,15 @@ filterable":1},
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
+      {
+      "name": "MTVPowerTech",
+      "type": 0,
+      "url": "./js/MTV.txt",
+      "playerType": 2,
+      "ua": "okhttp/5.0.0-alpha.14",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      },
 			{
 				"name": "中国频道Chinese_live",
 				"type": 0,
