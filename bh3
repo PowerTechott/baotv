@@ -2207,12 +2207,12 @@
 ],
    "parses": [
       {
-          "name": "超级解析",
+          "name": "super",
           "type": 0,
           "url": "https://jx.2s0.cn/player/?url="
       },
       {
-          "name": "super",
+          "name": "超级解析",
           "type": 0,
           "url": "https://jx.2s0.cn/player/?url="
       }
