@@ -14,12 +14,12 @@
 			{
 				"name": "频道PowerTech",
 				"type": 0,
-				"url": "http://zya.anbox118.workers.dev/",
-				"playerType": 1,
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
+                                "url": "http://rihou.cc:567/gggg.nzk",
+                                "playerType": 2,
+                                "ua": "okhttp/5.0.0-alpha.14",
+                                "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+                                "logo": "https://epg.112114.xyz/logo/{name}.png"
+                       },
 			{
 				"name": "Chinese_live",
 				"type": 0,
