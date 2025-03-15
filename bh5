@@ -20,6 +20,15 @@
                                 "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
                                 "logo": "https://epg.112114.xyz/logo/{name}.png"
                        },
+    {
+      "name": "MTV",
+      "type": 0,
+      "url": "./js/MTV.txt",
+      "playerType": 2,
+      "ua": "okhttp/5.0.0-alpha.14",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 			{
 				"name": "Chinese_live",
 				"type": 0,
