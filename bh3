@@ -2207,14 +2207,14 @@
 ],
    "parses": [
       {
-          "name": "线路9",
+          "name": "超级解析",
           "type": 0,
           "url": "https://jx.2s0.cn/player/?url="
       },
       {
-          "name": "线路10",
+          "name": "super",
           "type": 0,
-          "url": "https://jx.nnxv.cn/tv.php?url="
+          "url": "https://jx.2s0.cn/player/?url="
       }
   ],
       "flags": [
