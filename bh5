@@ -12,9 +12,9 @@
 		        }],
 		       "lives":[
 			{
-				"name": "频道PowerTech",
+				"name": "点击换频道PowerTech",
 				"type": 0,
-                                "url": "http://rihou.cc:567/gggg.nzk",
+                                "url": "./js/VLI.txt",
                                 "playerType": 2,
                                 "ua": "okhttp/5.0.0-alpha.14",
                                 "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
