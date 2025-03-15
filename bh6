@@ -6,6 +6,7 @@
           "name": "腾讯｜视频",
           "type": 3,
           "api": "./lib/drpy2.min.js",
+          "playurl": "https://jx.2s0.cn/player/?url="
           "ext": "./js/tt.js"
       },
       {
