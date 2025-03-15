@@ -2207,7 +2207,7 @@
 ],
    "parses": [
       {
-          "name": "super",
+          "name": "Super",
           "type": 0,
           "url": "https://jx.2s0.cn/player/?url="
       },
