@@ -63,9 +63,13 @@
             "order_num": 0,
             "changeable": 0,
             "ext": "./js/腾讯4k.js",
-            "playurl": "https://jx.2s0.cn/player/?url="
-            },
-      {
+            "parses": [
+           {
+          "name": "线1",
+          "type": 0,
+          "url": "https://jx.2s0.cn/player/?url="
+          }]},
+         {
           "key": "腾讯弹幕",
           "name": "腾讯｜视频",
           "type": 3,
