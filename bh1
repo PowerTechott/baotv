@@ -2072,7 +2072,7 @@ filterable":1},
           "name": "超级解析",
           "type": 0,
           "url": "https://jx.2s0.cn/player/?url="
-      },
+      }
 		],
 		"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 		"wallpaper": "https://g1o2.short.gy/pic1",
