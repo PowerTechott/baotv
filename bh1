@@ -68,7 +68,7 @@
     "name":"PowerTech影视/有分类选项",
     "type":3,
     "api":"csp_XBPQ",
-    "ext":"./lib/crjx.js"},
+    "ext":"./lib/crjx1.js"},
 {
 			"key": "索尼资源",
 			"name": "4K电影┃资源 ",
