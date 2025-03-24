@@ -1,6 +1,13 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+{
+            "key": "面包影视",
+            "name": "面包｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./js/面包影视.json"
+        },
    {
       "key": "真心影视",
       "name": "网心┃影视",
