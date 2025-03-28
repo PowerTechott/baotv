@@ -66,7 +66,7 @@
 {
     "key":"XBPQ_fxzcjy",
     "name":"PowerTech影视/有分类选项",
-      "jar":"./jar/tbkj.jar",
+      "jar":"./jar/tvkj.jar",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
