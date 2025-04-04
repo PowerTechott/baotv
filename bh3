@@ -45,8 +45,8 @@
                                  ]
 		        },
 {"key": "高清资源网1",
-"name": "视1频┃秒播","type": 1,
-"api": "http://127.0.0.1:10079/p/0/proxy/https://api.1080zyku.com/inc/apijson.php",
+"name": "视2频┃秒播","type": 1,
+"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
