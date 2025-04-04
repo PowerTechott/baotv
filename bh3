@@ -3,11 +3,11 @@
 	"sites":[
 {"key": "高清资源网1",
 "name": "视1频┃秒播","type": 1,
-"api": "https://api.1080zyku.com/inc/apijson.php",
+"api": "http://127.0.0.1:10079/p/0/proxy/https://api.1080zyku.com/inc/apijson.php",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
-"playurl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+"playurl": "https://vip.vipuuvip.com/?url=",
 "categories":[
                                 "国产剧",
 			        "香港剧",
