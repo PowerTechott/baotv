@@ -80,6 +80,17 @@
       "filterable": 0,
       "changeable": 0
     },
+{
+      "key": "瓜子1",
+      "name": "瓜子🔹秒播",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
+      "api": "./lib/drpy2.min.js",
+       "ext": "./lib/瓜子视频.js"
+    },
                        {
 			"key": "索尼资源",
 			"name": "4K电影┃要求高网速",
