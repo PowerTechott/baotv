@@ -148,7 +148,7 @@
 		                 },
 {
             "key": "金牌影视",
-            "name": "金星｜秒播",
+            "name": "在线┃秒播",
             "type": 3,
             "api": "csp_WebJP",
             "searchable": 1,
@@ -159,7 +159,7 @@
         },
 {
     "key":"XBPQ_fxzcjy",
-    "name":"PowerTech影视/有分类选项",
+    "name":"PowerTech影视┃有分类选项",
       "jar":"./jar/tvkj.jar",
       "type": 3,
       "api": "csp_Xpg",
