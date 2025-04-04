@@ -91,6 +91,13 @@
       "api": "./lib/drpy2.min.js",
        "ext": "./lib/瓜子视频.js"
     },
+{
+            "key": "面包影视",
+            "name": "大棒｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./js/面包影视.json"
+        },
                        {
 			"key": "索尼资源",
 			"name": "4K电影┃要求高网速",
