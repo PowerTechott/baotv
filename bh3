@@ -45,12 +45,13 @@
                                  ]
 		        },
 {"key": "高清资源网1",
-"name": "视2频┃秒播","type": 1,
-"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+"name": "视3频┃秒播",
+"type": 1,
+"api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
-"playurl": "https://vip.vipuuvip.com/?url=",
+"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
 "categories":[
                                 "国产剧",
 			        "香港剧",
