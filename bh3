@@ -64,7 +64,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./lib/drpy2.min1.js",
+      "api": "./lib/drpy2.min.js",
        "ext": "./lib/瓜子视频.js"
     },
 {
