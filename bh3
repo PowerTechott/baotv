@@ -3,14 +3,14 @@
 	"sites":[
 {
       "key": "瓜子1",
-      "name": "《瓜子🔹秒播》",
+      "name": "《瓜子1🔹秒播》",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
       "api": "./lib/drpy2.min1.js",
-      "ext": "./lib/瓜子1.js"
+      "ext": "./lib/瓜子2.js"
     },
 {
             "key": "面包影视",
