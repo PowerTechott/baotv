@@ -2,6 +2,17 @@
 	"spider":"./pg1.jar",
 	"sites":[
 {
+      "key": "瓜子1",
+      "name": "《瓜子🔹秒播》",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/瓜子.js"
+    },
+{
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
