@@ -9,8 +9,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/瓜子.js"
+      "api": "./lib/drpy2.min1.js",
+      "ext": "./lib/瓜子1.js"
     },
 {
             "key": "面包影视",
