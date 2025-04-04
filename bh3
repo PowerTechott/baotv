@@ -44,6 +44,18 @@
 				"记录片"
                                  ]
 		                 },
+   {
+      "key": "摸瓜子",
+      "name": "《摸瓜🔹秒播》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/瓜子.js"
+    },
 {
       "key": "瓜子1",
       "name": "《瓜子1🔹秒播》",
