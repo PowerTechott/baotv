@@ -2066,6 +2066,22 @@
 					"8.8.8.8"
 				]
 			},
+	{
+				"name": "system,
+				"url": "https://dns.adguard.com/dns-query",
+				"ips": [
+					"94.140.14.140",
+					"94.140.14.141"
+				]
+			},
+	{
+				"name": "系统",
+				"url": "https://dns.adguard.com/dns-query",
+				"ips": [
+					"94.140.14.140",
+					"94.140.14.141"
+				]
+			},
 			{
 				"name": "Cloudflare",
 				"url": "https://cloudflare-dns.com/dns-query",
