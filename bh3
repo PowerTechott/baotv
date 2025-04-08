@@ -1,6 +1,16 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
+        {
+            "key": "洽洽影视",
+            "name": "洽洽┃瓜子",
+            "type": 3,
+            "api": "csp_AppGZ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
+        },
  {
 			"key": "暴風资源1",
 			"name": "大風1┃秒播",
