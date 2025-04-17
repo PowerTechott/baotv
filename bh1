@@ -81,6 +81,16 @@
       "changeable": 0
     },
 {
+      "key": "瓜子影视1080",
+      "name": "瓜子｜影视",
+      "type": 3,
+      "jar": "./jar/bhspider.jar",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
       "key": "瓜子1",
       "name": "瓜子🔹秒播",
       "type": 3,
