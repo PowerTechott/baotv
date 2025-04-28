@@ -1,9 +1,9 @@
                 {
 	"spider":"./pg1.jar",
 	"sites":[
-{
+      {
       "key": "7点影视",
-      "name": "柒点┃蓝光",
+      "name": "柒点1┃蓝光",
       "type": 3,
       "changeable": 1,
       "searchable": 1,
@@ -29,9 +29,8 @@
       "搜索链接": "class=\"btn-box\">\"&&\"</",
       "播放数组": "ewave-playlist-sort-content\"&&</ul>",
       "线路数组":"swiper-slide ewave-tab&&</li>",
-      "线路标题":">&&</em>"
-     }
-    },
+      "线路标题":">&&</em>"}
+        },
         {
             "key": "洽洽影视",
             "name": "洽洽┃瓜子",
@@ -2395,12 +2394,12 @@
       {
           "name": "Super",
           "type": 0,
-          "url": "https://jx.2s0.cn/player/?url="
+         "url":"https://jx.xmflv.com/?url="
       },
       {
           "name": "超级解析",
           "type": 0,
-          "url": "https://jx.2s0.cn/player/?url="
+         "url":"https://jx.xmflv.com/?url="
       }
   ],
       "flags": [
