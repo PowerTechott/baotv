@@ -104,7 +104,7 @@
     {
       "key": "金牌影视高清",
       "name": "金牌🔹秒播",
-      "jar":"./jar/tvkj.jar",
+      "jar":"./jar/tvkj2025.jar",
       "type": 3,
       "api": "./js/金牌影视.py",
       "searchable": 1,
