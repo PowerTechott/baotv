@@ -101,6 +101,20 @@
 				"记录片"
                                  ]
 		                 },
+    {
+      "key": "金牌影视高清",
+      "name": "金牌🔹秒播",
+      "jar":"./jar/tvkj.jar",
+      "type": 3,
+      "api": "./js/金牌影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+      }
+    },
       {
       "key": "7点影视",
       "name": "柒柒┃蓝光",
@@ -224,17 +238,6 @@
 				"记录片"
                                  ]
 		                 },
-{
-            "key": "金牌影视",
-            "name": "在线┃秒播",
-            "type": 3,
-            "api": "csp_WebJP",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar":"https://github.com/PowerTechott/baotv/raw/refs/heads/main/lib/guot55.jar",
-            "ext": "KhY021WelCEl+6MsvwnzaPusskysEhxc/i3d/FHwReBTtZTeDEVZJbQKKez3K+OxlrjAIMdUpAUxP8fGystYn0Hss098UFVR69Qm2ARgmeZN86q8Ww=="
-        },
 {
     "key":"XBPQ_fxzcjy",
     "name":"PowerTech影视┃有分类选项",
