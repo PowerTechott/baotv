@@ -101,101 +101,8 @@
 				"记录片"
                                  ]
 		                 },
-    {
-      "key": "金牌影视高清",
-      "name": "金牌🔹秒播",
-      "jar":"./jar/tvkj2025.jar",
-      "type": 3,
-      "api": "./js/金牌影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": {
-        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-      }
-    },
-      {
-      "key": "7点影视",
-      "name": "柒柒┃蓝光",
-      "type": 3,
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_XBPQ",
-      "ext": {
-      "数组":"<li&&</p>",
-      "链接": "href=\"&&\"",
-      "标题": "title=\"&&\"",
-      "图片": "data-original=\"&&\"",
-      "简介": "简介：&&</div>",
-      "副标题": "class=\"item-status text-overflow\">&&<",
-      "二次截取":"<ul class=\"row&&</ul",
-      "分类url": "https://www.7.movie/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-      "分类": "电影$20#剧集$21#动漫$22#综艺$23#短剧$24",
-      "地区": "中国大陆&大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&其他||中国大陆&大陆&香港&韩国&美国&日本&法国&英国&德国&台湾&泰国&印度&其他||大陆&日本&欧美&其他||大陆&韩国&香港&台湾&美国&其它||空",
-      "剧情": "Netflix&剧情&科幻&动作&喜剧&爱情&冒险&儿童&歌舞&音乐&奇幻&动画&恐怖&惊悚&战争&传记&纪录&犯罪&悬疑&西部&灾难&古装&武侠&家庭&短片&校园&文艺&运动&青春&同性&励志&历史||Netflix&欧美&短剧&古装&武侠&励志&家庭&剧情&喜剧&战争&科幻&惊悚&恐怖&悬疑&犯罪&动作&冒险&历史&同性||Netflix&热血&科幻&美少女&魔幻&经典&励志&少儿&冒险&搞笑&推理&恋爱&治愈&幻想&校园&动物&机战&亲子&儿歌&运动&悬疑&怪物&战争&益智&青春&童话&竞技&动作&社会&友情&真人版&电影版&OVA版&TV版&新番动画&完结动画||Netflix&脱口秀&真人秀&选秀&八卦&访谈&情感&生活&晚会&搞笑&音乐&时尚&游戏&少儿&体育&纪实&科教&曲艺&歌舞&财经&汽车&播报&其他||古代&现代&穿越&玄幻&霸总&英雄救美&未婚妻&师姐&绝美&逆袭&美女&爱情&甜宠&虐恋&爽剧&搞笑&情感&动漫&萌宝",
-      "搜索数组": "<a&&</a>",
-      "搜索二次截取": "<ul class=\"ewave-page&&href\"&&\">",
-      "搜索": "https://www.7.movie/vodsearch/-------------.html?wd={wd}",
-      "搜索图片": "class=\"pic\">*data-original=\"&&\"",
-      "搜索链接": "class=\"btn-box\">\"&&\"</",
-      "播放数组": "ewave-playlist-sort-content\"&&</ul>",
-      "线路数组":"swiper-slide ewave-tab&&</li>",
-      "线路标题":">&&</em>"}
-        },
-      {
-      "key": "hipy_js_hitv",
-      "name": "hitv┃视频",
-      "type": 3,
-      "jar": "./jar/f.jar",
-      "api": "./js/pyhitv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-	},
-       {
-      "key": "py_jieyingshi",
-      "name": "界影视┃蓝光",
-      "type": 3,
-      "jar": "./jar/f.jar",
-      "api": "./js/jieyingshi.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-{
-      "key": "瓜子影视1080",
-      "name": "瓜子🔹秒播",
-      "type": 3,
-      "jar": "./jar/bhspider.jar",
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-{
-            "key": "面包影视",
-            "name": "大棒｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./js/面包影视.json"
-        },
-                       {
-			"key": "索尼资源",
-			"name": "4K电影┃要求高网速",
-			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-			"searchable": 1,
-			"changeable": 1,
-                        "categories":[
-                                "4K电影"]
-		        },
 {"key": "高清资源网",
-"name": "视频┃秒播┃微广",
+"name": "视频┃秒播",
 "type": 1,
 "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
 "searchable": 1,
@@ -238,6 +145,70 @@
 				"记录片"
                                  ]
 		                 },
+    {
+      "key": "金牌影视高清",
+      "name": "金牌🔹秒播",
+      "jar":"./jar/tvkj2025.jar",
+      "type": 3,
+      "api": "./js/金牌影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+      }
+    },
+       {
+      "key": "py_jieyingshi",
+      "name": "界影视┃蓝光",
+      "type": 3,
+      "jar": "./jar/f.jar",
+      "api": "./js/jieyingshi.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+{
+      "key": "瓜子影视1080",
+      "name": "瓜子🔹秒播",
+      "type": 3,
+      "jar": "./jar/bhspider.jar",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+            "key": "面包影视",
+            "name": "大棒｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./js/面包影视.json"
+        },
+                       {
+			"key": "索尼资源",
+			"name": "4K电影┃要求高网速",
+			"type": 1,
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://suoniapi.com/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+			"searchable": 1,
+			"changeable": 1,
+                        "categories":[
+                                "4K电影"]
+ },
+ {
+      "key": "4K在线看",
+      "name": "《🔹4K资源┃要求高网速》",
+      "type": 3,
+      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/4kav.json"
+    },
 {
     "key":"XBPQ_fxzcjy",
     "name":"PowerTech影视┃有分类选项",
@@ -298,14 +269,6 @@
           "api": "./js/drpy2.tt4k.js",
           "ext": "./js/aqy.js"
       },
-{"key":"大米星球",
-"name":"极速|蓝光",
-"jar":"https://github.com/PowerTechott/baotv/raw/refs/heads/main/jar/bhsk.jar",
-"type":3,"api":"csp_AppDaMi",
-"searchable":1,
-"quickSearch":1,"
-filterable":1
-},
 {
 "key": "木耳资源网",
 "name": "木耳┃微广","type": 1,
@@ -402,15 +365,6 @@ filterable":1
                                  ]
 		                 },
 {
-            "key": "木头",
-            "name": "木木｜秒播",
-            "type": 3,
-            "api": "csp_Shark",
-            "playerType": 1,
-            "jar":"https://github.com/PowerTechott/baotv/raw/refs/heads/main/lib/guot55.jar",
-            "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
-        },
-{
       "key": "cjzy_极速",
       "name": "🚀极速┃秒播┃微广",
       "type": 1,
@@ -447,50 +401,6 @@ filterable":1
         "欧美综艺"
       ]
     },
-   {
-			"key": "暴風资源",
-			"name": "大風┃秒播",
-			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
-			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-			"searchable": 1,
-			"changeable": 1,
-                        "categories":[
-                                "国产剧",
-			        "香港剧",
-                                "国产动漫",
-                                "短剧",
-				"韩国剧",
-				"欧美剧",
-				"日本剧",
-				"台湾剧",
-				"海外剧",
-				"泰国剧",
-				"大陆综艺",
-				"港台综艺",
-				"日韩综艺",
-				"欧美综艺",
-				"国产动漫",
-				"日韩动漫",
-				"欧美动漫",
-				"港台动漫",
-                                "动作片",
-                                "喜剧片",
-                                "爱情片",
-                                "科幻片",
-                                "恐怖片",
-                                "剧情片",
-                                "战争片",
-                                "灾难片",
-                                "犯罪片",
-                                "悬疑片",
-                                "惊悚片",
-                                "奇幻片",
-                                "冒险片",
-                                "武侠片",
-				"记录片"
-                                 ]
-		        },
 {"key": "如意资源网",
 "name": "天猫┃秒播┃微广",
 "type": 1,
@@ -534,12 +444,50 @@ filterable":1
 				"记录片"
                                  ]
 		                 },
-{
-    "key":"csp_XBPQ_fxzcjy",
-    "name":"🍁柴姬影视",
-    "type":3,
-    "api":"csp_XBPQ",
-    "ext":"./lib/crjx2.js"},
+                        {
+			"key": "暴風资源",
+			"name": "大風┃秒播",
+			"type": 1,
+			"api": "http://127.0.0.1:10079/p/0/proxy/https://bfzyapi.com/api.php/provide/vod?",
+			"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+			"searchable": 1,
+			"changeable": 1,
+                        "categories":[
+                                "国产剧",
+			        "香港剧",
+                                "国产动漫",
+                                "短剧",
+				"韩国剧",
+				"欧美剧",
+				"日本剧",
+				"台湾剧",
+				"海外剧",
+				"泰国剧",
+				"大陆综艺",
+				"港台综艺",
+				"日韩综艺",
+				"欧美综艺",
+				"国产动漫",
+				"日韩动漫",
+				"欧美动漫",
+				"港台动漫",
+                                "动作片",
+                                "喜剧片",
+                                "爱情片",
+                                "科幻片",
+                                "恐怖片",
+                                "剧情片",
+                                "战争片",
+                                "灾难片",
+                                "犯罪片",
+                                "悬疑片",
+                                "惊悚片",
+                                "奇幻片",
+                                "冒险片",
+                                "武侠片",
+				"记录片"
+                                 ]
+		                },
    {
       "key": "文才影视",
       "name": "《超清🔹秒播》",
@@ -579,19 +527,8 @@ filterable":1
                         "分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
                         "分类":"电视剧$2#电影$1#动漫$4#综艺$3"
                        }},
- {
-      "key": "4K在线看",
-      "name": "《秒播🔹4K资源》",
-      "type": 3,
-      "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/4kav.json"
-    },
 {"key": "高清影视资源网",
-"name": "视频影视┃秒播┃微广",
+"name": "视频影视┃秒播",
 "type": 1,
 "api": "https://api.yzzy-api.com/inc/apijson.php?ac=detail",
 "searchable": 1,
@@ -655,17 +592,6 @@ filterable":1
 "悬疑","家国情仇","虐恋","古装","时空之旅","玄幻仙侠","欢喜冤家","传承觉醒","情感","逆袭","家庭"
                   ]
 		  },
-{
-    "key": "你好帅",
-    "name": "好帅短剧",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "ext": {
-    "副标题":"✨+pic-text text-right\"&&</span>",
-    "分类url": "https://nhsyy.com/vodshwo/{cateId}--{by}------{catePg}---.html",
-    "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#言情$yanqing#玄幻$xuanhuan",
-    "播放数组": "<div class=\"sort-item\"&&</div>"}
-},
    {
       "key": "摸瓜子",
       "name": "《摸瓜🔹秒播》",
@@ -690,35 +616,6 @@ filterable":1
       "order_num": 0,
       "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/低端.js"
     },
-{
-    "key": "fxz真不卡",
-    "name": "🍁不卡雲視",
-    "type": 3,
-    "api": "csp_XBPQ",
-    "ext":{
-    "主页url": "https://www.bkyb.net/",
-    "简介": "+detail-sketch\">&&<a class=\"detail-more",
-    "导演": "导演：&&</p>",
-    "主演": "主演：&&</p>",
-    "影片状态": "更新：&&</p>",
-    "影片类型": "类型：</span>&&</span>",
-    "影片地区": "地区：&&</a>",
-    "影片年代": "年份：&&</a>",
-    "数组": "stui-vodlist__thumb&&</a>",
-    "标题": "title=\"&&\"",
-    "副标题": "✨+pic-text text-right\"&&</span>",
-    "图片": "data-original=\"&&\"",
-    "链接": "href=\"&&\"",
-    "搜索模式": "0",
-    "搜索后缀": "/zbkdetail/",
-    "线路数组": "<span class=\"more&&</div>[不包含:W云#S云]",
-    "线路标题": "PowerTech专线+>&&</h3>[替换:稳定高清>>#高速线路>>]",
-    "播放数组": "column8 clearfix\">&&</ul>",
-    "播放标题": ">&&<",
-    "播放列表": "<a&&/a>",
-    "分类url": "https://www.bkyb.net/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;ak",
-    "分类": "电影$1#电视剧$2#综艺$3#动漫$4"}
-},
 {
             "key": "站长影视",
             "name": "长城｜影视",
