@@ -1,6 +1,20 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+{
+      "key": "人人",
+      "name": "📛人人┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.xiaohys.com",
+        "dataKey": "ENonBHeVBoYZhVUV",
+        "dataIv": "ENonBHeVBoYZhVUV",
+        "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
+        "version": "166"
+      }
+    },
       {
       "key": "7点影视",
       "name": "柒点1┃蓝光",
