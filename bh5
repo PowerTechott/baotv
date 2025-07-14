@@ -15,7 +15,7 @@
             "key": "采集之王",
             "name": "采集┃合集",
             "type": 3,
-            "api": "./js/drpy2.min.js",
+            "api": "./js/lib/drpy2.min.js",
             "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json$1$1"
         },
        {
