@@ -1,6 +1,30 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+    {
+      "key": "jieyingshi",
+      "name": "界影视┃蓝光",
+      "type": 3,
+      "api": "./js/jieyingshi.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+{
+            "key": "采集之王",
+            "name": "采集┃合集",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json$1$1"
+        },
+       {
+            "key": "爱弹幕",
+            "name": "爱弹幕┃动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱弹幕.js"
+        },
 {
       "key": "人人",
       "name": "📛人人┃弹幕",
