@@ -170,6 +170,24 @@
       "filterable": 1
     },
 {
+      "key": "jieyingshi",
+      "name": "界影视┃蓝光",
+      "jar":"./jar/spiderbh.jar",
+      "type": 3,
+      "api": "./js/jieyingshi.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+    },
+       {
+            "key": "爱弹幕",
+            "name": "日美番┃动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱弹幕.js"
+        },
+{
             "key": "88视",
             "name": "奈飞-影视",
             "type": 3,
