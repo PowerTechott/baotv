@@ -133,7 +133,7 @@ class Spider(Spider):
                 'vod_actor': i['vodActor'],
                 'vod_director': i['vodDirector'],
                 'vod_content': i['vodContent'],
-                'vod_play_from': 'PowerTech专用',
+                'vod_play_from': '🌈宝盒专享',
                 'vod_play_url': '#'.join(urls),
 
             }
@@ -147,14 +147,14 @@ class Spider(Spider):
         info = play.split('-')
         _id = info[0]
         _pid = info[1]
-        url = self.home_url + f'/api/mw-movie/anonymous/v1/video/episode/url?id={_id}&nid={_pid}'
+        url = self.home_url + f'/api/mw-movie/anonymous/v2/video/episode/url?id={_id}&nid={_pid}'
         t = str(int(time.time() * 1000))
         headers = self.get_headers(t, f'id={_id}&nid={_pid}&key=cb808529bae6b6be45ecfab29a4889bc&t={t}')
         try:
             res = requests.get(url, headers=headers)
             if res.status_code != 200:
                 return self.error_url
-            return res.json()['data']['playUrl']
+            return res.json()['data']['list'][0]['url']
         except requests.RequestException as e:
             print(e)
         return self.error_url
