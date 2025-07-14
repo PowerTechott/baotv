@@ -4,6 +4,7 @@
     {
       "key": "jieyingshi",
       "name": "界影视┃蓝光",
+      "jar":"./jar/spiderbh.jar",
       "type": 3,
       "api": "./js/jieyingshi.py",
       "searchable": 1,
@@ -14,6 +15,7 @@
 {
             "key": "采集之王",
             "name": "采集┃合集",
+            "jar":"./jar/spiderbh.jar",
             "type": 3,
             "api": "./js/lib/drpy2.min.js",
             "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json$1$1"
