@@ -1,6 +1,17 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+{
+      "key": "视频库",
+      "name": "✅视频库┃影视大全",
+      "jar":"./jar/spidervhup.jar",
+      "type": 3,
+      "api": "csp_WebVidHub",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://vidhub1.cc"
+    },
     {
       "key": "jieyingshi",
       "name": "界影视┃蓝光",
