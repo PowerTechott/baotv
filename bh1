@@ -59,6 +59,17 @@
 				"都市脑洞"
                                  ]
 		        },
+      {
+      "key": "视频库",
+      "name": "视频库┃影视大全",
+      "jar":"./jar/spidervhup.jar",
+      "type": 3,
+      "api": "csp_WebVidHub",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://vidhub1.cc"
+      },
 {"key": "360资源zy",
 "name": "三菱┃秒播",
 "type": 0,
