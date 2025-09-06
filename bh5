@@ -1,6 +1,15 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+    {
+      "key": "公众号",
+      "name": "4K┃线路",
+      "type": 3,
+      "jar": "./jar/YD.jar",
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
 {
       "key": "视频库",
       "name": "✅视频库┃影视大全",
