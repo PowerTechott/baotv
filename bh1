@@ -70,6 +70,15 @@
       "filterable": 0,
       "ext": "https://vidhub1.cc"
       },
+{
+      "key": "公众号1",
+      "name": "4K┃线路",
+      "type": 3,
+      "jar": "./jar/YD.jar",
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
 {"key": "360资源zy",
 "name": "三菱┃秒播",
 "type": 0,
