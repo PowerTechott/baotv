@@ -3,13 +3,13 @@
 	"sites":[
 {
       "key": "修罗2",
-      "name": "《修罗🔹秒播》",
+      "name": "《修罗1🔹秒播》",
       "type": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./js/dZhi_biliys.js"
+      "api": "./js/Zhi_biliys.js"
     },
     {
       "key": "公众号",
