@@ -1,6 +1,16 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+{
+      "key": "修罗2",
+      "name": "《修罗🔹秒播》",
+      "type": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": "1",
+      "api": "./js/dZhi_biliys.js"
+    },
     {
       "key": "公众号",
       "name": "4K┃线路",
