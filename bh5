@@ -32,7 +32,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./json/哔哩视频.json",
+        "json": "./js/哔哩视频.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       }
     },
