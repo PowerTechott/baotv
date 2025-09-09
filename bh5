@@ -1,30 +1,22 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
-{
-      "key": "光影",
-      "name": "☀光影🔹影视",
-      "jar": "./jar/tvkj.jar",
+   {
+      "key": "加菲",
+      "name": "☀加菲🔹弹幕",
+      "jar": "./jar/tvkj1.jar",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "csp_AppQi",
       "ext": {
-        "url": "https://www.guangyingmi.com",
-        "dataKey": "230fnsodfsdhfon2",
-        "dataIv": "230fnsodfsdhfon2",
+        "url": "",
+        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+        "dataKey": "dksvndkaAjekakcE",
+        "dataIv": "dksvndkaAjekakcE",
         "deviceId": "",
-        "version": ""
+        "version": "",
+        "ua": ""
       }
-    },
-  {
-      "key": "修罗影视",
-      "name": "☀修罗🔹磁力",
-      "type": 3,
-      "api": "csp_HBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/修罗影视.json"
     },
     {
       "key": "公众号",
