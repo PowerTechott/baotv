@@ -191,6 +191,23 @@
       "filterable": 0,
       "changeable": 0
     },
+  {
+      "key": "加菲",
+      "name": "蓝光🔹超清",
+      "jar": "./jar/tvkj1.jar",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "",
+        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+        "dataKey": "dksvndkaAjekakcE",
+        "dataIv": "dksvndkaAjekakcE",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
        {
             "key": "爱弹幕",
             "name": "日美番┃动漫",
