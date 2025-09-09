@@ -2,14 +2,28 @@
 	"spider":"./pg1.jar",
 	"sites":[
 {
-      "key": "修罗2",
-      "name": "《修罗1🔹秒播》",
-      "type": 2,
+      "key": "光影",
+      "name": "☀光影🔹影视",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.guangyingmi.com",
+        "dataKey": "230fnsodfsdhfon2",
+        "dataIv": "230fnsodfsdhfon2",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+  {
+      "key": "修罗影视",
+      "name": "☀修罗🔹磁力",
+      "type": 3,
+      "api": "csp_HBPQ",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "./js/Zhi_biliys.js"
+      "filterable": 1,
+      "ext": "./json/修罗影视.json"
     },
     {
       "key": "公众号",
