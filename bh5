@@ -1,6 +1,17 @@
         {
 	"spider":"./pg1.jar",
 	"sites":[
+ {
+      "key": "闪影",
+      "name": "☀闪影🔹4K源",
+      "type": 3,
+      "jar": "./jar/tvkj1.jar",
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+    },
    {
       "key": "云云",
       "name": "☀小云🔹4k源",
