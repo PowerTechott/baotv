@@ -2,6 +2,41 @@
 	"spider":"./pg1.jar",
 	"sites":[
    {
+      "key": "云云",
+      "name": "☀小云🔹4k源",
+      "jar": "./jar/tvkj1.jar",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "",
+        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+   {
+      "key": "哔哩视频",
+      "name": "☀哔哩🔹视频",
+      "jar": "./jar/tvkj1.jar",
+      "type": 3,
+      "api": "csp_BiliYS",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/哔哩视频.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+      }
+    },
+   {
       "key": "加菲",
       "name": "☀加菲🔹弹幕",
       "jar": "./jar/tvkj1.jar",
