@@ -4,6 +4,7 @@
 {
       "key": "光影",
       "name": "☀光影🔹影视",
+      "jar": "./jar/tvkj.jar",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
