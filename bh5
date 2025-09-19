@@ -4,7 +4,7 @@
 {
     "key":"XBPQ_",
     "name":"影视TV",
-      "jar":"./jar/tvkj.jar",
+      "jar":"./jar/tvkj10.jar",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
