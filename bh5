@@ -3,7 +3,7 @@
 	"sites":[
 {
     "key":"XBPQ_",
-    "name":"影视TV",
+    "name":"影视TV1",
       "jar":"./jar/tvkj10.jar",
       "type": 3,
       "api": "csp_Xpg",
