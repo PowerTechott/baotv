@@ -1,6 +1,20 @@
         {
-	"spider":"./pg1.jar",
+	"spider":"./pg10.jar",
 	"sites":[
+{
+    "key":"XBPQ_",
+    "name":"影视TV",
+      "jar":"./jar/tvkj.jar",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      },
+      "timeout": 10
+    },
  {
       "key": "闪影",
       "name": "☀闪影🔹4K源",
