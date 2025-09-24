@@ -1,6 +1,20 @@
         {
 	"spider":"./pg10.jar",
 	"sites":[
+{
+      "key": "QD4K",
+      "name": "🐷猪猪┃影视",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 0,
+      "api": "https://d.feiliupan.com/t/109056264444579840/AppV2.py",
+      "playerType": 2,
+      "ext": {
+        "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
+        "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+        "apisignkey": "lvdoutv-1.0.0"
+      }
+    },
         {
             "key": "爱看",
             "name": "爱看丨APP",
@@ -15,7 +29,7 @@
                 "dataIv": "hzxjRSmyTmSE4ENE",
                 "deviceId": "",
                 "version": "",
-                "flag_exclued":"奇异",
+                "flag_exclued":"奇艺",
                 "ua": ""
             }
         },
