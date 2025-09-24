@@ -24,7 +24,7 @@
             "jar":"./jar/Xiaospider.jar",
             "type": 3,
             "api": "csp_XBPQ",
-            "ext": "./XBPQ/永乐影视.json"
+            "ext": "./js/永乐影视.json"
         },
         {
             "key": "采集之王",
@@ -32,7 +32,7 @@
             "jar":"./jar/Xiaospider.jar",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
+            "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json$1$1"
         },
 {
 			"key": "ikun资源1",
