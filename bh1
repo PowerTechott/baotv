@@ -196,7 +196,7 @@
     },
         {
             "key": "爱看",
-            "name": "爱看丨APP",
+            "name": "爱看剧丨APP",
             "jar":"./jar/Xiaospider.jar",
             "type": 3,
             "quickSearch": 1,
@@ -206,6 +206,23 @@
                 "site": "",
                 "dataKey": "hzxjRSmyTmSE4ENE",
                 "dataIv": "hzxjRSmyTmSE4ENE",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "热剧",
+            "name": "热播剧丨APP",
+            "jar":"./jar/Xiaospider.jar",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "https://www.rebovod.com",
+                "site": "",
+                "dataKey": "8191A7F47B37882F",
+                "dataIv": "8191A7F47B37882F",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
