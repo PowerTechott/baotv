@@ -37,9 +37,9 @@
         },
 {
 			"key": "魔都资源1",
-			"name": "魔都|秒播,
+			"name": "魔都|秒播",
 			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+			"api": "https://www.mdzyapi.com/api.php/provide/vod",
             "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 			"searchable": 1,
 			"changeable": 1,
