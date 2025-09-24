@@ -1,20 +1,6 @@
         {
 	"spider":"./pg10.jar",
 	"sites":[
-{
-      "key": "QD4K",
-      "name": "🐷猪猪┃影视",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 0,
-      "api": "https://d.feiliupan.com/t/109056264444579840/AppV2.py",
-      "playerType": 2,
-      "ext": {
-        "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
-        "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-        "apisignkey": "lvdoutv-1.0.0"
-      }
-    },
         {
             "key": "爱看",
             "name": "爱看丨APP",
@@ -49,11 +35,56 @@
             "api": "./js/drpy3.min.js",
             "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json$1$1"
         },
+{"key": "高清资源网",
+"name": "视频┃秒播",
+"type": 1,
+"api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
+"categories":[
+                                "国产剧",
+			        "香港剧",
+                                "国产动漫",
+                                "短剧大全",
+				"韩国剧",
+				"欧美剧",
+				"日本剧",
+				"台湾剧",
+				"海外剧",
+				"泰国剧",
+				"大陆综艺",
+				"港台综艺",
+				"日韩综艺",
+				"欧美综艺",
+				"国产动漫",
+				"日韩动漫",
+				"欧美动漫",
+				"港台动漫",
+                                "动作片",
+                                "喜剧片",
+                                "爱情片",
+                                "科幻片",
+                                "恐怖片",
+                                "剧情片",
+                                "战争片",
+                                "灾难片",
+                                "犯罪片",
+                                "悬疑片",
+                                "惊悚片",
+                                "奇幻片",
+                                "冒险片",
+                                "武侠片",
+				"记录片"
+                                 ]
+		                 },
 {
 			"key": "ikun资源1",
 			"name": "ikun",
 			"type": 1,
 			"api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/seaxml/vod",
+            "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 			"searchable": 1,
 			"changeable": 1,
                         "categories":[
