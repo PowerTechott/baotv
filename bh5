@@ -33,7 +33,7 @@
             "jar":"./jar/Xiaospider.jar",
             "type": 3,
             "api": "./js/drpy3.min.js",
-            "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json$1$1"
+            "ext": "./js/采集之王.js?type=url&params=../js/采集静态.json"
         },
 {
 			"key": "魔都资源1",
