@@ -3,8 +3,8 @@
 	"sites":
 	[
     {
-        "key":"XBPQ_",
-        "name":"影视TV",
+        "key":"apple",
+        "name":"影视TV_点我换源",
         "jar":"./jar/tvkj.jar",
         "type": 3,
         "api": "csp_Xpg",
