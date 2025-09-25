@@ -127,7 +127,7 @@
 			"key": "ikun资源1",
 			"name": "ikun",
 			"type": 1,
-			"api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/seaxml/vod",
+			"api": "https://ikunzyapi.com/api.php/seaxml/vod",
             "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
 			"searchable": 1,
 			"changeable": 1,
@@ -552,7 +552,7 @@
 					"document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
 				]
 			},
-{"name":"采集站广告","hosts":["vip.ffzy","mozy","yzzy","hd.ffzy","vip.lz","hd.lz",".cdnlz","suonizy","bfzy"],"regex":["#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]},
+{"name":"采集站广告","hosts":["vip.ffzy","mozy","api.yzzy","hd.ffzy","vip.lz","hd.lz",".cdnlz","suonizy","bfzy"],"regex":["#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]},
                         {
 				"name": "磁力广告",
 				"hosts": [
