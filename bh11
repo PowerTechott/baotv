@@ -1305,7 +1305,7 @@
 	    "regex":[
 			 "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
 			 "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+",
-			 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+			 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
 			 "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]
 	},
 	{
