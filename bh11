@@ -38,6 +38,13 @@
                 "version": ""
             }
         },
+       {
+            "key": "去看吧",
+            "name": "去看吧｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/去看吧.js"
+        },
         {
             "key": "看了么",
             "name": "看了么｜影视",
