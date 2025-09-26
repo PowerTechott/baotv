@@ -2,6 +2,18 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+    {
+      "key": "文才",
+      "name": "点我换源🔹影视TV",
+      "type": 3,
+      "api": "./js/文才影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+      }
+    },
         {
             "key": "演唱会",
             "name": "🎸演唱会+KTV",
