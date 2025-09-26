@@ -2,6 +2,16 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+        {
+            "key": "演唱会",
+            "name": "🎸演唱会+KTV",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/演唱会.json"
+        },
     {
       "key": "✨老王影院✨",
       "name": "⭐️老王|短剧",
