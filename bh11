@@ -2,6 +2,18 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+{
+"key": "Wwys",
+"name": "汪汪┃影视",
+"type": 3,
+"api": "csp_Wwys",
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 1,
+"playerType": 2,
+"ext": "https://www.wwgz.cn/",
+"jar": "http://m1839732.ca.caoni.ru/8/meow.php;md5;CC57F10CB80E1BC9DF179A6129BD07B3"
+},
     {
       "key": "文才",
       "name": "点我换源🔹影视TV",
