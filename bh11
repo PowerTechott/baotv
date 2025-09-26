@@ -4,7 +4,8 @@
 	[
     {
       "key": "✨安迪短剧✨",
-      "name": "⭐️七星-七星短剧",
+      "name": "⭐️迪迪|短剧",
+      "jar":"./jar/tvkj.jar",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -14,7 +15,8 @@
     },
     {
       "key": "✨毒舌短剧✨",
-      "name": "⭐️七星-毒舌短剧",
+      "name": "⭐️毒舌|短剧",
+      "jar":"./jar/tvkj.jar",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
