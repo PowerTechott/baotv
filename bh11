@@ -353,6 +353,21 @@
         "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
     },
     {
+      "key": "狂人",
+      "name": "狂人🔹影视",
+      "jar": "./jar/tvkj1.jar",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.zjkrmv.vip",
+        "dataKey": "vXeyuJFqTKqWUtWU",
+        "dataIv": "vXeyuJFqTKqWUtWU",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
 	    "key": "索尼4K资源",
 		"name": "🔹4K电影┃要求高网速",
 		"type": 1,
