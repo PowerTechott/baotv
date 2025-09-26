@@ -966,22 +966,9 @@
         "filterable":1,
         "ext":"./lib/keke1.json"
 	},
-{"key":"南瓜影视","name":"南瓜┃影视","type":3,"api":"csp_WexNgys","searchable":1,"quickSearch":1,"filterable":0 ,"jar": "./lib/o.jar"},
-{"key":"快看影视","name":"快看┃影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/o.jar"},
-{"key":"酷看影视","name":"酷看┃影视","type":3,"api":"csp_Wexkukantv","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"明日影视","name":"明日┃影视","type":3,"api":"csp_WexMingriys","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"腐剧视频","name":"腐剧┃影视","type":3,"api":"csp_WexFujutv","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"天天影视","name":"天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1,"jar": "./lib/o.jar"},
-{"key":"兄弟影视","name":"兄弟┃影视","type":3,"api":"csp_Wexxiongdiys","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"农民影视","name":"农民┃影视","type":3,"api":"csp_WexNmys","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"利播影视","name":"利播┃影视","type":3,"api":"csp_Wexlibhd","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"纯享影视","name":"纯享┃影视","type":3,"api":"csp_WexF4kvm","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"两个磁力","name":"两个┃影视","type":3,"api":"csp_Wexbttwo","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"机器人","name":"机器┃影视","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://v.aikanbot.com","jar": "./lib/o.jar"},
-{"key":"素白白","name":"素白┃影视","type":3,"api":"csp_Subaibai","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"圣城影视","name":"圣城┃影视","type":3,"api":"csp_AppNK","searchable":1,"changeable":1,"ext":"mDw3UhvpqIkZ5UdXklz/4Il9zM5cNjB0mlRRZ9AJtWoDBppZXY/MdmoGXv//uRgRP2GmDU4DQ0dtJ3TOynvDwm+Yb2YXjCzfj0qmrCIfLeBniWNTsTxzfA32PGyymnWql5B8DHQxKbHgDEgJ6j4L4w==","jar": "./lib/o.jar"},
-{"key":"骚火影视","name":"骚火┃影视","type":3,"api":"csp_Wexsaohuo","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
-{"key":"在线之家","name":"在线┃之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
+    {"key":"纯享影视","name":"纯享┃影视","type":3,"api":"csp_WexF4kvm","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
+    {"key":"机器人","name":"机器┃影视","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://v.aikanbot.com","jar": "./lib/o.jar"},
+    {"key":"在线之家","name":"在线┃之家","type":3,"api":"csp_Wexzxzj","searchable":1,"changeable":1,"jar": "./lib/o.jar"},
     {
         "key": "奇优秒播",
         "name": "奇优┃影视",
@@ -1430,16 +1417,36 @@
 	],
         "parses": 
     [
-    {
-        "name": "Super",
-        "type": 0,
-        "url":"https://jx.xmflv.com/?url="
-    },
-    {
-        "name": "超级解析",
-        "type": 0,
-        "url":"https://jx.xmflv.com/?url="
-    },
+        {
+            "name": "Super",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "超级解析",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "淘片",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
     {
         "name": "巧计",
         "type": 1,
