@@ -3,30 +3,8 @@
 	"sites":
 	[
     {
-      "key": "✨安迪短剧✨",
-      "name": "⭐️迪迪|短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/安迪短剧.json"
-    },
-    {
-      "key": "✨毒舌短剧✨",
-      "name": "⭐️毒舌|短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/毒舌短剧.json"
-    },
-    {
       "key": "✨老王影院✨",
-      "name": "⭐️七星-天微短剧",
+      "name": "⭐️老王|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -37,7 +15,7 @@
     },
     {
       "key": "✨明星短剧✨",
-      "name": "⭐️七星-明星短剧",
+      "name": "⭐️明星|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -48,7 +26,7 @@
     },
     {
       "key": "✨全能短剧✨",
-      "name": "⭐️七星-全能短剧",
+      "name": "⭐️全能|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -59,7 +37,7 @@
     },
     {
       "key": "✨影院王✨",
-      "name": "⭐️七星-短剧之王",
+      "name": "⭐️影王|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -70,7 +48,7 @@
     },
     {
       "key": "✨热播影院✨",
-      "name": "⭐️七星-热播短剧",
+      "name": "⭐️热播|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -81,7 +59,7 @@
     },
     {
       "key": "✨电影100影院✨",
-      "name": "⭐️七星-一百短剧",
+      "name": "⭐️一百|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -92,7 +70,7 @@
     },
     {
       "key": "✨唐人街影院✨",
-      "name": "⭐️七星-唐人短剧",
+      "name": "⭐️唐人|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -103,7 +81,7 @@
     },
     {
       "key": "✨天龙影院✨",
-      "name": "⭐️七星-天龙短剧",
+      "name": "⭐️天龙|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -113,30 +91,8 @@
       "ext": "./json/天龙短剧.json"
     },
     {
-      "key": "✨一起看✨",
-      "name": "⭐️七星-起看短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/一起看短剧.json"
-    },
-    {
-      "key": "✨七味短剧✨",
-      "name": "⭐️七星-七味短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/七味短剧.json"
-    },
-    {
       "key": "✨量子影视✨",
-      "name": "⭐️七星-量子短剧",
+      "name": "⭐️量子|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -147,7 +103,7 @@
     },
     {
       "key": "✨CCTV短剧✨",
-      "name": "⭐️七星-梯微短剧",
+      "name": "⭐️梯微|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -157,35 +113,8 @@
       "ext": "./json/cctv短剧.json"
     },
     {
-      "key": "护航短剧",
-      "name": "⭐️七星-护航短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.qdhuhang.com/qdhyl/48.html",
-        "数组": "part-2by3\"&&/a><span",
-        "标题": "html\">&&<",
-        "副标题": "✨+center\">&&<",
-        "图片": "data-original=\"&&\"",
-        "链接": "href=\"&&\"",
-        "线路数组": "ico_play.png&&/span>",
-        "线路标题": "✨七星推荐✨+>&&<",
-        "播放数组": "clearfix list&&</ul>",
-        "播放列表": "<a&&a>",
-        "播放链接": "href=\"&&\"",
-        "播放标题": "✨+>&&</",
-        "跳转播放链接": "var now=\"&&\"",
-        "简介": "✨七星短剧✨+讲述了:&&\">[替换:style type=\"text/css>>空]",
-        "分类url": "https://www.qdhuhang.com/qdhyl/{cateId}-{catePg}.html",
-        "分类": "女频剧$49#反转剧$50#穿越剧$51#古装剧$52#都市剧$53#脑洞剧$54#爽文剧$55"
-      }
-    },
-    {
       "key": "✨稀饭短剧✨",
-      "name": "⭐️七星-稀饭短剧",
+      "name": "⭐️稀饭|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -196,7 +125,7 @@
     },
     {
       "key": "✨PTT短剧✨",
-      "name": "⭐️七星-皮皮短剧",
+      "name": "⭐️皮皮|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -206,30 +135,8 @@
       "ext": "./json/PTT短剧.json"
     },
     {
-      "key": "✨理理短剧✨",
-      "name": "⭐️七星-理理短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/理理短剧.json"
-    },
-    {
-      "key": "✨奇优影院✨",
-      "name": "⭐️七星-奇优短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/奇优短剧.json"
-    },
-    {
       "key": "✨微云影视✨",
-      "name": "⭐️七星-微云短剧",
+      "name": "⭐️微云|短剧",
       "jar":"./jar/xyqxbpq.jar",
       "type": 3,
       "api": "csp_XBPQ",
@@ -237,30 +144,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/微云短剧.json"
-    },
-    {
-      "key": "✨一个短剧✨",
-      "name": "⭐️七星-一个短剧",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/一个短剧.json"
-    },
-    {
-      "key": "✨短剧唯我独尊✨",
-      "name": "✨七星-七星独尊",
-      "jar":"./jar/xyqxbpq.jar",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "副标题": "hl-lc-1 remarks\">&&</span>",
-        "线路数组": "hl-tabs-btn hl-slide-swiper&&</a>",
-        "分类url": "https://17zci.com/8mqshow/{cateId}/page/{catePg}.html",
-        "分类": "现代言情$1#都市日常$2#古代言情$3#"
-      }
     },
         {
             "key": "56动漫",
