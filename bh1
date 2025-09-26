@@ -386,6 +386,21 @@
         "changeable": 0
     },
     {
+      "key": "狂人",
+      "name": "狂人🔹影视",
+      "jar": "./jar/tvkj1.jar",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.zjkrmv.vip",
+        "dataKey": "vXeyuJFqTKqWUtWU",
+        "dataIv": "vXeyuJFqTKqWUtWU",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
         "key": "加菲",
         "name": "蓝光🔹超清",
         "jar": "./jar/tvkj1.jar",
@@ -1205,7 +1220,7 @@
         "ext": {
         "导演": "宝盒TV",
         "主演": "主演:&&</div>",
-        "简介": "宝盒提醒您,请勿相信影片中的广告，以免上当受骗！+<p>&&</p>",
+        "简介": "PowerTech提醒您,请勿相信影片中的广告，以免上当受骗！+<p>&&</p>",
         "分类url": "https://www.duanju8.cc/show/{cateId}--{by}------{catePg}---.html;;ar1",
         "分类": "恋爱&反转&悬疑&穿越&古装&都市",
         "分类值": "lianai&fanzhuan&xuanyi&chuanyue&guzhuang&dushi"} 
@@ -1365,6 +1380,16 @@
 		"type": "rect",
 		"ratio": 3.8}
 	},
+    {
+            "key": "演唱会",
+            "name": "🎸演唱会+KTV",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/演唱会.json"
+    },
     {
         "key":"MTV",
 		"name":"🎧听歌┃Music",
