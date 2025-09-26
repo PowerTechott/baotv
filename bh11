@@ -59,6 +59,20 @@
             "api": "./js/drpy2.min.js",
             "ext": "./js/异世界.js"
         },
+        {
+            "key": "路漫漫",
+            "name": "路漫漫｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/路漫漫.js"
+        },
+        {
+            "key": "动漫岛",
+            "name": "动漫岛｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/动漫岛.js"
+        },
     {
         "key":"XBPQ_",
         "name":"影视TV",
