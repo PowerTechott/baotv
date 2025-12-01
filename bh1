@@ -3,18 +3,8 @@
 	"sites":
 	[
     {
-        "key": "瓜子影视1080",
-        "name": "影视TV_点我换源",
-        "type": 3,
-        "jar": "./jar/bhspider.jar",
-        "api": "csp_Gz360",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1
-    },
-    {
         "key":"apple",
-        "name":"小苹果",
+        "name":"影视TV_点我换源",
         "jar":"./jar/tvkj.jar",
         "type": 3,
         "api": "csp_Xpg",
@@ -109,6 +99,16 @@
         "playerType": 2,
         "ext": {
         "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"}
+    },
+    {
+        "key": "瓜子影视1080",
+        "name": "瓜子🔹秒播",
+        "type": 3,
+        "jar": "./jar/bhspider.jar",
+        "api": "csp_Gz360",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
     },
     {
         "key": "闪影",
@@ -1477,189 +1477,178 @@
 			"149.112.112.112"]
 	}
 	],
-    "rules": [
-        {
-            "name": "proxy",
-            "hosts": [
-                "raw.githubusercontent.com",
-                "googlevideo.com",
-                "cdn.v82u1l.com",
-                "cdn.iz8qkg.com",
-                "cdn.kin6c1.com",
-                "c.biggggg.com",
-                "c.olddddd.com",
-                "haiwaikan.com",
-                "www.histar.tv",
-                "youtube.com",
-                "uhibo.com",
-                ".*boku.*",
-                ".*nivod.*",
-                ".*t4tv.hz.cz",
-                "*.t4tv.hz.cz",
-                ".*ulivetv.*"
-            ]
-        },
-        {
-            "name": "网站视频嗅探",
-            "hosts": [
-                "www.djuu.com",
-                "www.sharenice.net",
-                "m.ysxs8.vip",
-                "hdmoli.com",
-                "https://api.live.bilibili.com",
-                "www.agemys.cc",
-                "www.fun4k.com",
-                "zjmiao.com",
-                "huoshan.com",
-                "douyin.com",
-                "toutiaovod.com"
-            ],
-            "regex": [
-                "item_id=",
-                "is_play_url=",
-                "video/tos/cn"
-            ]
-        },
-        {
-            "name": "脚本点击/关闭弹窗",
-            "hosts": [
-                "yeslivetv.com",
-                "www.maolvys.com"
-            ],
-            "script": [
-                "document.getElementsByClassName('vjs-big-play-button')[0].click()",
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-            ]
-        },
-        {
-            "name": "磁力广告",
-            "hosts": [
-                "magnet"
-            ],
-            "regex": [
-                "更多",
-                "社 區",
-                "x u u",
-                "最 新",
-                "直 播",
-                "更 新",
-                "社 区",
-                "有 趣",
-                "澳 门",
-                "英皇体育",
-                "全中文AV在线",
-                "澳门皇冠赌场",
-                "澳门新葡京",
-                "娱乐城",
-                "哥哥快来",
-                "美女荷官",
-                "裸聊",
-                "新片首发",
-                "UUE29",
-                "币安",
-                "微信",
-                "RAI88",
-                "有趣",
-                "无货源跨境电商平台"
-            ]
-        },
-        {
-            "name": "增强型M3U8广告过滤",
-            "hosts": [
-                ".*"
-            ],
-            "regex": [
-                // **增强提示新增规则**
-                "#EXTINF:0\\.0[\\s\\S]*?\\.ts", // 时长为 0 的广告占位符
-                "\\#EXTINF:.*?(\\d{1,3}\\.000)[\\s\\S]*?#EXT-X-DISCONTINUITY", // 精确整数时长 (如 3.000, 5.000)
-                "#EXTINF:.*?(\\d{1,2}\\.(0|3|6)66[6]*)[\\s\\S]*?#EXT-X-DISCONTINUITY", // 常见分数时长 (如 0.333, 0.666)
-                "\\ad_[\\d\\w]{4,}\\.ts", // 文件名带有 ad_ 标识
-
-                // **通用/合并后的 M3U8 规则**
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\\r*\\n*#EXTINF:3\\.333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=.*?\\r*\\n*#EXTINF:3\\.333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=.*?\\r*\\n*#EXTINF:3\\.333,[\\s\\S]*\\.ts",
-                "#EXT-X-KEY:METHOD=AES-128,URI=.*?\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=.*?\\r*\\n*#EXTINF:3,[\\s\\S]*\\.ts",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:3,[\\s\\S]*?\\.ts",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF:[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:4\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5\\.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF:4.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=.*?700k[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128\\r*\\n*[\\s\\S]*?#EXTINF:1.28,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:.*?6667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?66667[\\s\\S]*?ts",
-                "15.1666",
-                "15.2666",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\\\680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "25.1",
-                "18.266",
-                "18.5333",
-                "23.466666",
-                "17.99",
-                "14.45",
-                "17.19",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:4\\.066667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.400000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.28,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-PLAYLIST-TYPE:VOD\\r*\\n*#EXTINF:5\\.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "25.0666",
-                "25.08",
-                
-                // **特殊文件名/结构特征**
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?1171(057).*?\\.ts",
-                "#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts",
-                "#EXTINF.*?\\s+.*?6718a(403).*?\\.ts",
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*a241.*?\\.ts\\s+",
-                "#EXTINF.*?\\s+.*?aaaa.*?\\.ts\\s+",
-                "#EXT-X-DISCONTINUITY[\\s\\S]*?ad.*?\\.ts",
-                "#EXTINF:[\\s\\S]*?001\\.ts",
-                "#EXTINF:[\\s\\S]*?encrypt0005\\.ts",
-                "#EXTINF:4\\.033[\\s\\S]*?\\.ts",
-                "#EXTINF:3[\\s\\S]*?W9K\\.ts",
-                "#EXTINF:6\\.66[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "seg-1-v1-a1\\.ts[\\s\\S]*?seg-2-v1-a1\\.ts[\\s\\S]*?#EXTINF:.*?,",
-                "#EXTINF:3[\\s\\S]*GcS4RzMZ[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXTINF:3\\.333[\\s\\S]*?#EXTINF:3\\.2[\\s\\S]*?ts[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY[\\s\\S]*?#EXT-X-KEY:METHOD=AES-128[\\s\\S]*?#EXT-X-DISCONTINUITY[\\s\\S]*?0x00000000000000000000000000000000" // 特殊加密广告
-            ]
-        },
-        {
-            "name": "站群/采集站通用广告",
-            "hosts": [
-                ".*"
-            ],
-            "regex": [
-                "\\/ad\\/",
-                "\\/gg\\/",
-                "\\/html\\/player\\/ad\\/",
-                "\\/player\\/ads\\/",
-                "\\/inc\\/ads\\/\\w+\\.js",
-                "\\/statics\\/js\\/advert\\/\\w+\\.js",
-                "\\/template\\/\\w+\\/ads\\/\\w+\\.js",
-                "\\/static\\/js\\/ads\\/",
-                "\\/adblocker\\/",
-                "\\/count\\/\\w+\\.js"
-            ]
-        }
-    ],
-        "parses": 
+		"rules":
 	[
+	{
+		"name": "proxy",
+		"hosts": [
+		    "raw.githubusercontent.com",
+			"googlevideo.com",
+			"cdn.v82u1l.com",
+			"cdn.iz8qkg.com",
+			"cdn.kin6c1.com",
+			"c.biggggg.com",
+			"c.olddddd.com",
+			"haiwaikan.com",
+			"www.histar.tv",
+			"youtube.com",
+			"uhibo.com",
+			".*boku.*",
+			".*nivod.*",
+            ".*t4tv.hz.cz",
+			"*.t4tv.hz.cz",
+			".*ulivetv.*"]
+	},
+	{
+        "name":"采集站广告",
+		"hosts":[
+		     "yzzy",
+		     "360zy",
+		     "cj.rycj",
+             "wolongzy",
+             "mdzy",			 
+		     "yayazy",
+		     "jszy",
+			 "ikunzy",
+		     "apibdzy",
+		     "cj.ffzy",			 
+		     "vip.ffzy",
+			 "hd.ffzy",
+			 "vip.lz",
+			 "hd.lz",
+			 ".cdnlz",
+			 "v.cdnlz",
+			 "suonizy",
+			 "bfzy"],
+	    "regex":[
+			 "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
+			 "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+",
+			 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+			 "#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]
+	},
+	{
+		"name": "海外看",
+		"hosts": ["haiwaikan"],
+		"regex": [
+			"8.1748",
+			"10.0099",
+			"10.3333",
+			"16.0599"]
+	},
+	{
+		"name": "1080zyk",
+		"hosts": ["yzzy"],
+		"regex": [
+			"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+	},
+	{
+		"name": "360zy",
+		"hosts": ["360zy"],
+		"regex": [
+			"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+	},	
+	{
+		"name": "暴風",
+		"hosts": ["bfzy"],
+		"regex": [
+			"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+	},
+		{
+		"name": "鸭鸭",
+		"hosts": ["yayazy"],
+		"regex": [
+			"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+	},
+	{
+		"name": "星星",
+		"hosts": ["aws.ulivetv.net"],
+		"regex": [
+			"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
+	},
+	{
+		"name": "量子",
+		"hosts": [
+			"vip.lz",
+			"hd.lz",
+			"v.cdnlz"],
+			"regex": [
+			"18.5333"]
+	},
+	{
+		"name": "非凡",
+		"hosts": [
+			"vip.ffzy",
+			"hd.ffzy"],
+		"regex": [
+			"25.0666",
+			"25.08"]
+	},
+		{"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
+		{"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="],"filter":[]},
+		{"host":"www.sharenice.net","rule":["douyin.com","/play/"]},
+		{"host":"m.ysxs8.vip","rule":["ysting.ysxs8.vip:81","xmcdn.com"],"filter":[]},
+		{"host":"hdmoli.com","rule":[".m3u8"]},{"host":"https://api.live.bilibili.com","rule":["bilivideo.com","/index.m3u8"],"filter":["data.bilibili.com/log/web","i0.hdslb.com/bfs/live/"]},
+		{"host":"www.agemys.cc","rule":["cdn-tos","obj/tos-cn"]},
+		{"host":"www.fun4k.com","rule":["https://hd.ijycnd.com/play","index.m3u8"]},
+		{"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]},
+	{
+		"name": "火山嗅探",
+		"hosts": ["huoshan.com"],
+		"regex": ["item_id="]
+	},
+	{
+		"name": "抖音嗅探",
+		"hosts": ["douyin.com"],
+		"regex": ["is_play_url="]
+	},
+	{
+		"name": "農民嗅探",
+		"hosts": ["toutiaovod.com"],
+		"regex": ["video/tos/cn"]
+	},
+	{
+		"name": "夜市",
+		"hosts": ["yeslivetv.com"],
+		"script": ["document.getElementsByClassName('vjs-big-play-button')[0].click()"]
+	},
+	{
+		"name": "毛驢",
+		"hosts": [
+		"www.maolvys.com"],
+		"script": ["document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"]
+	},
+    {
+		"name": "磁力广告",
+		"hosts": ["magnet"],
+		"regex": [
+			"更多",
+			"社 區",
+			"x u u",
+			"最 新",
+			"直 播",
+			"更 新",
+			"社 区",
+			"有 趣",
+            "澳 门",
+			"英皇体育",
+			"全中文AV在线",
+			"澳门皇冠赌场",
+            "澳门新葡京",
+            "娱乐城",
+			"哥哥快来",
+			"美女荷官",
+			"裸聊",
+			"新片首发",
+			"UUE29",
+            "币安",
+            "微信",
+            "RAI88",
+            "有趣",
+            "无货源跨境电商平台"]
+	}
+	],
+        "parses": 
+    [
         {
             "name": "Super",
             "type": 0,
@@ -1813,15 +1802,6 @@
 "556556.com",
 "334334.com",
 "static-mozai.4gtv.tv",
-"api.htpan.net",
-"ad.topcj.com",
-"cj.ffzyapi.com",
-"jszyapi.com",
-"lziapi.com",
-"ma.tvw7.com",
-"mianfeixg.com",
-"rycjapi.com",
-"suoniapi.com",
-"bfzyapi.com"
+"api.htpan.net"
 ]
 }
