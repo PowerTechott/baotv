@@ -3,8 +3,18 @@
 	"sites":
 	[
     {
+        "key": "瓜子_影视1080",
+        "name": "影视TV_点我换源",
+        "type": 3,
+        "jar": "./jar/bhspider.jar",
+        "api": "csp_Gz360",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
+    {
         "key":"apple",
-        "name":"影视TV_点我换源",
+        "name":"小苹果",
         "jar":"./jar/tvkj.jar",
         "type": 3,
         "api": "csp_Xpg",
