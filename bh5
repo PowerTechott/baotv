@@ -125,9 +125,9 @@
 		                 },
 {
 			"key": "ikun资源1",
-			"name": "ikun",
+			"name": "极速",
 			"type": 1,
-			"api": "https://ikunzyapi.com/api.php/seaxml/vod",
+			"api": "https://jszyapi.com/api.php/provide/vod/at/json",
             "playurl": "https://play.m3u8-ads.workers.dev/?url=",
 			"searchable": 1,
 			"changeable": 1,
