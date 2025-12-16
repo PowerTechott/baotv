@@ -3,6 +3,13 @@
 "logo": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PowerTechott/baotv/main/logo.gif",
 "spider":"https://raw.githubusercontent.com/PowerTechott/baotv/main/lib/fuli.jar",
 "sites":[
+	{
+			"key": "naixiang",
+			"name": "奶香┃资源",
+			"type": 0,
+			"api": "https://naixxzy.com/api.php/provide/vod/at/xml/",
+			"searchable": 1,
+			"changeable": 1},
 			{"key": "高清福利资源网1",
                          "name": "福利网",
 			"type": 1,
