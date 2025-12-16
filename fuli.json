@@ -31,9 +31,9 @@
 			"changeable": 1},
 	{
 			"key": "色色虎",
-			"name": "色色虎┃资源",
+			"name": "黑料┃资源",
 			"type": 0,
-			"api": "https://apisesehuzy.com/api.php/provide/vod/at/xml",
+			"api": "https://heiliaozyapi.com/api.php/provide/vod/at/xml",
 			"searchable": 1,
 			"changeable": 1},
 {"key":"色花堂",		"name":"色花堂",	 "type":3,	"api":"csp_XBPQ",	"ext":"./lib/色花堂.json"},
