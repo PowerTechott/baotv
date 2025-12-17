@@ -12,18 +12,14 @@
         "quickSearch": 1,
         "filterable": 1
     },
-    {
-        "key":"apple",
-        "name":"小苹果",
-        "jar":"./jar/tvkj.jar",
-        "type": 3,
-        "api": "csp_Xpg",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {"danmu": true},
-        "timeout": 10
-    },
+        {
+            "key": "金牌影视",
+            "name": "在线｜影视",
+            "type": 3,
+            "jar": "./jar/xiaosa.jar",
+            "api": "csp_Jpys",
+            "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+        },    
 {
             "key": "苹果影视",
             "name": "小果｜影视",
@@ -88,7 +84,7 @@
 	},
     {
         "key": "视频库",
-        "name": "视频库┃影视大全",
+        "name": "视频库┃影视_微广",
         "jar":"./jar/spidervhup.jar",
         "type": 3,
         "api": "csp_WebVidHub",
@@ -976,18 +972,6 @@
         "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/瓜子.js"
     },
     {
-        "key": "低端12_js",
-        "name": "《中🔹英🔸日🔹韩》",
-        "type": 3,
-        "jar": "https://github.com/PowerTechott/ttpw/raw/refs/heads/main/tvkj.jar",
-        "api": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/drpy2.min.js",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "order_num": 0,
-        "ext": "https://raw.githubusercontent.com/PowerTechott/ttpw/refs/heads/main/lib/低端.js"
-    },
-    {
         "key": "站长影视",
         "name": "长城｜影视",
         "type": 3,
@@ -1009,14 +993,6 @@
 		"order_num": 0,
 		"ext": "./lib/瓜子视频.js"
     },	
-    {
-        "key": "低端",
-        "name": "低端┃影视",
-        "type": 3,
-        "playerType": "2",
-        "api": "./js/通用api数据.js",
-        "ext": "./js/低端配置.js"
-    },
     {
         "key": "飞飞",
         "name": "飞飞┃蓝光",
