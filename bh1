@@ -24,6 +24,16 @@
         "ext": {"danmu": true},
         "timeout": 10
     },
+{
+            "key": "苹果影视",
+            "name": "小果｜影视",
+            "type": 3,
+            "jar": "./jar/xiaosa.jar",
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
     {
 	    "key": "暴風",
 		"name": "小風┃秒播┃短剧",
