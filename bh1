@@ -28,7 +28,7 @@
             "key": "苹果影视",
             "name": "小果｜影视",
             "type": 3,
-            "jar": "./jar/Xiaospider.jar",
+            "jar": "./jar/xiaosa.jar",
             "api": "csp_LiteApple",
             "searchable": 1,
             "quickSearch": 1,
