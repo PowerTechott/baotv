@@ -2,19 +2,9 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
-{
-            "key": "苹果影视",
-            "name": "影视TV_点我换源",
-            "type": 3,
-            "jar": "./jar/xiaosa.jar",
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
     {
         "key": "瓜子_影视1080",
-        "name": "瓜子|1080P",
+        "name": "影视TV_点我换源",
         "type": 3,
         "jar": "./jar/bhspider.jar",
         "api": "csp_Gz360",
