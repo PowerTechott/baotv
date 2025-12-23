@@ -2,6 +2,21 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+	        {
+            "key": "苹果影视",
+            "name": "影视TV_点我换源",
+            "type": 3,
+            "jar": "./jar/fan.jar;md5;9b3e327c02439fe4e1d6223beca9ed17",
+            "api": "csp_LiteAppleGuard",
+            "timeout": 10,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+            },
+            
+            
+            
+	{"key": "苹果","name": "🍎苹果┃秒播","type": 3,"api": "csp_LiteAppleGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
 {
       "key":"天堂",
       "name":"👼|天堂🏆",
