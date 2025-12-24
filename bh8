@@ -4,13 +4,15 @@
 	[
   {
             "key": "小苹果弹幕",
-            "name": "小苹果｜弹幕",
+            "name": "小苹果",
             "type": 3,
-            "jar": "./jar/pizza.jar",
+            "jar": "./jar/pizzaa.jar",
             "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+"filter": "及时雨",
+    "adv": "及时雨"
             "ext": {
                 "danmu": true
             }
