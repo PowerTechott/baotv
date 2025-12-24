@@ -2,6 +2,19 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+  {
+            "key": "小苹果弹幕",
+            "name": "小苹果｜弹幕",
+            "type": 3,
+            "jar": "./jar/pizza.jar"
+            "api": "csp_Xpg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
 	        {
             "key": "苹果影视",
             "name": "影视TV_点我换源",
