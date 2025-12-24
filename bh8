@@ -12,7 +12,7 @@
             "quickSearch": 1,
             "filterable": 1,
 "filter": "及时雨",
-    "adv": "及时雨"
+    "adv": "及时雨",
             "ext": {
                 "danmu": true
             }
