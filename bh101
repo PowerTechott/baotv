@@ -2,6 +2,18 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+        {
+            "key": "优质资源",
+            "name": "🍀 | 优质 | 资源",
+            "type": 1,
+            "api": "https://api.yzzy-api.com/inc/api_mac10.php?ac",
+            "playUrl": "",    
+            "quickSearch": 1,
+            "filterable": 1,  
+            "searchable": 1,
+            "changeable": 1,
+  "categories": ["动作片","科幻片","战争片","恐怖片","喜剧片","爱情片","剧情片","动画片","国产剧","香港剧","台湾剧","国产动漫", "港台动漫","日韩动漫","欧美动漫","大陆综艺","港台综艺"]
+        },   
        {
             "key": "非凡资1源",
             "name": "🍀| 非凡 | 资源",
