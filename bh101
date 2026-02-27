@@ -2,6 +2,18 @@
 	"spider":"./pg1.jar",
 	"sites":
 	[
+       {
+            "key": "非凡资1源",
+            "name": "🍀| 非凡 | 资源",
+            "type": 1,
+            "api": "http://api.ffzyapi.com/api.php/provide/vod/",
+              "playUrl": "",  
+             "quickSearch": 1,
+            "filterable": 1,  
+            "searchable": 1,
+            "changeable": 1,
+  "categories": ["动作片","科幻片","战争片","恐怖片","剧情片","喜剧片","记录片","动漫片","国产剧","欧美剧","香港剧","台湾剧", "海外剧","国产动漫","港台动漫","日韩动漫", "欧美动漫","大陆综艺","港台综艺","短剧"]
+        },
     {
         "key": "瓜子_影视1080",
         "name": "影视TV_点我换源",
