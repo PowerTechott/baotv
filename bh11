@@ -756,9 +756,9 @@
     },
     {
         "key": "高清资源网",
-        "name": "视频┃秒播┃微广",
+        "name": "视频┃秒播",
         "type": 1,
-        "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
+        "api": "https://api.yzzy-api.com/inc/api_mac10.php?ac",
         "searchable": 1,
         "quickSearch": 1,
         "filterable": 1,
